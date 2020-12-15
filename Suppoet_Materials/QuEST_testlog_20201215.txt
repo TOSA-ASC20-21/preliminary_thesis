@@ -1,0 +1,1998 @@
+  inflating: QuEST-master/docs/README_8md_source.html
+  inflating: QuEST-master/docs/annotated.html
+ extracting: QuEST-master/docs/bc_s.png
+  inflating: QuEST-master/docs/bdwn.png
+  inflating: QuEST-master/docs/classes.html
+  inflating: QuEST-master/docs/closed.png
+  inflating: QuEST-master/docs/dir_20db66d2ea5816a17a50d7dd645f51db.html
+  inflating: QuEST-master/docs/dir_78b01f221e5d69dbe1f7a50c401396d7.html
+ extracting: QuEST-master/docs/doc.png
+  inflating: QuEST-master/docs/doxygen.css
+  inflating: QuEST-master/docs/doxygen.png
+  inflating: QuEST-master/docs/dynsections.js
+  inflating: QuEST-master/docs/files.html
+ extracting: QuEST-master/docs/folderclosed.png
+ extracting: QuEST-master/docs/folderopen.png
+ extracting: QuEST-master/docs/form_0.png
+ extracting: QuEST-master/docs/form_1.png
+ extracting: QuEST-master/docs/form_10.png
+ extracting: QuEST-master/docs/form_11.png
+ extracting: QuEST-master/docs/form_12.png
+ extracting: QuEST-master/docs/form_13.png
+ extracting: QuEST-master/docs/form_14.png
+ extracting: QuEST-master/docs/form_15.png
+ extracting: QuEST-master/docs/form_16.png
+ extracting: QuEST-master/docs/form_17.png
+ extracting: QuEST-master/docs/form_18.png
+ extracting: QuEST-master/docs/form_19.png
+ extracting: QuEST-master/docs/form_2.png
+ extracting: QuEST-master/docs/form_20.png
+ extracting: QuEST-master/docs/form_21.png
+ extracting: QuEST-master/docs/form_22.png
+ extracting: QuEST-master/docs/form_23.png
+ extracting: QuEST-master/docs/form_24.png
+ extracting: QuEST-master/docs/form_25.png
+ extracting: QuEST-master/docs/form_26.png
+ extracting: QuEST-master/docs/form_27.png
+ extracting: QuEST-master/docs/form_28.png
+ extracting: QuEST-master/docs/form_29.png
+ extracting: QuEST-master/docs/form_3.png
+ extracting: QuEST-master/docs/form_30.png
+ extracting: QuEST-master/docs/form_31.png
+ extracting: QuEST-master/docs/form_32.png
+ extracting: QuEST-master/docs/form_33.png
+ extracting: QuEST-master/docs/form_34.png
+ extracting: QuEST-master/docs/form_35.png
+ extracting: QuEST-master/docs/form_36.png
+ extracting: QuEST-master/docs/form_37.png
+ extracting: QuEST-master/docs/form_38.png
+ extracting: QuEST-master/docs/form_39.png
+ extracting: QuEST-master/docs/form_4.png
+ extracting: QuEST-master/docs/form_40.png
+ extracting: QuEST-master/docs/form_41.png
+ extracting: QuEST-master/docs/form_42.png
+ extracting: QuEST-master/docs/form_43.png
+ extracting: QuEST-master/docs/form_44.png
+ extracting: QuEST-master/docs/form_45.png
+ extracting: QuEST-master/docs/form_46.png
+ extracting: QuEST-master/docs/form_47.png
+ extracting: QuEST-master/docs/form_48.png
+ extracting: QuEST-master/docs/form_49.png
+ extracting: QuEST-master/docs/form_5.png
+ extracting: QuEST-master/docs/form_50.png
+ extracting: QuEST-master/docs/form_51.png
+ extracting: QuEST-master/docs/form_52.png
+ extracting: QuEST-master/docs/form_53.png
+ extracting: QuEST-master/docs/form_54.png
+ extracting: QuEST-master/docs/form_55.png
+ extracting: QuEST-master/docs/form_56.png
+ extracting: QuEST-master/docs/form_57.png
+ extracting: QuEST-master/docs/form_58.png
+ extracting: QuEST-master/docs/form_59.png
+ extracting: QuEST-master/docs/form_6.png
+ extracting: QuEST-master/docs/form_60.png
+ extracting: QuEST-master/docs/form_61.png
+ extracting: QuEST-master/docs/form_62.png
+ extracting: QuEST-master/docs/form_63.png
+ extracting: QuEST-master/docs/form_64.png
+ extracting: QuEST-master/docs/form_65.png
+ extracting: QuEST-master/docs/form_66.png
+ extracting: QuEST-master/docs/form_67.png
+ extracting: QuEST-master/docs/form_68.png
+ extracting: QuEST-master/docs/form_69.png
+ extracting: QuEST-master/docs/form_7.png
+ extracting: QuEST-master/docs/form_70.png
+ extracting: QuEST-master/docs/form_71.png
+ extracting: QuEST-master/docs/form_72.png
+ extracting: QuEST-master/docs/form_73.png
+ extracting: QuEST-master/docs/form_74.png
+ extracting: QuEST-master/docs/form_75.png
+ extracting: QuEST-master/docs/form_76.png
+ extracting: QuEST-master/docs/form_77.png
+ extracting: QuEST-master/docs/form_78.png
+ extracting: QuEST-master/docs/form_79.png
+ extracting: QuEST-master/docs/form_8.png
+ extracting: QuEST-master/docs/form_80.png
+ extracting: QuEST-master/docs/form_81.png
+ extracting: QuEST-master/docs/form_82.png
+ extracting: QuEST-master/docs/form_9.png
+  inflating: QuEST-master/docs/formula.repository
+  inflating: QuEST-master/docs/functions.html
+  inflating: QuEST-master/docs/functions_vars.html
+  inflating: QuEST-master/docs/globals.html
+  inflating: QuEST-master/docs/globals_0x61.html
+  inflating: QuEST-master/docs/globals_0x62.html
+  inflating: QuEST-master/docs/globals_0x63.html
+  inflating: QuEST-master/docs/globals_0x64.html
+  inflating: QuEST-master/docs/globals_0x65.html
+  inflating: QuEST-master/docs/globals_0x66.html
+  inflating: QuEST-master/docs/globals_0x67.html
+  inflating: QuEST-master/docs/globals_0x68.html
+  inflating: QuEST-master/docs/globals_0x69.html
+  inflating: QuEST-master/docs/globals_0x6c.html
+  inflating: QuEST-master/docs/globals_0x6d.html
+  inflating: QuEST-master/docs/globals_0x6e.html
+  inflating: QuEST-master/docs/globals_0x70.html
+  inflating: QuEST-master/docs/globals_0x71.html
+  inflating: QuEST-master/docs/globals_0x72.html
+  inflating: QuEST-master/docs/globals_0x73.html
+  inflating: QuEST-master/docs/globals_0x74.html
+  inflating: QuEST-master/docs/globals_0x75.html
+  inflating: QuEST-master/docs/globals_0x76.html
+  inflating: QuEST-master/docs/globals_0x77.html
+  inflating: QuEST-master/docs/globals_0x78.html
+  inflating: QuEST-master/docs/globals_0x79.html
+  inflating: QuEST-master/docs/globals_0x7a.html
+  inflating: QuEST-master/docs/globals_a.html
+  inflating: QuEST-master/docs/globals_b.html
+  inflating: QuEST-master/docs/globals_c.html
+  inflating: QuEST-master/docs/globals_d.html
+  inflating: QuEST-master/docs/globals_defs.html
+  inflating: QuEST-master/docs/globals_e.html
+  inflating: QuEST-master/docs/globals_enum.html
+  inflating: QuEST-master/docs/globals_eval.html
+  inflating: QuEST-master/docs/globals_f.html
+  inflating: QuEST-master/docs/globals_func.html
+  inflating: QuEST-master/docs/globals_func_0x62.html
+  inflating: QuEST-master/docs/globals_func_0x63.html
+  inflating: QuEST-master/docs/globals_func_0x64.html
+  inflating: QuEST-master/docs/globals_func_0x65.html
+  inflating: QuEST-master/docs/globals_func_0x67.html
+  inflating: QuEST-master/docs/globals_func_0x68.html
+  inflating: QuEST-master/docs/globals_func_0x69.html
+  inflating: QuEST-master/docs/globals_func_0x6c.html
+  inflating: QuEST-master/docs/globals_func_0x6d.html
+  inflating: QuEST-master/docs/globals_func_0x6e.html
+  inflating: QuEST-master/docs/globals_func_0x70.html
+  inflating: QuEST-master/docs/globals_func_0x71.html
+  inflating: QuEST-master/docs/globals_func_0x72.html
+  inflating: QuEST-master/docs/globals_func_0x73.html
+  inflating: QuEST-master/docs/globals_func_0x74.html
+  inflating: QuEST-master/docs/globals_func_0x75.html
+  inflating: QuEST-master/docs/globals_func_0x76.html
+  inflating: QuEST-master/docs/globals_func_0x77.html
+  inflating: QuEST-master/docs/globals_func_0x7a.html
+  inflating: QuEST-master/docs/globals_func_b.html
+  inflating: QuEST-master/docs/globals_func_c.html
+  inflating: QuEST-master/docs/globals_func_d.html
+  inflating: QuEST-master/docs/globals_func_e.html
+  inflating: QuEST-master/docs/globals_func_g.html
+  inflating: QuEST-master/docs/globals_func_h.html
+  inflating: QuEST-master/docs/globals_func_i.html
+  inflating: QuEST-master/docs/globals_func_m.html
+  inflating: QuEST-master/docs/globals_func_p.html
+  inflating: QuEST-master/docs/globals_func_q.html
+  inflating: QuEST-master/docs/globals_func_r.html
+  inflating: QuEST-master/docs/globals_func_s.html
+  inflating: QuEST-master/docs/globals_func_t.html
+  inflating: QuEST-master/docs/globals_func_u.html
+  inflating: QuEST-master/docs/globals_func_v.html
+  inflating: QuEST-master/docs/globals_func_w.html
+  inflating: QuEST-master/docs/globals_g.html
+  inflating: QuEST-master/docs/globals_h.html
+  inflating: QuEST-master/docs/globals_i.html
+  inflating: QuEST-master/docs/globals_l.html
+  inflating: QuEST-master/docs/globals_m.html
+  inflating: QuEST-master/docs/globals_n.html
+  inflating: QuEST-master/docs/globals_p.html
+  inflating: QuEST-master/docs/globals_q.html
+  inflating: QuEST-master/docs/globals_r.html
+  inflating: QuEST-master/docs/globals_s.html
+  inflating: QuEST-master/docs/globals_t.html
+  inflating: QuEST-master/docs/globals_type.html
+  inflating: QuEST-master/docs/globals_u.html
+  inflating: QuEST-master/docs/globals_v.html
+  inflating: QuEST-master/docs/globals_vars.html
+  inflating: QuEST-master/docs/globals_w.html
+  inflating: QuEST-master/docs/index.html
+  inflating: QuEST-master/docs/jquery.js
+  inflating: QuEST-master/docs/mainpage_8h.html
+  inflating: QuEST-master/docs/mainpage_8h_source.html
+  inflating: QuEST-master/docs/menu.js
+  inflating: QuEST-master/docs/menudata.js
+  inflating: QuEST-master/docs/mt19937ar_8c.html
+  inflating: QuEST-master/docs/mt19937ar_8c_source.html
+  inflating: QuEST-master/docs/mt19937ar_8h.html
+  inflating: QuEST-master/docs/mt19937ar_8h_source.html
+ extracting: QuEST-master/docs/nav_f.png
+  inflating: QuEST-master/docs/nav_g.png
+  inflating: QuEST-master/docs/nav_h.png
+  inflating: QuEST-master/docs/open.png
+  inflating: QuEST-master/docs/splitbar.png
+  inflating: QuEST-master/docs/structComplex.html
+  inflating: QuEST-master/docs/structComplexMatrix2.html
+  inflating: QuEST-master/docs/structQuESTEnv.html
+  inflating: QuEST-master/docs/structQureg.html
+  inflating: QuEST-master/docs/structVector.html
+ extracting: QuEST-master/docs/sync_off.png
+ extracting: QuEST-master/docs/sync_on.png
+ extracting: QuEST-master/docs/tab_a.png
+  inflating: QuEST-master/docs/tab_b.gif
+ extracting: QuEST-master/docs/tab_b.png
+ extracting: QuEST-master/docs/tab_h.png
+  inflating: QuEST-master/docs/tab_l.gif
+  inflating: QuEST-master/docs/tab_r.gif
+ extracting: QuEST-master/docs/tab_s.png
+  inflating: QuEST-master/docs/tabs.css
+  inflating: QuEST-master/doxyconf
+   creating: QuEST-master/examples/
+  inflating: QuEST-master/examples/README.md
+  inflating: QuEST-master/examples/bernstein_vazirani_circuit.c
+  inflating: QuEST-master/examples/damping_example.c
+  inflating: QuEST-master/examples/makefile
+   creating: QuEST-master/examples/submissionScripts/
+  inflating: QuEST-master/examples/submissionScripts/cpu_SLURM_example.sh
+  inflating: QuEST-master/examples/submissionScripts/gpu_SLURM_example.sh
+  inflating: QuEST-master/examples/submissionScripts/mpi_PBS_example.sh
+  inflating: QuEST-master/examples/submissionScripts/mpi_SLURM_example.sh
+  inflating: QuEST-master/examples/submissionScripts/mpi_SLURM_unit_tests.sh
+  inflating: QuEST-master/examples/tutorial_example.c
+   creating: QuEST-master/tests/
+   creating: QuEST-master/tests/algor/
+  inflating: QuEST-master/tests/algor/QFT.test
+  inflating: QuEST-master/tests/algor/QFTtests
+  inflating: QuEST-master/tests/algor/rotate_test.test
+   creating: QuEST-master/tests/benchmarks/
+  inflating: QuEST-master/tests/benchmarks/rotate_benchmark.test
+   creating: QuEST-master/tests/essential/
+   creating: QuEST-master/tests/essential/state_vector/
+  inflating: QuEST-master/tests/essential/state_vector/createDensityQureg.test
+  inflating: QuEST-master/tests/essential/state_vector/createQureg.test
+  inflating: QuEST-master/tests/essential/state_vector/destroyQureg.test
+  inflating: QuEST-master/tests/essential/state_vector/initClassicalState.test
+  inflating: QuEST-master/tests/essential/state_vector/initPlusState.test
+  inflating: QuEST-master/tests/essential/state_vector/initStateDebug.test
+  inflating: QuEST-master/tests/essential/state_vector/initZeroState.test
+  inflating: QuEST-master/tests/essential/state_vector/seedQuEST.test
+  inflating: QuEST-master/tests/essential/state_vector/setAmps.test
+   creating: QuEST-master/tests/unit/
+   creating: QuEST-master/tests/unit/density_matrix/
+   creating: QuEST-master/tests/unit/density_matrix/gates/
+  inflating: QuEST-master/tests/unit/density_matrix/gates/collapseToOutcome.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/compactUnitary.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/controlledCompactUnitary.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/controlledNot.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/controlledPauliY.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/controlledPhaseFlip.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/controlledPhaseShift.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/controlledRotateAroundAxis.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/controlledRotateX.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/controlledRotateY.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/controlledRotateZ.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/controlledUnitary.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/hadamard.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/multiControlledPhaseFlip.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/multiControlledPhaseShift.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/multiControlledUnitary.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/pauliX.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/pauliY.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/pauliZ.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/phaseShift.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/rotateAroundAxis.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/rotateX.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/rotateY.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/rotateZ.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/sGate.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/tGate.test
+  inflating: QuEST-master/tests/unit/density_matrix/gates/unitary.test
+   creating: QuEST-master/tests/unit/density_matrix/maths/
+  inflating: QuEST-master/tests/unit/density_matrix/maths/calcProbOfOutcome.test
+  inflating: QuEST-master/tests/unit/density_matrix/maths/calcPurity.test
+  inflating: QuEST-master/tests/unit/density_matrix/maths/calcTotalProb.test
+  inflating: QuEST-master/tests/unit/density_matrix/maths/getDensityAmp.test
+   creating: QuEST-master/tests/unit/density_matrix/noise/
+  inflating: QuEST-master/tests/unit/density_matrix/noise/applyOneQubitDampingError.test
+  inflating: QuEST-master/tests/unit/density_matrix/noise/applyOneQubitDephaseError.test
+  inflating: QuEST-master/tests/unit/density_matrix/noise/applyOneQubitDepolariseError.test
+  inflating: QuEST-master/tests/unit/density_matrix/noise/applyTwoQubitDephaseError.test
+  inflating: QuEST-master/tests/unit/density_matrix/noise/applyTwoQubitDepolariseError.test
+   creating: QuEST-master/tests/unit/state_vector/
+   creating: QuEST-master/tests/unit/state_vector/gates/
+  inflating: QuEST-master/tests/unit/state_vector/gates/collapseToOutcome.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/compactUnitary.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/controlledCompactUnitary.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/controlledNot.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/controlledPauliY.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/controlledPhaseFlip.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/controlledPhaseShift.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/controlledRotateAroundAxis.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/controlledRotateX.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/controlledRotateY.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/controlledRotateZ.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/controlledUnitary.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/hadamard.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/multiControlledPhaseFlip.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/multiControlledPhaseShift.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/multiControlledUnitary.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/pauliX.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/pauliY.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/pauliZ.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/phaseShift.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/rotateAroundAxis.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/rotateX.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/rotateY.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/rotateZ.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/sGate.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/tGate.test
+  inflating: QuEST-master/tests/unit/state_vector/gates/unitary.test
+   creating: QuEST-master/tests/unit/state_vector/maths/
+  inflating: QuEST-master/tests/unit/state_vector/maths/calcFidelity.test
+  inflating: QuEST-master/tests/unit/state_vector/maths/calcInnerProduct.test
+  inflating: QuEST-master/tests/unit/state_vector/maths/calcProbOfOutcome.test
+  inflating: QuEST-master/tests/unit/state_vector/maths/calcTotalProb.test
+  inflating: QuEST-master/tests/unit/state_vector/maths/getAmp.test
+  inflating: QuEST-master/tests/unit/state_vector/maths/getImagAmp.test
+  inflating: QuEST-master/tests/unit/state_vector/maths/getNumAmps.test
+  inflating: QuEST-master/tests/unit/state_vector/maths/getNumQubits.test
+  inflating: QuEST-master/tests/unit/state_vector/maths/getProbAmp.test
+  inflating: QuEST-master/tests/unit/state_vector/maths/getRealAmp.test
+  inflating: QuEST-master/tests/unit/state_vector/maths/measure.test
+  inflating: QuEST-master/tests/unit/state_vector/maths/measureWithStats.test
+  inflating: QuEST-master/tutorial_example.c
+   creating: QuEST-master/utilities/
+  inflating: QuEST-master/utilities/CMakeLists.txt
+   creating: QuEST-master/utilities/QuESTPy/
+  inflating: QuEST-master/utilities/QuESTPy/QuESTBase.py
+  inflating: QuEST-master/utilities/QuESTPy/QuESTFunc.py
+ extracting: QuEST-master/utilities/QuESTPy/QuESTLibDir.py
+  inflating: QuEST-master/utilities/QuESTPy/QuESTTypes.py
+  inflating: QuEST-master/utilities/QuESTPy/__init__.py
+  inflating: QuEST-master/utilities/QuESTTest.py
+   creating: QuEST-master/utilities/QuESTTest/
+  inflating: QuEST-master/utilities/QuESTTest/QuESTCore.py
+ extracting: QuEST-master/utilities/QuESTTest/__init__.py
+  inflating: QuEST-master/utilities/QuESTTest/__main__.py
+  inflating: QuEST-master/utilities/README.md
+(base) [john@tjigem Playground]$
+(base) [john@tjigem Playground]$ unzip presto_on_gpu-master.zip
+Archive:  presto_on_gpu-master.zip
+f2040651ba1b0293b42e746169e1bba824380eec
+   creating: presto_on_gpu-master/
+  inflating: presto_on_gpu-master/Howto_GPU
+  inflating: presto_on_gpu-master/INSTALL
+  inflating: presto_on_gpu-master/Makefile
+  inflating: presto_on_gpu-master/README
+  inflating: presto_on_gpu-master/README.md
+   creating: presto_on_gpu-master/bin/
+  inflating: presto_on_gpu-master/bin/.geomview
+   creating: presto_on_gpu-master/clig/
+  inflating: presto_on_gpu-master/clig/accelsearch.1
+  inflating: presto_on_gpu-master/clig/accelsearch_cmd.cli
+  inflating: presto_on_gpu-master/clig/bincand.1
+  inflating: presto_on_gpu-master/clig/bincand_cmd.cli
+  inflating: presto_on_gpu-master/clig/cmdline.cli
+  inflating: presto_on_gpu-master/clig/dftfold.1
+  inflating: presto_on_gpu-master/clig/dftfold_cmd.cli
+  inflating: presto_on_gpu-master/clig/downsample.1
+  inflating: presto_on_gpu-master/clig/downsample_cmd.cli
+  inflating: presto_on_gpu-master/clig/mpiprepsubband.1
+  inflating: presto_on_gpu-master/clig/mpiprepsubband_cmd.cli
+  inflating: presto_on_gpu-master/clig/prepdata.1
+  inflating: presto_on_gpu-master/clig/prepdata_cmd.cli
+  inflating: presto_on_gpu-master/clig/prepfold.1
+  inflating: presto_on_gpu-master/clig/prepfold_cmd.cli
+  inflating: presto_on_gpu-master/clig/prepsubband.1
+  inflating: presto_on_gpu-master/clig/prepsubband_cmd.cli
+  inflating: presto_on_gpu-master/clig/profile.1
+  inflating: presto_on_gpu-master/clig/profile_cmd.cli
+  inflating: presto_on_gpu-master/clig/readfile.1
+  inflating: presto_on_gpu-master/clig/readfile_cmd.cli
+  inflating: presto_on_gpu-master/clig/realfft.1
+  inflating: presto_on_gpu-master/clig/realfft_cmd.cli
+  inflating: presto_on_gpu-master/clig/rednoise.1
+  inflating: presto_on_gpu-master/clig/rednoise_cmd.cli
+  inflating: presto_on_gpu-master/clig/rfifind.1
+  inflating: presto_on_gpu-master/clig/rfifind_cmd.cli
+  inflating: presto_on_gpu-master/clig/search_bin.1
+  inflating: presto_on_gpu-master/clig/search_bin_cmd.cli
+  inflating: presto_on_gpu-master/clig/search_rzw.1
+  inflating: presto_on_gpu-master/clig/search_rzw_cmd.cli
+  inflating: presto_on_gpu-master/clig/show_pfd.1
+  inflating: presto_on_gpu-master/clig/show_pfd_cmd.cli
+  inflating: presto_on_gpu-master/clig/spigot2filterbank.1
+  inflating: presto_on_gpu-master/clig/spigot2filterbank_cmd.cli
+  inflating: presto_on_gpu-master/clig/toas2dat.1
+  inflating: presto_on_gpu-master/clig/toas2dat_cmd.cli
+  inflating: presto_on_gpu-master/clig/zapbirds.1
+  inflating: presto_on_gpu-master/clig/zapbirds_cmd.cli
+   creating: presto_on_gpu-master/docs/
+   creating: presto_on_gpu-master/docs/.xvpics/
+  inflating: presto_on_gpu-master/docs/.xvpics/presto1.jpg
+  inflating: presto_on_gpu-master/docs/.xvpics/presto2.jpg
+  inflating: presto_on_gpu-master/docs/PRESTO_search_tutorial.odp
+  inflating: presto_on_gpu-master/docs/PRESTO_search_tutorial.pdf
+  inflating: presto_on_gpu-master/docs/a2x.1
+  inflating: presto_on_gpu-master/docs/accelsearch.1
+  inflating: presto_on_gpu-master/docs/bincand.1
+  inflating: presto_on_gpu-master/docs/dftfold.1
+  inflating: presto_on_gpu-master/docs/downsample.1
+  inflating: presto_on_gpu-master/docs/mpiprepsubband.1
+  inflating: presto_on_gpu-master/docs/prepdata.1
+  inflating: presto_on_gpu-master/docs/prepfold.1
+  inflating: presto_on_gpu-master/docs/prepsubband.1
+  inflating: presto_on_gpu-master/docs/presto.tex
+  inflating: presto_on_gpu-master/docs/presto1.jpg
+  inflating: presto_on_gpu-master/docs/presto2.jpg
+  inflating: presto_on_gpu-master/docs/profile.1
+  inflating: presto_on_gpu-master/docs/readfile.1
+  inflating: presto_on_gpu-master/docs/realfft.1
+  inflating: presto_on_gpu-master/docs/rednoise.1
+  inflating: presto_on_gpu-master/docs/rfifind.1
+  inflating: presto_on_gpu-master/docs/search_bin.1
+  inflating: presto_on_gpu-master/docs/search_rzw.1
+  inflating: presto_on_gpu-master/docs/show_pfd.1
+  inflating: presto_on_gpu-master/docs/spigot2filterbank.1
+  inflating: presto_on_gpu-master/docs/toas2dat.1
+  inflating: presto_on_gpu-master/docs/zapbirds.1
+   creating: presto_on_gpu-master/include/
+  inflating: presto_on_gpu-master/include/accel.h
+  inflating: presto_on_gpu-master/include/accel_utils_gpu.h
+  inflating: presto_on_gpu-master/include/accelsearch_cmd.h
+  inflating: presto_on_gpu-master/include/bincand_cmd.h
+  inflating: presto_on_gpu-master/include/bpp.h
+  inflating: presto_on_gpu-master/include/cdflib.h
+  inflating: presto_on_gpu-master/include/chkio.h
+  inflating: presto_on_gpu-master/include/clk_tck.h
+  inflating: presto_on_gpu-master/include/database.h
+  inflating: presto_on_gpu-master/include/dftfold.h
+  inflating: presto_on_gpu-master/include/dftfold_cmd.h
+  inflating: presto_on_gpu-master/include/downsample_cmd.h
+  inflating: presto_on_gpu-master/include/f77.h
+  inflating: presto_on_gpu-master/include/fitsfile.h
+  inflating: presto_on_gpu-master/include/fitshead.h
+  inflating: presto_on_gpu-master/include/gmrt.h
+  inflating: presto_on_gpu-master/include/imio.h
+  inflating: presto_on_gpu-master/include/makedata.h
+  inflating: presto_on_gpu-master/include/makeinf.h
+  inflating: presto_on_gpu-master/include/mask.h
+  inflating: presto_on_gpu-master/include/meminfo.h
+  inflating: presto_on_gpu-master/include/misc_utils.h
+  inflating: presto_on_gpu-master/include/mpiprepsubband_cmd.h
+  inflating: presto_on_gpu-master/include/multibeam.h
+  inflating: presto_on_gpu-master/include/multifiles.h
+  inflating: presto_on_gpu-master/include/orbint.h
+  inflating: presto_on_gpu-master/include/plot2d.h
+  inflating: presto_on_gpu-master/include/prepdata_cmd.h
+  inflating: presto_on_gpu-master/include/prepfold.h
+  inflating: presto_on_gpu-master/include/prepfold_cmd.h
+  inflating: presto_on_gpu-master/include/prepsubband_cmd.h
+  inflating: presto_on_gpu-master/include/presto.h
+  inflating: presto_on_gpu-master/include/profile_cmd.h
+  inflating: presto_on_gpu-master/include/psrfits.h
+  inflating: presto_on_gpu-master/include/randlib.h
+  inflating: presto_on_gpu-master/include/ransomfft.h
+  inflating: presto_on_gpu-master/include/rawtype.h
+  inflating: presto_on_gpu-master/include/rdascat.h
+  inflating: presto_on_gpu-master/include/readfile_cmd.h
+  inflating: presto_on_gpu-master/include/realfft_cmd.h
+  inflating: presto_on_gpu-master/include/rednoise_cmd.h
+  inflating: presto_on_gpu-master/include/rfifind.h
+  inflating: presto_on_gpu-master/include/rfifind_cmd.h
+  inflating: presto_on_gpu-master/include/search_bin_cmd.h
+  inflating: presto_on_gpu-master/include/search_rzw_cmd.h
+  inflating: presto_on_gpu-master/include/show_pfd_cmd.h
+  inflating: presto_on_gpu-master/include/sigproc_fb.h
+  inflating: presto_on_gpu-master/include/slalib.h
+  inflating: presto_on_gpu-master/include/slamac.h
+  inflating: presto_on_gpu-master/include/spigot.h
+  inflating: presto_on_gpu-master/include/spigot2filterbank_cmd.h
+  inflating: presto_on_gpu-master/include/toas2dat_cmd.h
+  inflating: presto_on_gpu-master/include/vectors.h
+  inflating: presto_on_gpu-master/include/wapp.h
+  inflating: presto_on_gpu-master/include/wapp_key.h
+  inflating: presto_on_gpu-master/include/wapp_y.tab.h
+  inflating: presto_on_gpu-master/include/zapbirds_cmd.h
+   creating: presto_on_gpu-master/lib/
+  inflating: presto_on_gpu-master/lib/a2x.ps
+  inflating: presto_on_gpu-master/lib/a2xshell.ps
+  inflating: presto_on_gpu-master/lib/aliases.txt
+  inflating: presto_on_gpu-master/lib/fftw_wisdom.txt
+  inflating: presto_on_gpu-master/lib/goodfactors.txt
+  inflating: presto_on_gpu-master/lib/libpresto.so
+  inflating: presto_on_gpu-master/lib/libsla.so
+  inflating: presto_on_gpu-master/lib/parkes_birds.txt
+  inflating: presto_on_gpu-master/lib/psr_catalog.txt
+  inflating: presto_on_gpu-master/lib/pulsars.cat
+   creating: presto_on_gpu-master/lib/python/
+ extracting: presto_on_gpu-master/lib/python/.directory
+  inflating: presto_on_gpu-master/lib/python/PRESTO-0.99.egg-info
+  inflating: presto_on_gpu-master/lib/python/Pgplot.py
+  inflating: presto_on_gpu-master/lib/python/_ppgplot.so
+  inflating: presto_on_gpu-master/lib/python/_presto.so
+  inflating: presto_on_gpu-master/lib/python/barycenter.py
+  inflating: presto_on_gpu-master/lib/python/bestprof.py
+  inflating: presto_on_gpu-master/lib/python/binary_psr.py
+  inflating: presto_on_gpu-master/lib/python/catalog.py
+  inflating: presto_on_gpu-master/lib/python/catalog_oldstyle.py
+  inflating: presto_on_gpu-master/lib/python/catalog_query.txt
+  inflating: presto_on_gpu-master/lib/python/cosine_rand.pickle
+  inflating: presto_on_gpu-master/lib/python/cosine_rand.py
+  inflating: presto_on_gpu-master/lib/python/events.py
+  inflating: presto_on_gpu-master/lib/python/infodata.py
+  inflating: presto_on_gpu-master/lib/python/kuiper.py
+  inflating: presto_on_gpu-master/lib/python/parfile.py
+  inflating: presto_on_gpu-master/lib/python/polycos.py
+   creating: presto_on_gpu-master/lib/python/ppgplot/
+ extracting: presto_on_gpu-master/lib/python/ppgplot/__init__.py
+  inflating: presto_on_gpu-master/lib/python/ppgplot/__init__.pyc
+  inflating: presto_on_gpu-master/lib/python/prepfold.py
+   creating: presto_on_gpu-master/lib/python/presto/
+  inflating: presto_on_gpu-master/lib/python/presto/__init__.py
+  inflating: presto_on_gpu-master/lib/python/presto/__init__.pyc
+  inflating: presto_on_gpu-master/lib/python/presto/prestoswig.py
+  inflating: presto_on_gpu-master/lib/python/presto/prestoswig.pyc
+  inflating: presto_on_gpu-master/lib/python/psr_constants.py
+  inflating: presto_on_gpu-master/lib/python/psr_utils.py
+  inflating: presto_on_gpu-master/lib/python/residuals.py
+  inflating: presto_on_gpu-master/lib/python/rfifind.py
+  inflating: presto_on_gpu-master/lib/python/sifting.py
+  inflating: presto_on_gpu-master/lib/python/sigproc.py
+  inflating: presto_on_gpu-master/lib/python/simple_roots.py
+  inflating: presto_on_gpu-master/lib/python/sinc_interp.py
+   creating: presto_on_gpu-master/python/
+ extracting: presto_on_gpu-master/python/.directory
+  inflating: presto_on_gpu-master/python/.ipp.log
+  inflating: presto_on_gpu-master/python/ACCEL_sift.py
+  inflating: presto_on_gpu-master/python/Makefile
+   creating: presto_on_gpu-master/python/binopttest/
+  inflating: presto_on_gpu-master/python/binopttest/README.txt
+  inflating: presto_on_gpu-master/python/binopttest/bindata.py
+  inflating: presto_on_gpu-master/python/binopttest/comb.py
+ extracting: presto_on_gpu-master/python/binopttest/fits.ps.gz
+ extracting: presto_on_gpu-master/python/binopttest/logfits.ps.gz
+  inflating: presto_on_gpu-master/python/binopttest/montebinopt.py
+  inflating: presto_on_gpu-master/python/binopttest/orbitstuff.pyc
+  inflating: presto_on_gpu-master/python/binopttest/testresults.txt
+   creating: presto_on_gpu-master/python/binresponses/
+  inflating: presto_on_gpu-master/python/binresponses/monte_ffdot.py
+  inflating: presto_on_gpu-master/python/binresponses/monte_short.py
+  inflating: presto_on_gpu-master/python/binresponses/monte_sideb.py
+  inflating: presto_on_gpu-master/python/binresponses/montebinresp.c
+  inflating: presto_on_gpu-master/python/binresponses/montebinresp.py
+  inflating: presto_on_gpu-master/python/binresponses/parjob.txt
+   creating: presto_on_gpu-master/python/build/
+   creating: presto_on_gpu-master/python/build/lib.linux-x86_64-2.7/
+  inflating: presto_on_gpu-master/python/build/lib.linux-x86_64-2.7/_ppgplot.so
+  inflating: presto_on_gpu-master/python/build/lib.linux-x86_64-2.7/_presto.so
+   creating: presto_on_gpu-master/python/build/lib.linux-x86_64-2.7/ppgplot/
+ extracting: presto_on_gpu-master/python/build/lib.linux-x86_64-2.7/ppgplot/__init__.py
+   creating: presto_on_gpu-master/python/build/lib.linux-x86_64-2.7/presto/
+  inflating: presto_on_gpu-master/python/build/lib.linux-x86_64-2.7/presto/__init__.py
+  inflating: presto_on_gpu-master/python/build/lib.linux-x86_64-2.7/presto/prestoswig.py
+   creating: presto_on_gpu-master/python/build/temp.linux-x86_64-2.7/
+   creating: presto_on_gpu-master/python/build/temp.linux-x86_64-2.7/ppgplot_src/
+  inflating: presto_on_gpu-master/python/build/temp.linux-x86_64-2.7/ppgplot_src/_ppgplot.o
+   creating: presto_on_gpu-master/python/build/temp.linux-x86_64-2.7/presto_src/
+  inflating: presto_on_gpu-master/python/build/temp.linux-x86_64-2.7/presto_src/presto_wrap.o
+  inflating: presto_on_gpu-master/python/concatdata.py
+  inflating: presto_on_gpu-master/python/dedisp.py
+  inflating: presto_on_gpu-master/python/dftvectors.py
+ extracting: presto_on_gpu-master/python/f-fdot_example.ps.gz
+  inflating: presto_on_gpu-master/python/ffdot_example.py
+   creating: presto_on_gpu-master/python/fftfit_src/
+  inflating: presto_on_gpu-master/python/fftfit_src/brent.f
+  inflating: presto_on_gpu-master/python/fftfit_src/cprof.f
+  inflating: presto_on_gpu-master/python/fftfit_src/fccf.f
+  inflating: presto_on_gpu-master/python/fftfit_src/ffft.f
+  inflating: presto_on_gpu-master/python/fftfit_src/fftfit.f
+  inflating: presto_on_gpu-master/python/fftfit_src/fftfit.pyf
+  inflating: presto_on_gpu-master/python/fftfit_src/fftfit.so
+  inflating: presto_on_gpu-master/python/fftfit_src/test_fftfit.py
+  inflating: presto_on_gpu-master/python/full_analysis.py
+   creating: presto_on_gpu-master/python/misc/
+  inflating: presto_on_gpu-master/python/misc/cbitopt.txt
+  inflating: presto_on_gpu-master/python/misc/pychecks.py
+  inflating: presto_on_gpu-master/python/orbit_fit.py
+  inflating: presto_on_gpu-master/python/orbitstuff.py
+  inflating: presto_on_gpu-master/python/pdm2raw.py
+  inflating: presto_on_gpu-master/python/power_stats.py
+   creating: presto_on_gpu-master/python/ppgplot_src/
+ extracting: presto_on_gpu-master/python/ppgplot_src/__init__.py
+  inflating: presto_on_gpu-master/python/ppgplot_src/_ppgplot.c
+  inflating: presto_on_gpu-master/python/preppaste.py
+   creating: presto_on_gpu-master/python/presto_src/
+  inflating: presto_on_gpu-master/python/presto_src/__init__.py
+  inflating: presto_on_gpu-master/python/presto_src/presto_wrap.c
+  inflating: presto_on_gpu-master/python/presto_src/prestoswig.py
+  inflating: presto_on_gpu-master/python/setup.py
+  inflating: presto_on_gpu-master/python/setup_ppgplot.py
+  inflating: presto_on_gpu-master/python/show_zresp.py
+  inflating: presto_on_gpu-master/python/testcorr.py
+  inflating: presto_on_gpu-master/python/testz.mak
+   creating: presto_on_gpu-master/python/wrappers/
+  inflating: presto_on_gpu-master/python/wrappers/Makefile
+  inflating: presto_on_gpu-master/python/wrappers/color.i
+  inflating: presto_on_gpu-master/python/wrappers/numpy.i
+  inflating: presto_on_gpu-master/python/wrappers/presto.i
+  inflating: presto_on_gpu-master/python/wrappers/presto.py
+  inflating: presto_on_gpu-master/python/wrappers/presto_psrdata.i
+  inflating: presto_on_gpu-master/python/wrappers/presto_structs.i
+  inflating: presto_on_gpu-master/python/wrappers/presto_wrap.c
+   creating: presto_on_gpu-master/src/
+ extracting: presto_on_gpu-master/src/.directory
+  inflating: presto_on_gpu-master/src/.geomview
+  inflating: presto_on_gpu-master/src/GBT350filterbank.c
+  inflating: presto_on_gpu-master/src/Makefile
+  inflating: presto_on_gpu-master/src/PMsurv_phasemod.c
+  inflating: presto_on_gpu-master/src/accel_utils.c
+  inflating: presto_on_gpu-master/src/accel_utils_gpu.cu
+  inflating: presto_on_gpu-master/src/accelsearch.c
+  inflating: presto_on_gpu-master/src/accelsearch_cmd.c
+  inflating: presto_on_gpu-master/src/amoeba.c
+  inflating: presto_on_gpu-master/src/apprgrdn.c
+  inflating: presto_on_gpu-master/src/atwood.c
+  inflating: presto_on_gpu-master/src/bary.c
+  inflating: presto_on_gpu-master/src/barycenter.c
+  inflating: presto_on_gpu-master/src/bincand.c
+  inflating: presto_on_gpu-master/src/bincand_cmd.c
+  inflating: presto_on_gpu-master/src/birdzap.c
+  inflating: presto_on_gpu-master/src/bpp.c
+  inflating: presto_on_gpu-master/src/cal2mjd.c
+  inflating: presto_on_gpu-master/src/cand_output.c
+  inflating: presto_on_gpu-master/src/characteristics.c
+  inflating: presto_on_gpu-master/src/check_parkes_raw.c
+  inflating: presto_on_gpu-master/src/chkio.c
+  inflating: presto_on_gpu-master/src/cldj.c
+  inflating: presto_on_gpu-master/src/clipping.c
+  inflating: presto_on_gpu-master/src/com.c
+  inflating: presto_on_gpu-master/src/corr_prep.c
+  inflating: presto_on_gpu-master/src/corr_routines.c
+  inflating: presto_on_gpu-master/src/correlations.c
+  inflating: presto_on_gpu-master/src/dat2sdat.c
+  inflating: presto_on_gpu-master/src/database.c
+  inflating: presto_on_gpu-master/src/dcdflib.c
+  inflating: presto_on_gpu-master/src/dftfold.c
+  inflating: presto_on_gpu-master/src/dftfold_cmd.c
+  inflating: presto_on_gpu-master/src/dispersion.c
+  inflating: presto_on_gpu-master/src/djcl.c
+  inflating: presto_on_gpu-master/src/dm_tree.c
+  inflating: presto_on_gpu-master/src/dm_tree_main.c
+  inflating: presto_on_gpu-master/src/downsample.c
+  inflating: presto_on_gpu-master/src/downsample_cmd.c
+  inflating: presto_on_gpu-master/src/dump_spigot_zerolag.c
+  inflating: presto_on_gpu-master/src/exploredat.c
+  inflating: presto_on_gpu-master/src/explorefft.c
+  inflating: presto_on_gpu-master/src/fastffts.c
+  inflating: presto_on_gpu-master/src/fftcalls.c
+  inflating: presto_on_gpu-master/src/fitsdelcol.c
+  inflating: presto_on_gpu-master/src/fitsdelrow.c
+  inflating: presto_on_gpu-master/src/fitsfile.c
+  inflating: presto_on_gpu-master/src/fminbr.c
+  inflating: presto_on_gpu-master/src/fold.c
+  inflating: presto_on_gpu-master/src/fresnl.c
+  inflating: presto_on_gpu-master/src/get_candidates.c
+  inflating: presto_on_gpu-master/src/gmrt.c
+  inflating: presto_on_gpu-master/src/hget.c
+  inflating: presto_on_gpu-master/src/hput.c
+  inflating: presto_on_gpu-master/src/imio.c
+  inflating: presto_on_gpu-master/src/ioinf.c
+  inflating: presto_on_gpu-master/src/iomak.c
+  inflating: presto_on_gpu-master/src/ipmpar.c
+  inflating: presto_on_gpu-master/src/least_squares.f
+  inflating: presto_on_gpu-master/src/makedata.c
+  inflating: presto_on_gpu-master/src/makeinf.c
+  inflating: presto_on_gpu-master/src/makewisdom.c
+  inflating: presto_on_gpu-master/src/mask.c
+  inflating: presto_on_gpu-master/src/maximize_r.c
+  inflating: presto_on_gpu-master/src/maximize_rz.c
+  inflating: presto_on_gpu-master/src/maximize_rzw.c
+  inflating: presto_on_gpu-master/src/median.c
+  inflating: presto_on_gpu-master/src/minifft.c
+  inflating: presto_on_gpu-master/src/misc_utils.c
+  inflating: presto_on_gpu-master/src/mjd2cal.c
+  inflating: presto_on_gpu-master/src/mpiprepsubband.c
+  inflating: presto_on_gpu-master/src/mpiprepsubband_cmd.c
+  inflating: presto_on_gpu-master/src/mpiprepsubband_utils.c
+  inflating: presto_on_gpu-master/src/multi_prof_plot.c
+  inflating: presto_on_gpu-master/src/multibeam.c
+  inflating: presto_on_gpu-master/src/multifiles.c
+  inflating: presto_on_gpu-master/src/orbint.c
+  inflating: presto_on_gpu-master/src/output.c
+  inflating: presto_on_gpu-master/src/patchdata.c
+  inflating: presto_on_gpu-master/src/plotbincand.c
+  inflating: presto_on_gpu-master/src/polycos.c
+  inflating: presto_on_gpu-master/src/powerplot.c
+  inflating: presto_on_gpu-master/src/prepdata.c
+  inflating: presto_on_gpu-master/src/prepdata_cmd.c
+  inflating: presto_on_gpu-master/src/prepfold.c
+  inflating: presto_on_gpu-master/src/prepfold_cmd.c
+  inflating: presto_on_gpu-master/src/prepfold_plot.c
+  inflating: presto_on_gpu-master/src/prepfold_utils.c
+  inflating: presto_on_gpu-master/src/prepsubband.c
+  inflating: presto_on_gpu-master/src/prepsubband_cmd.c
+  inflating: presto_on_gpu-master/src/profile.c
+  inflating: presto_on_gpu-master/src/profile_cmd.c
+  inflating: presto_on_gpu-master/src/psrfits.c
+  inflating: presto_on_gpu-master/src/psrfits_dumparrays.c
+  inflating: presto_on_gpu-master/src/psrorbit.c
+  inflating: presto_on_gpu-master/src/quicklook.c
+  inflating: presto_on_gpu-master/src/randlib.c
+  inflating: presto_on_gpu-master/src/range_parse.c
+  inflating: presto_on_gpu-master/src/rdascat.f
+  inflating: presto_on_gpu-master/src/read_fft.c
+  inflating: presto_on_gpu-master/src/readfile.c
+  inflating: presto_on_gpu-master/src/readfile_cmd.c
+  inflating: presto_on_gpu-master/src/readpar.c
+  inflating: presto_on_gpu-master/src/realfft.c
+  inflating: presto_on_gpu-master/src/realfft_4step.c
+  inflating: presto_on_gpu-master/src/realfft_cmd.c
+  inflating: presto_on_gpu-master/src/rednoise.c
+  inflating: presto_on_gpu-master/src/rednoise_cmd.c
+  inflating: presto_on_gpu-master/src/responses.c
+  inflating: presto_on_gpu-master/src/rfi_utils.c
+  inflating: presto_on_gpu-master/src/rfifind.c
+  inflating: presto_on_gpu-master/src/rfifind_cmd.c
+  inflating: presto_on_gpu-master/src/rfifind_plot.c
+  inflating: presto_on_gpu-master/src/rzinterp.c
+  inflating: presto_on_gpu-master/src/rzwinterp.c
+  inflating: presto_on_gpu-master/src/sdat2dat.c
+  inflating: presto_on_gpu-master/src/search_bin.c
+  inflating: presto_on_gpu-master/src/search_bin_cmd.c
+  inflating: presto_on_gpu-master/src/search_rzw.c
+  inflating: presto_on_gpu-master/src/search_rzw_cmd.c
+  inflating: presto_on_gpu-master/src/searchmultidms.c
+  inflating: presto_on_gpu-master/src/select.c
+  inflating: presto_on_gpu-master/src/shiftdata.c
+  inflating: presto_on_gpu-master/src/show_pfd.c
+  inflating: presto_on_gpu-master/src/show_pfd_cmd.c
+  inflating: presto_on_gpu-master/src/showmulti.c
+  inflating: presto_on_gpu-master/src/showmulti_dm.c
+  inflating: presto_on_gpu-master/src/sigproc_fb.c
+  inflating: presto_on_gpu-master/src/sla.c
+   creating: presto_on_gpu-master/src/slalib/
+  inflating: presto_on_gpu-master/src/slalib/addet.f
+  inflating: presto_on_gpu-master/src/slalib/afin.f
+  inflating: presto_on_gpu-master/src/slalib/airmas.f
+  inflating: presto_on_gpu-master/src/slalib/altaz.f
+  inflating: presto_on_gpu-master/src/slalib/amp.f
+  inflating: presto_on_gpu-master/src/slalib/ampqk.f
+  inflating: presto_on_gpu-master/src/slalib/aop.f
+  inflating: presto_on_gpu-master/src/slalib/aoppa.f
+  inflating: presto_on_gpu-master/src/slalib/aoppat.f
+  inflating: presto_on_gpu-master/src/slalib/aopqk.f
+  inflating: presto_on_gpu-master/src/slalib/atmdsp.f
+  inflating: presto_on_gpu-master/src/slalib/atms.f
+  inflating: presto_on_gpu-master/src/slalib/atmt.f
+  inflating: presto_on_gpu-master/src/slalib/av2m.f
+  inflating: presto_on_gpu-master/src/slalib/bear.f
+  inflating: presto_on_gpu-master/src/slalib/caf2r.f
+  inflating: presto_on_gpu-master/src/slalib/caldj.f
+  inflating: presto_on_gpu-master/src/slalib/calyd.f
+  inflating: presto_on_gpu-master/src/slalib/cc2s.f
+  inflating: presto_on_gpu-master/src/slalib/cc62s.f
+  inflating: presto_on_gpu-master/src/slalib/cd2tf.f
+  inflating: presto_on_gpu-master/src/slalib/cldj.f
+  inflating: presto_on_gpu-master/src/slalib/clyd.f
+  inflating: presto_on_gpu-master/src/slalib/combn.f
+  inflating: presto_on_gpu-master/src/slalib/compile_and_test.txt
+  inflating: presto_on_gpu-master/src/slalib/cr2af.f
+  inflating: presto_on_gpu-master/src/slalib/cr2tf.f
+  inflating: presto_on_gpu-master/src/slalib/cs2c.f
+  inflating: presto_on_gpu-master/src/slalib/cs2c6.f
+  inflating: presto_on_gpu-master/src/slalib/ctf2d.f
+  inflating: presto_on_gpu-master/src/slalib/ctf2r.f
+  inflating: presto_on_gpu-master/src/slalib/daf2r.f
+  inflating: presto_on_gpu-master/src/slalib/dafin.f
+  inflating: presto_on_gpu-master/src/slalib/dat.f
+  inflating: presto_on_gpu-master/src/slalib/dav2m.f
+  inflating: presto_on_gpu-master/src/slalib/dbear.f
+  inflating: presto_on_gpu-master/src/slalib/dbjin.f
+  inflating: presto_on_gpu-master/src/slalib/dc62s.f
+  inflating: presto_on_gpu-master/src/slalib/dcc2s.f
+  inflating: presto_on_gpu-master/src/slalib/dcmpf.f
+  inflating: presto_on_gpu-master/src/slalib/dcs2c.f
+  inflating: presto_on_gpu-master/src/slalib/dd2tf.f
+  inflating: presto_on_gpu-master/src/slalib/de2h.f
+  inflating: presto_on_gpu-master/src/slalib/deuler.f
+  inflating: presto_on_gpu-master/src/slalib/dfltin.f
+  inflating: presto_on_gpu-master/src/slalib/dh2e.f
+  inflating: presto_on_gpu-master/src/slalib/dimxv.f
+  inflating: presto_on_gpu-master/src/slalib/djcal.f
+  inflating: presto_on_gpu-master/src/slalib/djcl.f
+  inflating: presto_on_gpu-master/src/slalib/dm2av.f
+  inflating: presto_on_gpu-master/src/slalib/dmat.f
+  inflating: presto_on_gpu-master/src/slalib/dmoon.f
+  inflating: presto_on_gpu-master/src/slalib/dmxm.f
+  inflating: presto_on_gpu-master/src/slalib/dmxv.f
+  inflating: presto_on_gpu-master/src/slalib/dpav.f
+  inflating: presto_on_gpu-master/src/slalib/dr2af.f
+  inflating: presto_on_gpu-master/src/slalib/dr2tf.f
+  inflating: presto_on_gpu-master/src/slalib/drange.f
+  inflating: presto_on_gpu-master/src/slalib/dranrm.f
+  inflating: presto_on_gpu-master/src/slalib/ds2c6.f
+  inflating: presto_on_gpu-master/src/slalib/ds2tp.f
+  inflating: presto_on_gpu-master/src/slalib/dsep.f
+  inflating: presto_on_gpu-master/src/slalib/dsepv.f
+  inflating: presto_on_gpu-master/src/slalib/dt.f
+  inflating: presto_on_gpu-master/src/slalib/dtf2d.f
+  inflating: presto_on_gpu-master/src/slalib/dtf2r.f
+  inflating: presto_on_gpu-master/src/slalib/dtp2s.f
+  inflating: presto_on_gpu-master/src/slalib/dtp2v.f
+  inflating: presto_on_gpu-master/src/slalib/dtps2c.f
+  inflating: presto_on_gpu-master/src/slalib/dtpv2c.f
+  inflating: presto_on_gpu-master/src/slalib/dtt.f
+  inflating: presto_on_gpu-master/src/slalib/dv2tp.f
+  inflating: presto_on_gpu-master/src/slalib/dvdv.f
+  inflating: presto_on_gpu-master/src/slalib/dvn.f
+  inflating: presto_on_gpu-master/src/slalib/dvxv.f
+  inflating: presto_on_gpu-master/src/slalib/e2h.f
+  inflating: presto_on_gpu-master/src/slalib/earth.f
+  inflating: presto_on_gpu-master/src/slalib/ecleq.f
+  inflating: presto_on_gpu-master/src/slalib/ecmat.f
+  inflating: presto_on_gpu-master/src/slalib/ecor.f
+  inflating: presto_on_gpu-master/src/slalib/eg50.f
+  inflating: presto_on_gpu-master/src/slalib/el2ue.f
+  inflating: presto_on_gpu-master/src/slalib/epb.f
+  inflating: presto_on_gpu-master/src/slalib/epb2d.f
+  inflating: presto_on_gpu-master/src/slalib/epco.f
+  inflating: presto_on_gpu-master/src/slalib/epj.f
+  inflating: presto_on_gpu-master/src/slalib/epj2d.f
+  inflating: presto_on_gpu-master/src/slalib/epv.f
+  inflating: presto_on_gpu-master/src/slalib/eqecl.f
+  inflating: presto_on_gpu-master/src/slalib/eqeqx.f
+  inflating: presto_on_gpu-master/src/slalib/eqgal.f
+  inflating: presto_on_gpu-master/src/slalib/etrms.f
+  inflating: presto_on_gpu-master/src/slalib/euler.f
+  inflating: presto_on_gpu-master/src/slalib/evp.f
+  inflating: presto_on_gpu-master/src/slalib/fitxy.f
+  inflating: presto_on_gpu-master/src/slalib/fk425.f
+  inflating: presto_on_gpu-master/src/slalib/fk45z.f
+  inflating: presto_on_gpu-master/src/slalib/fk524.f
+  inflating: presto_on_gpu-master/src/slalib/fk52h.f
+  inflating: presto_on_gpu-master/src/slalib/fk54z.f
+  inflating: presto_on_gpu-master/src/slalib/fk5hz.f
+  inflating: presto_on_gpu-master/src/slalib/flotin.f
+  inflating: presto_on_gpu-master/src/slalib/galeq.f
+  inflating: presto_on_gpu-master/src/slalib/galsup.f
+  inflating: presto_on_gpu-master/src/slalib/ge50.f
+  inflating: presto_on_gpu-master/src/slalib/geoc.f
+  inflating: presto_on_gpu-master/src/slalib/gmst.f
+  inflating: presto_on_gpu-master/src/slalib/gmsta.f
+  inflating: presto_on_gpu-master/src/slalib/gresid.F
+  inflating: presto_on_gpu-master/src/slalib/h2e.f
+  inflating: presto_on_gpu-master/src/slalib/h2fk5.f
+  inflating: presto_on_gpu-master/src/slalib/hfk5z.f
+  inflating: presto_on_gpu-master/src/slalib/idchf.f
+  inflating: presto_on_gpu-master/src/slalib/idchi.f
+  inflating: presto_on_gpu-master/src/slalib/imxv.f
+  inflating: presto_on_gpu-master/src/slalib/intin.f
+  inflating: presto_on_gpu-master/src/slalib/invf.f
+  inflating: presto_on_gpu-master/src/slalib/kbj.f
+  inflating: presto_on_gpu-master/src/slalib/m2av.f
+  inflating: presto_on_gpu-master/src/slalib/map.f
+  inflating: presto_on_gpu-master/src/slalib/mappa.f
+  inflating: presto_on_gpu-master/src/slalib/mapqk.f
+  inflating: presto_on_gpu-master/src/slalib/mapqkz.f
+  inflating: presto_on_gpu-master/src/slalib/moon.f
+  inflating: presto_on_gpu-master/src/slalib/mxm.f
+  inflating: presto_on_gpu-master/src/slalib/mxv.f
+  inflating: presto_on_gpu-master/src/slalib/nut.f
+  inflating: presto_on_gpu-master/src/slalib/nutc.f
+  inflating: presto_on_gpu-master/src/slalib/nutc80.f
+  inflating: presto_on_gpu-master/src/slalib/oap.f
+  inflating: presto_on_gpu-master/src/slalib/oapqk.f
+  inflating: presto_on_gpu-master/src/slalib/obs.f
+  inflating: presto_on_gpu-master/src/slalib/pa.f
+  inflating: presto_on_gpu-master/src/slalib/pav.f
+  inflating: presto_on_gpu-master/src/slalib/pcd.f
+  inflating: presto_on_gpu-master/src/slalib/pda2h.f
+  inflating: presto_on_gpu-master/src/slalib/pdq2h.f
+  inflating: presto_on_gpu-master/src/slalib/permut.f
+  inflating: presto_on_gpu-master/src/slalib/pertel.f
+  inflating: presto_on_gpu-master/src/slalib/pertue.f
+  inflating: presto_on_gpu-master/src/slalib/planel.f
+  inflating: presto_on_gpu-master/src/slalib/planet.f
+  inflating: presto_on_gpu-master/src/slalib/plante.f
+  inflating: presto_on_gpu-master/src/slalib/plantu.f
+  inflating: presto_on_gpu-master/src/slalib/pm.f
+  inflating: presto_on_gpu-master/src/slalib/polmo.f
+  inflating: presto_on_gpu-master/src/slalib/prebn.f
+  inflating: presto_on_gpu-master/src/slalib/prec.f
+  inflating: presto_on_gpu-master/src/slalib/preces.f
+  inflating: presto_on_gpu-master/src/slalib/precl.f
+  inflating: presto_on_gpu-master/src/slalib/prenut.f
+  inflating: presto_on_gpu-master/src/slalib/pv2el.f
+  inflating: presto_on_gpu-master/src/slalib/pv2ue.f
+  inflating: presto_on_gpu-master/src/slalib/pvobs.f
+  inflating: presto_on_gpu-master/src/slalib/pxy.f
+  inflating: presto_on_gpu-master/src/slalib/random.F
+  inflating: presto_on_gpu-master/src/slalib/range.f
+  inflating: presto_on_gpu-master/src/slalib/ranorm.f
+  inflating: presto_on_gpu-master/src/slalib/rcc.f
+  inflating: presto_on_gpu-master/src/slalib/rdplan.f
+  inflating: presto_on_gpu-master/src/slalib/refco.f
+  inflating: presto_on_gpu-master/src/slalib/refcoq.f
+  inflating: presto_on_gpu-master/src/slalib/refro.f
+  inflating: presto_on_gpu-master/src/slalib/refv.f
+  inflating: presto_on_gpu-master/src/slalib/refz.f
+  inflating: presto_on_gpu-master/src/slalib/rverot.f
+  inflating: presto_on_gpu-master/src/slalib/rvgalc.f
+  inflating: presto_on_gpu-master/src/slalib/rvlg.f
+  inflating: presto_on_gpu-master/src/slalib/rvlsrd.f
+  inflating: presto_on_gpu-master/src/slalib/rvlsrk.f
+  inflating: presto_on_gpu-master/src/slalib/s2tp.f
+  inflating: presto_on_gpu-master/src/slalib/sep.f
+  inflating: presto_on_gpu-master/src/slalib/sepv.f
+  inflating: presto_on_gpu-master/src/slalib/sla_config.h
+  inflating: presto_on_gpu-master/src/slalib/sla_test.f
+  inflating: presto_on_gpu-master/src/slalib/smat.f
+  inflating: presto_on_gpu-master/src/slalib/subet.f
+  inflating: presto_on_gpu-master/src/slalib/supgal.f
+  inflating: presto_on_gpu-master/src/slalib/svd.f
+  inflating: presto_on_gpu-master/src/slalib/svdcov.f
+  inflating: presto_on_gpu-master/src/slalib/svdsol.f
+  inflating: presto_on_gpu-master/src/slalib/tp2s.f
+  inflating: presto_on_gpu-master/src/slalib/tp2v.f
+  inflating: presto_on_gpu-master/src/slalib/tps2c.f
+  inflating: presto_on_gpu-master/src/slalib/tpv2c.f
+  inflating: presto_on_gpu-master/src/slalib/ue2el.f
+  inflating: presto_on_gpu-master/src/slalib/ue2pv.f
+  inflating: presto_on_gpu-master/src/slalib/unpcd.f
+  inflating: presto_on_gpu-master/src/slalib/v2tp.f
+  inflating: presto_on_gpu-master/src/slalib/vdv.f
+  inflating: presto_on_gpu-master/src/slalib/veri.f
+  inflating: presto_on_gpu-master/src/slalib/vers.f
+  inflating: presto_on_gpu-master/src/slalib/vn.f
+  inflating: presto_on_gpu-master/src/slalib/vxv.f
+  inflating: presto_on_gpu-master/src/slalib/wait.f
+  inflating: presto_on_gpu-master/src/slalib/xy2xy.f
+  inflating: presto_on_gpu-master/src/slalib/zd.f
+  inflating: presto_on_gpu-master/src/solvopt.c
+  inflating: presto_on_gpu-master/src/sorter.c
+  inflating: presto_on_gpu-master/src/spigot.c
+  inflating: presto_on_gpu-master/src/spigot2filterbank.c
+  inflating: presto_on_gpu-master/src/spigot2filterbank_cmd.c
+  inflating: presto_on_gpu-master/src/spigotSband2filterbank.c
+  inflating: presto_on_gpu-master/src/split_parkes_beams.c
+  inflating: presto_on_gpu-master/src/swap_endian.c
+  inflating: presto_on_gpu-master/src/swapendian.c
+  inflating: presto_on_gpu-master/src/taperaw.c
+  inflating: presto_on_gpu-master/src/test_multifiles.c
+  inflating: presto_on_gpu-master/src/testtree.c
+  inflating: presto_on_gpu-master/src/timetest.c
+  inflating: presto_on_gpu-master/src/toas2dat.c
+  inflating: presto_on_gpu-master/src/toas2dat_cmd.c
+  inflating: presto_on_gpu-master/src/transpose.c
+  inflating: presto_on_gpu-master/src/twopass.c
+  inflating: presto_on_gpu-master/src/twopass_real_fwd.c
+  inflating: presto_on_gpu-master/src/twopass_real_inv.c
+  inflating: presto_on_gpu-master/src/un_sc_td.c
+  inflating: presto_on_gpu-master/src/vectors.c
+  inflating: presto_on_gpu-master/src/wapp.c
+  inflating: presto_on_gpu-master/src/wapp_head_parse.c
+  inflating: presto_on_gpu-master/src/wapp_mkheaderlex.c
+  inflating: presto_on_gpu-master/src/wapp_y.tab.c
+  inflating: presto_on_gpu-master/src/weight_psrfits.c
+  inflating: presto_on_gpu-master/src/window.c
+  inflating: presto_on_gpu-master/src/xyline.c
+  inflating: presto_on_gpu-master/src/zapbirds.c
+  inflating: presto_on_gpu-master/src/zapbirds_cmd.c
+  inflating: presto_on_gpu-master/src/zapping.c
+   creating: presto_on_gpu-master/tests/
+  inflating: presto_on_gpu-master/tests/INSTALL
+  inflating: presto_on_gpu-master/tests/Makefile
+  inflating: presto_on_gpu-master/tests/barytest.mak
+   creating: presto_on_gpu-master/tests/bin/
+  inflating: presto_on_gpu-master/tests/bin/.geomview
+  inflating: presto_on_gpu-master/tests/bin/DDplan.py
+  inflating: presto_on_gpu-master/tests/bin/GBNCC_search.py
+  inflating: presto_on_gpu-master/tests/bin/GBT350_drift_prep.py
+  inflating: presto_on_gpu-master/tests/bin/GBT350_drift_search.py
+  inflating: presto_on_gpu-master/tests/bin/GBT350filterbank
+  inflating: presto_on_gpu-master/tests/bin/PALFA_presto_search.py
+  inflating: presto_on_gpu-master/tests/bin/a2x
+  inflating: presto_on_gpu-master/tests/bin/accelsearch
+  inflating: presto_on_gpu-master/tests/bin/bary
+  inflating: presto_on_gpu-master/tests/bin/bincand
+  inflating: presto_on_gpu-master/tests/bin/cal2mjd
+  inflating: presto_on_gpu-master/tests/bin/check_parkes_raw
+  inflating: presto_on_gpu-master/tests/bin/dat2sdat
+  inflating: presto_on_gpu-master/tests/bin/dat2tim.py
+  inflating: presto_on_gpu-master/tests/bin/dftfold
+  inflating: presto_on_gpu-master/tests/bin/downsample
+  inflating: presto_on_gpu-master/tests/bin/downsample_filterbank.py
+  inflating: presto_on_gpu-master/tests/bin/dump_spigot_zerolag
+  inflating: presto_on_gpu-master/tests/bin/event_peak.py
+  inflating: presto_on_gpu-master/tests/bin/exploredat
+  inflating: presto_on_gpu-master/tests/bin/explorefft
+  inflating: presto_on_gpu-master/tests/bin/filter_zerolags.py
+  inflating: presto_on_gpu-master/tests/bin/fit_circular_orbit.py
+  inflating: presto_on_gpu-master/tests/bin/fitsdelcol
+  inflating: presto_on_gpu-master/tests/bin/fitsdelrow
+  inflating: presto_on_gpu-master/tests/bin/get_TOAs.py
+  inflating: presto_on_gpu-master/tests/bin/makedata
+  inflating: presto_on_gpu-master/tests/bin/makeinf
+  inflating: presto_on_gpu-master/tests/bin/makezaplist.py
+  inflating: presto_on_gpu-master/tests/bin/mjd2cal
+  inflating: presto_on_gpu-master/tests/bin/patchdata
+  inflating: presto_on_gpu-master/tests/bin/pfd_for_timing.py
+  inflating: presto_on_gpu-master/tests/bin/plotbincand
+  inflating: presto_on_gpu-master/tests/bin/powerstats.py
+  inflating: presto_on_gpu-master/tests/bin/prepdata
+  inflating: presto_on_gpu-master/tests/bin/prepfold
+  inflating: presto_on_gpu-master/tests/bin/prepsubband
+  inflating: presto_on_gpu-master/tests/bin/psrfits_dumparrays
+  inflating: presto_on_gpu-master/tests/bin/psrorbit
+  inflating: presto_on_gpu-master/tests/bin/pygaussfit.py
+  inflating: presto_on_gpu-master/tests/bin/pyplotres.py
+  inflating: presto_on_gpu-master/tests/bin/quickffdots.py
+  inflating: presto_on_gpu-master/tests/bin/quicklook
+  inflating: presto_on_gpu-master/tests/bin/readfile
+  inflating: presto_on_gpu-master/tests/bin/realfft
+  inflating: presto_on_gpu-master/tests/bin/rednoise
+  inflating: presto_on_gpu-master/tests/bin/rfifind
+  inflating: presto_on_gpu-master/tests/bin/sdat2dat
+  inflating: presto_on_gpu-master/tests/bin/search_bin
+  inflating: presto_on_gpu-master/tests/bin/search_rzw
+  inflating: presto_on_gpu-master/tests/bin/shiftdata
+  inflating: presto_on_gpu-master/tests/bin/show_pfd
+  inflating: presto_on_gpu-master/tests/bin/single_pulse_search.py
+  inflating: presto_on_gpu-master/tests/bin/sortwappfiles.py
+  inflating: presto_on_gpu-master/tests/bin/spigot2filterbank
+  inflating: presto_on_gpu-master/tests/bin/spigotSband2filterbank
+  inflating: presto_on_gpu-master/tests/bin/split_parkes_beams
+  inflating: presto_on_gpu-master/tests/bin/sum_profiles.py
+  inflating: presto_on_gpu-master/tests/bin/swap_endian
+  inflating: presto_on_gpu-master/tests/bin/taperaw
+  inflating: presto_on_gpu-master/tests/bin/toas2dat
+  inflating: presto_on_gpu-master/tests/bin/un_sc_td
+  inflating: presto_on_gpu-master/tests/bin/weight_psrfits
+  inflating: presto_on_gpu-master/tests/bin/window
+  inflating: presto_on_gpu-master/tests/bin/zapbirds
+   creating: presto_on_gpu-master/tests/clig/
+  inflating: presto_on_gpu-master/tests/clig/accelsearch.1
+  inflating: presto_on_gpu-master/tests/clig/accelsearch_cmd.cli
+  inflating: presto_on_gpu-master/tests/clig/bincand.1
+  inflating: presto_on_gpu-master/tests/clig/bincand_cmd.cli
+  inflating: presto_on_gpu-master/tests/clig/cmdline.cli
+  inflating: presto_on_gpu-master/tests/clig/dftfold.1
+  inflating: presto_on_gpu-master/tests/clig/dftfold_cmd.cli
+  inflating: presto_on_gpu-master/tests/clig/downsample.1
+  inflating: presto_on_gpu-master/tests/clig/downsample_cmd.cli
+  inflating: presto_on_gpu-master/tests/clig/mpiprepsubband.1
+  inflating: presto_on_gpu-master/tests/clig/mpiprepsubband_cmd.cli
+  inflating: presto_on_gpu-master/tests/clig/prepdata.1
+  inflating: presto_on_gpu-master/tests/clig/prepdata_cmd.cli
+  inflating: presto_on_gpu-master/tests/clig/prepfold.1
+  inflating: presto_on_gpu-master/tests/clig/prepfold_cmd.cli
+  inflating: presto_on_gpu-master/tests/clig/prepsubband.1
+  inflating: presto_on_gpu-master/tests/clig/prepsubband_cmd.cli
+  inflating: presto_on_gpu-master/tests/clig/profile.1
+  inflating: presto_on_gpu-master/tests/clig/profile_cmd.cli
+  inflating: presto_on_gpu-master/tests/clig/readfile.1
+  inflating: presto_on_gpu-master/tests/clig/readfile_cmd.cli
+  inflating: presto_on_gpu-master/tests/clig/realfft.1
+  inflating: presto_on_gpu-master/tests/clig/realfft_cmd.cli
+  inflating: presto_on_gpu-master/tests/clig/rednoise.1
+  inflating: presto_on_gpu-master/tests/clig/rednoise_cmd.cli
+  inflating: presto_on_gpu-master/tests/clig/rfifind.1
+  inflating: presto_on_gpu-master/tests/clig/rfifind_cmd.cli
+  inflating: presto_on_gpu-master/tests/clig/search_bin.1
+  inflating: presto_on_gpu-master/tests/clig/search_bin_cmd.cli
+  inflating: presto_on_gpu-master/tests/clig/search_rzw.1
+  inflating: presto_on_gpu-master/tests/clig/search_rzw_cmd.cli
+  inflating: presto_on_gpu-master/tests/clig/show_pfd.1
+  inflating: presto_on_gpu-master/tests/clig/show_pfd_cmd.cli
+  inflating: presto_on_gpu-master/tests/clig/spigot2filterbank.1
+  inflating: presto_on_gpu-master/tests/clig/spigot2filterbank_cmd.cli
+  inflating: presto_on_gpu-master/tests/clig/toas2dat.1
+  inflating: presto_on_gpu-master/tests/clig/toas2dat_cmd.cli
+  inflating: presto_on_gpu-master/tests/clig/zapbirds.1
+  inflating: presto_on_gpu-master/tests/clig/zapbirds_cmd.cli
+  inflating: presto_on_gpu-master/tests/compare.c
+   creating: presto_on_gpu-master/tests/docs/
+   creating: presto_on_gpu-master/tests/docs/.xvpics/
+  inflating: presto_on_gpu-master/tests/docs/.xvpics/presto1.jpg
+  inflating: presto_on_gpu-master/tests/docs/.xvpics/presto2.jpg
+  inflating: presto_on_gpu-master/tests/docs/PRESTO_search_tutorial.odp
+  inflating: presto_on_gpu-master/tests/docs/PRESTO_search_tutorial.pdf
+  inflating: presto_on_gpu-master/tests/docs/a2x.1
+  inflating: presto_on_gpu-master/tests/docs/accelsearch.1
+  inflating: presto_on_gpu-master/tests/docs/bincand.1
+  inflating: presto_on_gpu-master/tests/docs/dftfold.1
+  inflating: presto_on_gpu-master/tests/docs/downsample.1
+  inflating: presto_on_gpu-master/tests/docs/mpiprepsubband.1
+  inflating: presto_on_gpu-master/tests/docs/prepdata.1
+  inflating: presto_on_gpu-master/tests/docs/prepfold.1
+  inflating: presto_on_gpu-master/tests/docs/prepsubband.1
+  inflating: presto_on_gpu-master/tests/docs/presto.tex
+  inflating: presto_on_gpu-master/tests/docs/presto1.jpg
+  inflating: presto_on_gpu-master/tests/docs/presto2.jpg
+  inflating: presto_on_gpu-master/tests/docs/profile.1
+  inflating: presto_on_gpu-master/tests/docs/readfile.1
+  inflating: presto_on_gpu-master/tests/docs/realfft.1
+  inflating: presto_on_gpu-master/tests/docs/rednoise.1
+  inflating: presto_on_gpu-master/tests/docs/rfifind.1
+  inflating: presto_on_gpu-master/tests/docs/search_bin.1
+  inflating: presto_on_gpu-master/tests/docs/search_rzw.1
+  inflating: presto_on_gpu-master/tests/docs/show_pfd.1
+  inflating: presto_on_gpu-master/tests/docs/spigot2filterbank.1
+  inflating: presto_on_gpu-master/tests/docs/toas2dat.1
+  inflating: presto_on_gpu-master/tests/docs/zapbirds.1
+   creating: presto_on_gpu-master/tests/include/
+  inflating: presto_on_gpu-master/tests/include/accel.h
+  inflating: presto_on_gpu-master/tests/include/accelsearch_cmd.h
+  inflating: presto_on_gpu-master/tests/include/bincand_cmd.h
+  inflating: presto_on_gpu-master/tests/include/bpp.h
+  inflating: presto_on_gpu-master/tests/include/cdflib.h
+  inflating: presto_on_gpu-master/tests/include/chkio.h
+  inflating: presto_on_gpu-master/tests/include/clk_tck.h
+  inflating: presto_on_gpu-master/tests/include/database.h
+  inflating: presto_on_gpu-master/tests/include/dftfold.h
+  inflating: presto_on_gpu-master/tests/include/dftfold_cmd.h
+  inflating: presto_on_gpu-master/tests/include/downsample_cmd.h
+  inflating: presto_on_gpu-master/tests/include/f77.h
+  inflating: presto_on_gpu-master/tests/include/fitsfile.h
+  inflating: presto_on_gpu-master/tests/include/fitshead.h
+  inflating: presto_on_gpu-master/tests/include/gmrt.h
+  inflating: presto_on_gpu-master/tests/include/imio.h
+  inflating: presto_on_gpu-master/tests/include/makedata.h
+  inflating: presto_on_gpu-master/tests/include/makeinf.h
+  inflating: presto_on_gpu-master/tests/include/mask.h
+  inflating: presto_on_gpu-master/tests/include/meminfo.h
+  inflating: presto_on_gpu-master/tests/include/misc_utils.h
+  inflating: presto_on_gpu-master/tests/include/mpiprepsubband_cmd.h
+  inflating: presto_on_gpu-master/tests/include/multibeam.h
+  inflating: presto_on_gpu-master/tests/include/multifiles.h
+  inflating: presto_on_gpu-master/tests/include/orbint.h
+  inflating: presto_on_gpu-master/tests/include/plot2d.h
+  inflating: presto_on_gpu-master/tests/include/prepdata_cmd.h
+  inflating: presto_on_gpu-master/tests/include/prepfold.h
+  inflating: presto_on_gpu-master/tests/include/prepfold_cmd.h
+  inflating: presto_on_gpu-master/tests/include/prepsubband_cmd.h
+  inflating: presto_on_gpu-master/tests/include/presto.h
+  inflating: presto_on_gpu-master/tests/include/profile_cmd.h
+  inflating: presto_on_gpu-master/tests/include/psrfits.h
+  inflating: presto_on_gpu-master/tests/include/randlib.h
+  inflating: presto_on_gpu-master/tests/include/ransomfft.h
+  inflating: presto_on_gpu-master/tests/include/rawtype.h
+  inflating: presto_on_gpu-master/tests/include/rdascat.h
+  inflating: presto_on_gpu-master/tests/include/readfile_cmd.h
+  inflating: presto_on_gpu-master/tests/include/realfft_cmd.h
+  inflating: presto_on_gpu-master/tests/include/rednoise_cmd.h
+  inflating: presto_on_gpu-master/tests/include/rfifind.h
+  inflating: presto_on_gpu-master/tests/include/rfifind_cmd.h
+  inflating: presto_on_gpu-master/tests/include/search_bin_cmd.h
+  inflating: presto_on_gpu-master/tests/include/search_rzw_cmd.h
+  inflating: presto_on_gpu-master/tests/include/show_pfd_cmd.h
+  inflating: presto_on_gpu-master/tests/include/sigproc_fb.h
+  inflating: presto_on_gpu-master/tests/include/slalib.h
+  inflating: presto_on_gpu-master/tests/include/slamac.h
+  inflating: presto_on_gpu-master/tests/include/spigot.h
+  inflating: presto_on_gpu-master/tests/include/spigot2filterbank_cmd.h
+  inflating: presto_on_gpu-master/tests/include/toas2dat_cmd.h
+  inflating: presto_on_gpu-master/tests/include/vectors.h
+  inflating: presto_on_gpu-master/tests/include/wapp.h
+  inflating: presto_on_gpu-master/tests/include/wapp_key.h
+  inflating: presto_on_gpu-master/tests/include/wapp_y.tab.h
+  inflating: presto_on_gpu-master/tests/include/zapbirds_cmd.h
+   creating: presto_on_gpu-master/tests/lib/
+  inflating: presto_on_gpu-master/tests/lib/a2x.ps
+  inflating: presto_on_gpu-master/tests/lib/a2xshell.ps
+  inflating: presto_on_gpu-master/tests/lib/aliases.txt
+  inflating: presto_on_gpu-master/tests/lib/fftw_wisdom.txt
+  inflating: presto_on_gpu-master/tests/lib/goodfactors.txt
+  inflating: presto_on_gpu-master/tests/lib/libpresto.so
+  inflating: presto_on_gpu-master/tests/lib/libsla.so
+  inflating: presto_on_gpu-master/tests/lib/parkes_birds.txt
+  inflating: presto_on_gpu-master/tests/lib/psr_catalog.txt
+  inflating: presto_on_gpu-master/tests/lib/pulsars.cat
+   creating: presto_on_gpu-master/tests/lib/python/
+ extracting: presto_on_gpu-master/tests/lib/python/.directory
+  inflating: presto_on_gpu-master/tests/lib/python/Pgplot.py
+  inflating: presto_on_gpu-master/tests/lib/python/barycenter.py
+  inflating: presto_on_gpu-master/tests/lib/python/bestprof.py
+  inflating: presto_on_gpu-master/tests/lib/python/binary_psr.py
+  inflating: presto_on_gpu-master/tests/lib/python/catalog.py
+  inflating: presto_on_gpu-master/tests/lib/python/catalog_oldstyle.py
+  inflating: presto_on_gpu-master/tests/lib/python/catalog_query.txt
+  inflating: presto_on_gpu-master/tests/lib/python/cosine_rand.pickle
+  inflating: presto_on_gpu-master/tests/lib/python/cosine_rand.py
+  inflating: presto_on_gpu-master/tests/lib/python/events.py
+  inflating: presto_on_gpu-master/tests/lib/python/infodata.py
+  inflating: presto_on_gpu-master/tests/lib/python/kuiper.py
+  inflating: presto_on_gpu-master/tests/lib/python/parfile.py
+  inflating: presto_on_gpu-master/tests/lib/python/polycos.py
+  inflating: presto_on_gpu-master/tests/lib/python/prepfold.py
+  inflating: presto_on_gpu-master/tests/lib/python/psr_constants.py
+  inflating: presto_on_gpu-master/tests/lib/python/psr_utils.py
+  inflating: presto_on_gpu-master/tests/lib/python/residuals.py
+  inflating: presto_on_gpu-master/tests/lib/python/rfifind.py
+  inflating: presto_on_gpu-master/tests/lib/python/sifting.py
+  inflating: presto_on_gpu-master/tests/lib/python/sigproc.py
+  inflating: presto_on_gpu-master/tests/lib/python/simple_roots.py
+  inflating: presto_on_gpu-master/tests/lib/python/sinc_interp.py
+  inflating: presto_on_gpu-master/tests/modbstretch.c
+   creating: presto_on_gpu-master/tests/python/
+  inflating: presto_on_gpu-master/tests/python/Makefile
+  inflating: presto_on_gpu-master/tests/python/cvec.py
+  inflating: presto_on_gpu-master/tests/python/cvec.pyc
+  inflating: presto_on_gpu-master/tests/python/cvects.c
+  inflating: presto_on_gpu-master/tests/python/cvects.h
+  inflating: presto_on_gpu-master/tests/python/cvects.i
+  inflating: presto_on_gpu-master/tests/python/dedisp.py
+  inflating: presto_on_gpu-master/tests/python/dftvectors.py
+   creating: presto_on_gpu-master/tests/python/misc/
+  inflating: presto_on_gpu-master/tests/python/misc/cbitopt.txt
+  inflating: presto_on_gpu-master/tests/python/misc/pychecks.py
+  inflating: presto_on_gpu-master/tests/python/pdm2raw.py
+   creating: presto_on_gpu-master/tests/python/ppgplot_src/
+ extracting: presto_on_gpu-master/tests/python/ppgplot_src/__init__.py
+  inflating: presto_on_gpu-master/tests/python/ppgplot_src/_ppgplot.c
+ extracting: presto_on_gpu-master/tests/python/preppaste.py
+   creating: presto_on_gpu-master/tests/python/presto_src/
+  inflating: presto_on_gpu-master/tests/python/presto_src/__init__.py
+  inflating: presto_on_gpu-master/tests/python/presto_src/presto_wrap.c
+  inflating: presto_on_gpu-master/tests/python/presto_src/presto_wrap.c~
+  inflating: presto_on_gpu-master/tests/python/presto_src/prestoswig.py
+  inflating: presto_on_gpu-master/tests/python/presto_src/prestoswig.pyc
+  inflating: presto_on_gpu-master/tests/python/show_zresp.py
+  inflating: presto_on_gpu-master/tests/python/test.c
+  inflating: presto_on_gpu-master/tests/python/test.i
+  inflating: presto_on_gpu-master/tests/python/test_cvects.c
+   creating: presto_on_gpu-master/tests/python/wrappers/
+  inflating: presto_on_gpu-master/tests/python/wrappers/Makefile
+  inflating: presto_on_gpu-master/tests/python/wrappers/color.i
+  inflating: presto_on_gpu-master/tests/python/wrappers/numpy.i
+  inflating: presto_on_gpu-master/tests/python/wrappers/presto.i
+  inflating: presto_on_gpu-master/tests/python/wrappers/presto.py
+  inflating: presto_on_gpu-master/tests/python/wrappers/presto_psrdata.i
+  inflating: presto_on_gpu-master/tests/python/wrappers/presto_structs.i
+  inflating: presto_on_gpu-master/tests/python/wrappers/presto_wrap.c
+  inflating: presto_on_gpu-master/tests/test_apps.c
+  inflating: presto_on_gpu-master/tests/test_binary.c
+  inflating: presto_on_gpu-master/tests/test_fdot.mak
+  inflating: presto_on_gpu-master/tests/test_ffts.c
+  inflating: presto_on_gpu-master/tests/test_finterp.mak
+  inflating: presto_on_gpu-master/tests/test_fold.c
+  inflating: presto_on_gpu-master/tests/test_keplar.c
+  inflating: presto_on_gpu-master/tests/test_moments.c
+  inflating: presto_on_gpu-master/tests/test_phasemod.mak
+  inflating: presto_on_gpu-master/tests/test_pkmb_convert.c
+  inflating: presto_on_gpu-master/tests/test_plot.mak
+  inflating: presto_on_gpu-master/tests/test_profile.mak
+  inflating: presto_on_gpu-master/tests/testbess.c
+  inflating: presto_on_gpu-master/tests/testbinresp.c
+  inflating: presto_on_gpu-master/tests/testbinresp_bak.c
+  inflating: presto_on_gpu-master/tests/testdatabase.c
+  inflating: presto_on_gpu-master/tests/tester.c
+  inflating: presto_on_gpu-master/tests/testfold.mak
+  inflating: presto_on_gpu-master/tests/testmulti.c
+  inflating: presto_on_gpu-master/tests/testresp.c
+  inflating: presto_on_gpu-master/tests/testresp.mak
+  inflating: presto_on_gpu-master/tests/testz.mak
+  inflating: presto_on_gpu-master/tests/wchar.c
+(base) [john@tjigem Playground]$
+(base) [john@tjigem Playground]$ cd QuEST-master/
+(base) [john@tjigem QuEST-master]$ ll
+total 156
+-rw-rw-r--. 1 john john    612 Nov 17 14:27 AUTHORS.txt
+drwxrwxr-x. 2 john john    160 Nov 17 14:27 benchmark
+drwxrwxr-x. 2 john john     24 Nov 17 14:27 cmake
+-rw-rw-r--. 1 john john   3905 Nov 17 14:27 CMakeLists.txt
+drwxrwxr-x. 2 john john   8192 Nov 17 14:27 docs
+-rw-rw-r--. 1 john john 121261 Nov 17 14:27 doxyconf
+drwxrwxr-x. 3 john john    151 Nov 17 14:27 examples
+-rw-rw-r--. 1 john john   1066 Nov 17 14:27 LICENCE.txt
+drwxrwxr-x. 4 john john     54 Nov 17 14:27 QuEST
+-rw-rw-r--. 1 john john   5050 Nov 17 14:27 README.md
+drwxrwxr-x. 6 john john     66 Nov 17 14:27 tests
+-rw-rw-r--. 1 john john   2128 Nov 17 14:27 tutorial_example.c
+drwxrwxr-x. 4 john john     97 Nov 17 14:27 utilities
+(base) [john@tjigem QuEST-master]$ mkdir build
+(base) [john@tjigem QuEST-master]$ nvcc
+bash: nvcc: command not found...
+
+(base) [john@tjigem QuEST-master]$
+(base) [john@tjigem QuEST-master]$
+(base) [john@tjigem QuEST-master]$ ll
+total 156
+-rw-rw-r--. 1 john john    612 Nov 17 14:27 AUTHORS.txt
+drwxrwxr-x. 2 john john    160 Nov 17 14:27 benchmark
+drwxrwxr-x. 2 john john      6 Dec 15 19:16 build
+drwxrwxr-x. 2 john john     24 Nov 17 14:27 cmake
+-rw-rw-r--. 1 john john   3905 Nov 17 14:27 CMakeLists.txt
+drwxrwxr-x. 2 john john   8192 Nov 17 14:27 docs
+-rw-rw-r--. 1 john john 121261 Nov 17 14:27 doxyconf
+drwxrwxr-x. 3 john john    151 Nov 17 14:27 examples
+-rw-rw-r--. 1 john john   1066 Nov 17 14:27 LICENCE.txt
+drwxrwxr-x. 4 john john     54 Nov 17 14:27 QuEST
+-rw-rw-r--. 1 john john   5050 Nov 17 14:27 README.md
+drwxrwxr-x. 6 john john     66 Nov 17 14:27 tests
+-rw-rw-r--. 1 john john   2128 Nov 17 14:27 tutorial_example.c
+drwxrwxr-x. 4 john john     97 Nov 17 14:27 utilities
+(base) [john@tjigem QuEST-master]$ cmake -DGPUACCELERATED=1 -DGPU_COMPUTE_CAPABILITY=30
+-- The C compiler identification is GNU 8.3.1
+-- The CXX compiler identification is GNU 8.3.1
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- GPU acceleration is 1
+-- OMP acceleration is ON
+-- MPI distribution is OFF
+CMake Warning at QuEST/CMakeLists.txt:75 (message):
+  MULTITHREADED=ON and GPUACCELERATED=1 set but GPU version makes no use of
+  multithreading.  Ignoring multithreading settings
+
+
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE
+-- Found CUDA: /usr/local/cuda (found version "10.2")
+-- Compiling tutorial_example.c to executable demo
+-- Found PythonInterp: /usr/bin/python3.6 (found version "3.6.8")
+-- Testing is ON
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/john/Others/Playground/QuEST-master
+(base) [john@tjigem QuEST-master]$ ll
+total 204
+-rw-rw-r--. 1 john john    612 Nov 17 14:27 AUTHORS.txt
+drwxrwxr-x. 2 john john    160 Nov 17 14:27 benchmark
+drwxrwxr-x. 2 john john      6 Dec 15 19:16 build
+drwxrwxr-x. 2 john john     24 Nov 17 14:27 cmake
+-rw-rw-r--. 1 john john  24986 Dec 15 19:18 CMakeCache.txt
+drwxrwxr-x. 8 john john   4096 Dec 15 19:18 CMakeFiles
+-rw-rw-r--. 1 john john   1791 Dec 15 19:18 cmake_install.cmake
+-rw-rw-r--. 1 john john   3905 Nov 17 14:27 CMakeLists.txt
+-rw-rw-r--. 1 john john    333 Dec 15 19:18 CTestTestfile.cmake
+drwxrwxr-x. 2 john john   8192 Nov 17 14:27 docs
+-rw-rw-r--. 1 john john 121261 Nov 17 14:27 doxyconf
+drwxrwxr-x. 3 john john    151 Nov 17 14:27 examples
+-rw-rw-r--. 1 john john   1066 Nov 17 14:27 LICENCE.txt
+-rw-rw-r--. 1 john john   7870 Dec 15 19:18 Makefile
+drwxrwxr-x. 5 john john    115 Dec 15 19:18 QuEST
+-rw-rw-r--. 1 john john   5050 Nov 17 14:27 README.md
+drwxrwxr-x. 6 john john     66 Nov 17 14:27 tests
+-rw-rw-r--. 1 john john   2128 Nov 17 14:27 tutorial_example.c
+drwxrwxr-x. 5 john john    185 Dec 15 19:18 utilities
+(base) [john@tjigem QuEST-master]$ rm Makefile
+(base) [john@tjigem QuEST-master]$ cd build/
+(base) [john@tjigem build]$ cmake -DGPUACCELERATED=1 -DGPU_COMPUTE_CAPABILITY=30
+CMake Error: The source directory "/home/john/Others/Playground/QuEST-master/build" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
+(base) [john@tjigem build]$ cd ..
+(base) [john@tjigem QuEST-master]$ cmake -DGPUACCELERATED=1 -DGPU_COMPUTE_CAPABILITY=30
+-- GPU acceleration is 1
+-- OMP acceleration is ON
+-- MPI distribution is OFF
+CMake Warning at QuEST/CMakeLists.txt:75 (message):
+  MULTITHREADED=ON and GPUACCELERATED=1 set but GPU version makes no use of
+  multithreading.  Ignoring multithreading settings
+
+
+-- Compiling tutorial_example.c to executable demo
+-- Testing is ON
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/john/Others/Playground/QuEST-master
+(base) [john@tjigem QuEST-master]$
+(base) [john@tjigem QuEST-master]$ cmake -DGPUACCELERATED=1 -DGPU_COMPUTE_CAPABILITY=30
+-- GPU acceleration is 1
+-- OMP acceleration is ON
+-- MPI distribution is OFF
+CMake Warning at QuEST/CMakeLists.txt:75 (message):
+  MULTITHREADED=ON and GPUACCELERATED=1 set but GPU version makes no use of
+  multithreading.  Ignoring multithreading settings
+
+
+-- Compiling tutorial_example.c to executable demo
+-- Testing is ON
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/john/Others/Playground/QuEST-master
+(base) [john@tjigem QuEST-master]$ cmake -DGPUACCELERATED=1
+-- GPU acceleration is 1
+-- OMP acceleration is ON
+-- MPI distribution is OFF
+CMake Warning at QuEST/CMakeLists.txt:75 (message):
+  MULTITHREADED=ON and GPUACCELERATED=1 set but GPU version makes no use of
+  multithreading.  Ignoring multithreading settings
+
+
+-- Compiling tutorial_example.c to executable demo
+-- Testing is ON
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/john/Others/Playground/QuEST-master
+(base) [john@tjigem QuEST-master]$ cmake -DGPUACCELERATED=1 -DGPU_COMPUTE_CAPABILITY=30
+-- GPU acceleration is 1
+-- OMP acceleration is ON
+-- MPI distribution is OFF
+CMake Warning at QuEST/CMakeLists.txt:75 (message):
+  MULTITHREADED=ON and GPUACCELERATED=1 set but GPU version makes no use of
+  multithreading.  Ignoring multithreading settings
+
+
+-- Compiling tutorial_example.c to executable demo
+-- Testing is ON
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/john/Others/Playground/QuEST-master
+(base) [john@tjigem QuEST-master]$
+(base) [john@tjigem QuEST-master]$ ll
+total 204
+-rw-rw-r--. 1 john john    612 Nov 17 14:27 AUTHORS.txt
+drwxrwxr-x. 2 john john    160 Nov 17 14:27 benchmark
+drwxrwxr-x. 2 john john      6 Dec 15 19:16 build
+drwxrwxr-x. 2 john john     24 Nov 17 14:27 cmake
+-rw-rw-r--. 1 john john  24986 Dec 15 19:18 CMakeCache.txt
+drwxrwxr-x. 8 john john   4096 Dec 15 19:19 CMakeFiles
+-rw-rw-r--. 1 john john   1791 Dec 15 19:18 cmake_install.cmake
+-rw-rw-r--. 1 john john   3905 Nov 17 14:27 CMakeLists.txt
+-rw-rw-r--. 1 john john    333 Dec 15 19:18 CTestTestfile.cmake
+drwxrwxr-x. 2 john john   8192 Nov 17 14:27 docs
+-rw-rw-r--. 1 john john 121261 Nov 17 14:27 doxyconf
+drwxrwxr-x. 3 john john    151 Nov 17 14:27 examples
+-rw-rw-r--. 1 john john   1066 Nov 17 14:27 LICENCE.txt
+-rw-rw-r--. 1 john john   7870 Dec 15 19:19 Makefile
+drwxrwxr-x. 5 john john    115 Dec 15 19:19 QuEST
+-rw-rw-r--. 1 john john   5050 Nov 17 14:27 README.md
+drwxrwxr-x. 6 john john     66 Nov 17 14:27 tests
+-rw-rw-r--. 1 john john   2128 Nov 17 14:27 tutorial_example.c
+drwxrwxr-x. 5 john john    185 Dec 15 19:19 utilities
+(base) [john@tjigem QuEST-master]$ vim Makefile
+(base) [john@tjigem QuEST-master]$ cd tests/
+(base) [john@tjigem tests]$ ll
+total 0
+drwxrwxr-x. 2 john john 62 Nov 17 14:27 algor
+drwxrwxr-x. 2 john john 35 Nov 17 14:27 benchmarks
+drwxrwxr-x. 3 john john 26 Nov 17 14:27 essential
+drwxrwxr-x. 4 john john 48 Nov 17 14:27 unit
+(base) [john@tjigem tests]$ tree
+.
+├── algor
+│   ├── QFT.test
+│   ├── QFTtests
+│   └── rotate_test.test
+├── benchmarks
+│   └── rotate_benchmark.test
+├── essential
+│   └── state_vector
+│       ├── createDensityQureg.test
+│       ├── createQureg.test
+│       ├── destroyQureg.test
+│       ├── initClassicalState.test
+│       ├── initPlusState.test
+│       ├── initStateDebug.test
+│       ├── initZeroState.test
+│       ├── seedQuEST.test
+│       └── setAmps.test
+└── unit
+    ├── density_matrix
+    │   ├── gates
+    │   │   ├── collapseToOutcome.test
+    │   │   ├── compactUnitary.test
+    │   │   ├── controlledCompactUnitary.test
+    │   │   ├── controlledNot.test
+    │   │   ├── controlledPauliY.test
+    │   │   ├── controlledPhaseFlip.test
+    │   │   ├── controlledPhaseShift.test
+    │   │   ├── controlledRotateAroundAxis.test
+    │   │   ├── controlledRotateX.test
+    │   │   ├── controlledRotateY.test
+    │   │   ├── controlledRotateZ.test
+    │   │   ├── controlledUnitary.test
+    │   │   ├── hadamard.test
+    │   │   ├── multiControlledPhaseFlip.test
+    │   │   ├── multiControlledPhaseShift.test
+    │   │   ├── multiControlledUnitary.test
+    │   │   ├── pauliX.test
+    │   │   ├── pauliY.test
+    │   │   ├── pauliZ.test
+    │   │   ├── phaseShift.test
+    │   │   ├── rotateAroundAxis.test
+    │   │   ├── rotateX.test
+    │   │   ├── rotateY.test
+    │   │   ├── rotateZ.test
+    │   │   ├── sGate.test
+    │   │   ├── tGate.test
+    │   │   └── unitary.test
+    │   ├── maths
+    │   │   ├── calcProbOfOutcome.test
+    │   │   ├── calcPurity.test
+    │   │   ├── calcTotalProb.test
+    │   │   └── getDensityAmp.test
+    │   └── noise
+    │       ├── applyOneQubitDampingError.test
+    │       ├── applyOneQubitDephaseError.test
+    │       ├── applyOneQubitDepolariseError.test
+    │       ├── applyTwoQubitDephaseError.test
+    │       └── applyTwoQubitDepolariseError.test
+    └── state_vector
+        ├── gates
+        │   ├── collapseToOutcome.test
+        │   ├── compactUnitary.test
+        │   ├── controlledCompactUnitary.test
+        │   ├── controlledNot.test
+        │   ├── controlledPauliY.test
+        │   ├── controlledPhaseFlip.test
+        │   ├── controlledPhaseShift.test
+        │   ├── controlledRotateAroundAxis.test
+        │   ├── controlledRotateX.test
+        │   ├── controlledRotateY.test
+        │   ├── controlledRotateZ.test
+        │   ├── controlledUnitary.test
+        │   ├── hadamard.test
+        │   ├── multiControlledPhaseFlip.test
+        │   ├── multiControlledPhaseShift.test
+        │   ├── multiControlledUnitary.test
+        │   ├── pauliX.test
+        │   ├── pauliY.test
+        │   ├── pauliZ.test
+        │   ├── phaseShift.test
+        │   ├── rotateAroundAxis.test
+        │   ├── rotateX.test
+        │   ├── rotateY.test
+        │   ├── rotateZ.test
+        │   ├── sGate.test
+        │   ├── tGate.test
+        │   └── unitary.test
+        └── maths
+            ├── calcFidelity.test
+            ├── calcInnerProduct.test
+            ├── calcProbOfOutcome.test
+            ├── calcTotalProb.test
+            ├── getAmp.test
+            ├── getImagAmp.test
+            ├── getNumAmps.test
+            ├── getNumQubits.test
+            ├── getProbAmp.test
+            ├── getRealAmp.test
+            ├── measure.test
+            └── measureWithStats.test
+
+12 directories, 88 files
+(base) [john@tjigem tests]$ cd ..
+(base) [john@tjigem QuEST-master]$
+(base) [john@tjigem QuEST-master]$ ll
+total 204
+-rw-rw-r--. 1 john john    612 Nov 17 14:27 AUTHORS.txt
+drwxrwxr-x. 2 john john    160 Nov 17 14:27 benchmark
+drwxrwxr-x. 2 john john      6 Dec 15 19:16 build
+drwxrwxr-x. 2 john john     24 Nov 17 14:27 cmake
+-rw-rw-r--. 1 john john  24986 Dec 15 19:18 CMakeCache.txt
+drwxrwxr-x. 8 john john   4096 Dec 15 19:19 CMakeFiles
+-rw-rw-r--. 1 john john   1791 Dec 15 19:18 cmake_install.cmake
+-rw-rw-r--. 1 john john   3905 Nov 17 14:27 CMakeLists.txt
+-rw-rw-r--. 1 john john    333 Dec 15 19:18 CTestTestfile.cmake
+drwxrwxr-x. 2 john john   8192 Nov 17 14:27 docs
+-rw-rw-r--. 1 john john 121261 Nov 17 14:27 doxyconf
+drwxrwxr-x. 3 john john    151 Nov 17 14:27 examples
+-rw-rw-r--. 1 john john   1066 Nov 17 14:27 LICENCE.txt
+-rw-rw-r--. 1 john john   7870 Dec 15 19:19 Makefile
+drwxrwxr-x. 5 john john    115 Dec 15 19:19 QuEST
+-rw-rw-r--. 1 john john   5050 Nov 17 14:27 README.md
+drwxrwxr-x. 6 john john     66 Nov 17 14:27 tests
+-rw-rw-r--. 1 john john   2128 Nov 17 14:27 tutorial_example.c
+drwxrwxr-x. 5 john john    185 Dec 15 19:19 utilities
+(base) [john@tjigem QuEST-master]$ make
+[ 11%] Building NVCC (Device) object QuEST/CMakeFiles/QuEST.dir/src/GPU/QuEST_generated_QuEST_gpu.cu.o
+cc1plus: warning: command line option ‘-std=c99’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-std=c99’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-std=c99’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-std=c99’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-std=c99’ is valid for C/ObjC but not for C++
+Scanning dependencies of target QuEST
+[ 22%] Building C object QuEST/CMakeFiles/QuEST.dir/src/QuEST.c.o
+[ 33%] Building C object QuEST/CMakeFiles/QuEST.dir/src/QuEST_common.c.o
+[ 44%] Building C object QuEST/CMakeFiles/QuEST.dir/src/QuEST_qasm.c.o
+[ 55%] Building C object QuEST/CMakeFiles/QuEST.dir/src/QuEST_validation.c.o
+[ 66%] Building C object QuEST/CMakeFiles/QuEST.dir/src/mt19937ar.c.o
+[ 77%] Linking CXX shared library libQuEST.so
+[ 77%] Built target QuEST
+Scanning dependencies of target demo
+[ 88%] Building C object CMakeFiles/demo.dir/tutorial_example.c.o
+[100%] Linking C executable demo
+[100%] Built target demo
+(base) [john@tjigem QuEST-master]$ ./demo
+-------------------------------------------------------
+Running QuEST tutorial:
+         Basic circuit involving a system of 3 qubits.
+-------------------------------------------------------
+
+This is our environment:
+QUBITS:
+Number of qubits is 3.
+Number of amps is 8.
+Number of amps per rank is 8.
+EXECUTION ENVIRONMENT:
+Running locally on one node with GPU
+Number of ranks is 1
+OpenMP disabled
+
+Circuit output:
+Probability amplitude of |111>: 0.498751
+Probability of qubit 2 being in state 1: 0.749178
+Qubit 0 was measured in state 1
+Qubit 2 collapsed to 1 with probability 0.998752
+(base) [john@tjigem QuEST-master]$ ./demo
+-------------------------------------------------------
+Running QuEST tutorial:
+         Basic circuit involving a system of 3 qubits.
+-------------------------------------------------------
+
+This is our environment:
+QUBITS:
+Number of qubits is 3.
+Number of amps is 8.
+Number of amps per rank is 8.
+EXECUTION ENVIRONMENT:
+Running locally on one node with GPU
+Number of ranks is 1
+OpenMP disabled
+
+Circuit output:
+Probability amplitude of |111>: 0.498751
+Probability of qubit 2 being in state 1: 0.749178
+Qubit 0 was measured in state 0
+Qubit 2 collapsed to 1 with probability 0.499604
+(base) [john@tjigem QuEST-master]$ gcc -V |grep NVCC
+gcc: error: unrecognized command line option ‘-V’
+gcc: fatal error: no input files
+compilation terminated.
+(base) [john@tjigem QuEST-master]$ gcc -v
+Using built-in specs.
+COLLECT_GCC=gcc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 8.3.1 20191121 (Red Hat 8.3.1-5) (GCC)
+(base) [john@tjigem QuEST-master]$ gcc -v|grep nvcc
+Using built-in specs.
+COLLECT_GCC=gcc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 8.3.1 20191121 (Red Hat 8.3.1-5) (GCC)
+(base) [john@tjigem QuEST-master]$
+(base) [john@tjigem QuEST-master]$ ./demo
+-------------------------------------------------------
+Running QuEST tutorial:
+         Basic circuit involving a system of 3 qubits.
+-------------------------------------------------------
+
+This is our environment:
+QUBITS:
+Number of qubits is 3.
+Number of amps is 8.
+Number of amps per rank is 8.
+EXECUTION ENVIRONMENT:
+Running locally on one node with GPU
+Number of ranks is 1
+OpenMP disabled
+
+Circuit output:
+Probability amplitude of |111>: 0.498751
+Probability of qubit 2 being in state 1: 0.749178
+Qubit 0 was measured in state 1
+Qubit 2 collapsed to 1 with probability 0.998752
+(base) [john@tjigem QuEST-master]$ ll
+total 224
+-rw-rw-r--. 1 john john    612 Nov 17 14:27 AUTHORS.txt
+drwxrwxr-x. 2 john john    160 Nov 17 14:27 benchmark
+drwxrwxr-x. 2 john john      6 Dec 15 19:16 build
+drwxrwxr-x. 2 john john     24 Nov 17 14:27 cmake
+-rw-rw-r--. 1 john john  24986 Dec 15 19:18 CMakeCache.txt
+drwxrwxr-x. 8 john john   4096 Dec 15 19:22 CMakeFiles
+-rw-rw-r--. 1 john john   1791 Dec 15 19:18 cmake_install.cmake
+-rw-rw-r--. 1 john john   3905 Nov 17 14:27 CMakeLists.txt
+-rw-rw-r--. 1 john john    333 Dec 15 19:18 CTestTestfile.cmake
+-rwxrwxr-x. 1 john john  17840 Dec 15 19:22 demo
+drwxrwxr-x. 2 john john   8192 Nov 17 14:27 docs
+-rw-rw-r--. 1 john john 121261 Nov 17 14:27 doxyconf
+drwxrwxr-x. 3 john john    151 Nov 17 14:27 examples
+-rw-rw-r--. 1 john john   1066 Nov 17 14:27 LICENCE.txt
+-rw-rw-r--. 1 john john   7870 Dec 15 19:19 Makefile
+drwxrwxr-x. 5 john john    134 Dec 15 19:22 QuEST
+-rw-rw-r--. 1 john john   5050 Nov 17 14:27 README.md
+drwxrwxr-x. 6 john john     66 Nov 17 14:27 tests
+-rw-rw-r--. 1 john john   2128 Nov 17 14:27 tutorial_example.c
+drwxrwxr-x. 5 john john    185 Dec 15 19:19 utilities
+(base) [john@tjigem QuEST-master]$ cd build/
+(base) [john@tjigem build]$ ll
+total 0
+(base) [john@tjigem build]$ cd ..
+(base) [john@tjigem QuEST-master]$ cp benchmark/* ./
+(base) [john@tjigem QuEST-master]$ ll
+total 288
+-rw-rw-r--. 1 john john    612 Nov 17 14:27 AUTHORS.txt
+drwxrwxr-x. 2 john john    160 Nov 17 14:27 benchmark
+drwxrwxr-x. 2 john john      6 Dec 15 19:16 build
+drwxrwxr-x. 2 john john     24 Nov 17 14:27 cmake
+-rw-rw-r--. 1 john john  24986 Dec 15 19:18 CMakeCache.txt
+drwxrwxr-x. 8 john john   4096 Dec 15 19:22 CMakeFiles
+-rw-rw-r--. 1 john john   1791 Dec 15 19:18 cmake_install.cmake
+-rw-rw-r--. 1 john john   3905 Nov 17 14:27 CMakeLists.txt
+-rw-rw-r--. 1 john john    333 Dec 15 19:18 CTestTestfile.cmake
+-rwxrwxr-x. 1 john john  17840 Dec 15 19:22 demo
+drwxrwxr-x. 2 john john   8192 Nov 17 14:27 docs
+-rw-rw-r--. 1 john john 121261 Nov 17 14:27 doxyconf
+drwxrwxr-x. 3 john john    151 Nov 17 14:27 examples
+-rw-rw-r--. 1 john john  21039 Dec 15 19:28 GHZ_QFT.c
+-rw-rw-r--. 1 john john   1066 Nov 17 14:27 LICENCE.txt
+-rw-rw-r--. 1 john john   7870 Dec 15 19:19 Makefile
+-rw-rw-r--. 1 john john    314 Dec 15 19:28 mytimer.hpp
+-rw-rw-r--. 1 john john   1201 Dec 15 19:28 probs.dat_GHZ
+-rw-rw-r--. 1 john john   1201 Dec 15 19:28 probs.dat_random
+drwxrwxr-x. 5 john john    134 Dec 15 19:22 QuEST
+-rw-rw-r--. 1 john john  16964 Dec 15 19:28 random.c
+-rw-rw-r--. 1 john john   5050 Nov 17 14:27 README.md
+-rw-rw-r--. 1 john john    570 Dec 15 19:28 stateVector.dat_GHZ
+-rw-rw-r--. 1 john john    570 Dec 15 19:28 stateVector.dat_random
+drwxrwxr-x. 6 john john     66 Nov 17 14:27 tests
+-rw-rw-r--. 1 john john   2128 Nov 17 14:27 tutorial_example.c
+drwxrwxr-x. 5 john john    185 Dec 15 19:19 utilities
+(base) [john@tjigem QuEST-master]$ cmake -DUSER_SOURCE="GHZ_QFT.c" -DGPUACCELERATED=1
+-- GPU acceleration is 1
+-- OMP acceleration is ON
+-- MPI distribution is OFF
+CMake Warning at QuEST/CMakeLists.txt:75 (message):
+  MULTITHREADED=ON and GPUACCELERATED=1 set but GPU version makes no use of
+  multithreading.  Ignoring multithreading settings
+
+
+-- Compiling GHZ_QFT.c to executable demo
+-- Testing is ON
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/john/Others/Playground/QuEST-master
+(base) [john@tjigem QuEST-master]$ make
+[ 11%] Linking CXX shared library libQuEST.so
+[ 77%] Built target QuEST
+Scanning dependencies of target demo
+[ 88%] Building C object CMakeFiles/demo.dir/GHZ_QFT.c.o
+[100%] Linking C executable demo
+[100%] Built target demo
+(base) [john@tjigem QuEST-master]$ ./demo
+Could not allocate memory on GPU!
+(base) [john@tjigem QuEST-master]$ cmake -DUSER_SOURCE="GHZ_QFT.c"
+-- GPU acceleration is 1
+-- OMP acceleration is ON
+-- MPI distribution is OFF
+CMake Warning at QuEST/CMakeLists.txt:75 (message):
+  MULTITHREADED=ON and GPUACCELERATED=1 set but GPU version makes no use of
+  multithreading.  Ignoring multithreading settings
+
+
+-- Compiling GHZ_QFT.c to executable demo
+-- Testing is ON
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/john/Others/Playground/QuEST-master
+(base) [john@tjigem QuEST-master]$ make
+[ 77%] Built target QuEST
+[100%] Built target demo
+(base) [john@tjigem QuEST-master]$ ./demo
+Could not allocate memory on GPU!
+(base) [john@tjigem QuEST-master]$ make clean
+(base) [john@tjigem QuEST-master]$ ./demo
+-bash: ./demo: No such file or directory
+(base) [john@tjigem QuEST-master]$
+(base) [john@tjigem QuEST-master]$ ll
+total 268
+-rw-rw-r--. 1 john john    612 Nov 17 14:27 AUTHORS.txt
+drwxrwxr-x. 2 john john    160 Nov 17 14:27 benchmark
+drwxrwxr-x. 2 john john      6 Dec 15 19:16 build
+drwxrwxr-x. 2 john john     24 Nov 17 14:27 cmake
+-rw-rw-r--. 1 john john  24977 Dec 15 19:29 CMakeCache.txt
+drwxrwxr-x. 8 john john   4096 Dec 15 19:31 CMakeFiles
+-rw-rw-r--. 1 john john   1791 Dec 15 19:18 cmake_install.cmake
+-rw-rw-r--. 1 john john   3905 Nov 17 14:27 CMakeLists.txt
+-rw-rw-r--. 1 john john    333 Dec 15 19:18 CTestTestfile.cmake
+drwxrwxr-x. 2 john john   8192 Nov 17 14:27 docs
+-rw-rw-r--. 1 john john 121261 Nov 17 14:27 doxyconf
+drwxrwxr-x. 3 john john    151 Nov 17 14:27 examples
+-rw-rw-r--. 1 john john  21039 Dec 15 19:28 GHZ_QFT.c
+-rw-rw-r--. 1 john john   1066 Nov 17 14:27 LICENCE.txt
+-rw-rw-r--. 1 john john   7681 Dec 15 19:31 Makefile
+-rw-rw-r--. 1 john john    314 Dec 15 19:28 mytimer.hpp
+-rw-rw-r--. 1 john john      0 Dec 15 19:32 probs.dat
+-rw-rw-r--. 1 john john   1201 Dec 15 19:28 probs.dat_GHZ
+-rw-rw-r--. 1 john john   1201 Dec 15 19:28 probs.dat_random
+drwxrwxr-x. 5 john john    115 Dec 15 19:32 QuEST
+-rw-rw-r--. 1 john john  16964 Dec 15 19:28 random.c
+-rw-rw-r--. 1 john john   5050 Nov 17 14:27 README.md
+-rw-rw-r--. 1 john john      0 Dec 15 19:32 stateVector.dat
+-rw-rw-r--. 1 john john    570 Dec 15 19:28 stateVector.dat_GHZ
+-rw-rw-r--. 1 john john    570 Dec 15 19:28 stateVector.dat_random
+drwxrwxr-x. 6 john john     66 Nov 17 14:27 tests
+-rw-rw-r--. 1 john john   2128 Nov 17 14:27 tutorial_example.c
+drwxrwxr-x. 5 john john    185 Dec 15 19:31 utilities
+(base) [john@tjigem QuEST-master]$ cmake -DUSER_SOURCE="GHZ_QFT.c" -DDISTRIBUTED=1
+-- GPU acceleration is 1
+-- OMP acceleration is ON
+-- MPI distribution is 1
+CMake Error at QuEST/CMakeLists.txt:53 (message):
+  DISTRIBUTED=1 and GPUACCELERATED=1 set but distributed GPU acceleration not
+  supported.  Aborting
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/john/Others/Playground/QuEST-master/CMakeFiles/CMakeOutput.log".
+See also "/home/john/Others/Playground/QuEST-master/CMakeFiles/CMakeError.log".
+(base) [john@tjigem QuEST-master]$ cmake -DUSER_SOURCE="GHZ_QFT.c" -DGPUACCELERATED=0
+-- GPU acceleration is 0
+-- OMP acceleration is ON
+-- MPI distribution is 1
+-- Could NOT find MPI_C (missing: MPI_C_LIB_NAMES MPI_C_HEADER_DIR MPI_C_WORKS)
+-- Could NOT find MPI_CXX (missing: MPI_CXX_LIB_NAMES MPI_CXX_HEADER_DIR MPI_CXX_WORKS)
+CMake Error at /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:137 (message):
+  Could NOT find MPI (missing: MPI_C_FOUND MPI_CXX_FOUND)
+Call Stack (most recent call first):
+  /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESSAGE)
+  /usr/share/cmake/Modules/FindMPI.cmake:1663 (find_package_handle_standard_args)
+  QuEST/CMakeLists.txt:102 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/john/Others/Playground/QuEST-master/CMakeFiles/CMakeOutput.log".
+See also "/home/john/Others/Playground/QuEST-master/CMakeFiles/CMakeError.log".
+(base) [john@tjigem QuEST-master]$ cmake -DUSER_SOURCE="GHZ_QFT.c" -DGPUACCELERATED=0 -DDISTRIBUTED=0
+-- GPU acceleration is 0
+-- OMP acceleration is ON
+-- MPI distribution is 0
+-- Found OpenMP_C: -fopenmp (found version "4.5")
+-- Found OpenMP_CXX: -fopenmp (found version "4.5")
+-- Found OpenMP: TRUE (found version "4.5")
+-- Compiling GHZ_QFT.c to executable demo
+-- Testing is ON
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/john/Others/Playground/QuEST-master
+(base) [john@tjigem QuEST-master]$ make
+Scanning dependencies of target QuEST
+[ 10%] Building C object QuEST/CMakeFiles/QuEST.dir/src/QuEST.c.o
+[ 20%] Building C object QuEST/CMakeFiles/QuEST.dir/src/QuEST_common.c.o
+[ 30%] Building C object QuEST/CMakeFiles/QuEST.dir/src/QuEST_qasm.c.o
+[ 40%] Building C object QuEST/CMakeFiles/QuEST.dir/src/QuEST_validation.c.o
+[ 50%] Building C object QuEST/CMakeFiles/QuEST.dir/src/mt19937ar.c.o
+[ 60%] Building C object QuEST/CMakeFiles/QuEST.dir/src/CPU/QuEST_cpu.c.o
+[ 70%] Building C object QuEST/CMakeFiles/QuEST.dir/src/CPU/QuEST_cpu_local.c.o
+[ 80%] Linking C shared library libQuEST.so
+[ 80%] Built target QuEST
+[ 90%] Building C object CMakeFiles/demo.dir/GHZ_QFT.c.o
+[100%] Linking C executable demo
+[100%] Built target demo
+(base) [john@tjigem QuEST-master]$ ./demo
+
+
+Complete the simulation takes time   550.750857 seconds.
+(base) [john@tjigem QuEST-master]$ cmake -DUSER_SOURCE="random.c" -DGPUACCELERATED=0
+-- GPU acceleration is 0
+-- OMP acceleration is ON
+-- MPI distribution is 0
+-- Found OpenMP_C: -fopenmp
+-- Found OpenMP_CXX: -fopenmp
+-- Found OpenMP: TRUE
+-- Compiling random.c to executable demo
+-- Testing is ON
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/john/Others/Playground/QuEST-master
+(base) [john@tjigem QuEST-master]$ make
+[ 80%] Built target QuEST
+Scanning dependencies of target demo
+[ 90%] Building C object CMakeFiles/demo.dir/random.c.o
+[100%] Linking C executable demo
+[100%] Built target demo
+(base) [john@tjigem QuEST-master]$ ./demo
+
+
+Complete the simulation takes time   705.543085 seconds.
+(base) [john@tjigem QuEST-master]$ cmake -DUSER_SOURCE="GHZ_QFT.c" -DGPUACCELERATED=0 -DDISTRIBUTED=0
+-- GPU acceleration is 0
+-- OMP acceleration is ON
+-- MPI distribution is 0
+-- Compiling GHZ_QFT.c to executable demo
+-- Testing is ON
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/john/Others/Playground/QuEST-master
+(base) [john@tjigem QuEST-master]$ make
+[ 80%] Built target QuEST
+Scanning dependencies of target demo
+[ 90%] Building C object CMakeFiles/demo.dir/GHZ_QFT.c.o
+[100%] Linking C executable demo
+[100%] Built target demo
+(base) [john@tjigem QuEST-master]$ ./demo
+!!!
+QuEST Error in function controlledNot: Invalid target qubit. Note qubits are zero indexed.
+!!!
+exiting..
+(base) [john@tjigem QuEST-master]$ make
+[ 80%] Built target QuEST
+Scanning dependencies of target demo
+[ 90%] Building C object CMakeFiles/demo.dir/GHZ_QFT.c.o
+[100%] Linking C executable demo
+[100%] Built target demo
+(base) [john@tjigem QuEST-master]$ ./demo
+
+
+Complete the simulation takes time     1.861935 seconds.
+(base) [john@tjigem QuEST-master]$ ./demo
+
+
+Complete the simulation takes time     0.598396 seconds.
+(base) [john@tjigem QuEST-master]$ cp benchmark/GHZ_QFT.c ./
+(base) [john@tjigem QuEST-master]$ make
+[ 80%] Built target QuEST
+Scanning dependencies of target demo
+[ 90%] Building C object CMakeFiles/demo.dir/GHZ_QFT.c.o
+[100%] Linking C executable demo
+[100%] Built target demo
+(base) [john@tjigem QuEST-master]$ ./demo
+
+
+Complete the simulation takes time   122.865693 seconds.
+(base) [john@tjigem QuEST-master]$ mv demo demo-GHZ_QFT-CPU
+(base) [john@tjigem QuEST-master]$ cmake -DUSER_SOURCE="random.c" -DGPUACCELERATED=1^C
+(base) [john@tjigem QuEST-master]$ cmake -DUSER_SOURCE="GHZ_QFT.c" -DGPUACCELERATED=1 -DDISTRIBUTED=0
+-- GPU acceleration is 1
+-- OMP acceleration is ON
+-- MPI distribution is 0
+CMake Warning at QuEST/CMakeLists.txt:75 (message):
+  MULTITHREADED=ON and GPUACCELERATED=1 set but GPU version makes no use of
+  multithreading.  Ignoring multithreading settings
+
+
+-- Compiling GHZ_QFT.c to executable demo
+-- Testing is ON
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/john/Others/Playground/QuEST-master
+(base) [john@tjigem QuEST-master]$ make
+[ 11%] Building NVCC (Device) object QuEST/CMakeFiles/QuEST.dir/src/GPU/QuEST_generated_QuEST_gpu.cu.o
+cc1plus: warning: command line option ‘-std=c99’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-std=c99’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-std=c99’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-std=c99’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-std=c99’ is valid for C/ObjC but not for C++
+Scanning dependencies of target QuEST
+[ 22%] Building C object QuEST/CMakeFiles/QuEST.dir/src/QuEST.c.o
+[ 33%] Building C object QuEST/CMakeFiles/QuEST.dir/src/QuEST_common.c.o
+[ 44%] Building C object QuEST/CMakeFiles/QuEST.dir/src/QuEST_qasm.c.o
+[ 55%] Building C object QuEST/CMakeFiles/QuEST.dir/src/QuEST_validation.c.o
+[ 66%] Building C object QuEST/CMakeFiles/QuEST.dir/src/mt19937ar.c.o
+[ 77%] Linking CXX shared library libQuEST.so
+[ 77%] Built target QuEST
+[ 88%] Linking C executable demo
+[100%] Built target demo
+(base) [john@tjigem QuEST-master]$ ./demo
+
+
+Complete the simulation takes time    13.458272 seconds.
+(base) [john@tjigem QuEST-master]$ mv demo demo-GHZ_QFT-GPU
+(base) [john@tjigem QuEST-master]$ mv demo-GHZ_QFT-CPU demo-GHZ_QFT-CPU_28
+(base) [john@tjigem QuEST-master]$ mv demo-GHZ_QFT-GPU demo-GHZ_QFT-GPU_28
+(base) [john@tjigem QuEST-master]$ ./demo-GHZ_QFT-CPU_28
+(base) [john@tjigem QuEST-master]$ ./demo-GHZ_QFT-CPU_28
+
+
+Complete the simulation takes time    13.458853 seconds.
+(base) [john@tjigem QuEST-master]$ ./demo-GHZ_QFT-GPU_28
+
+
+Complete the simulation takes time    13.463881 seconds.
+(base) [john@tjigem QuEST-master]$
