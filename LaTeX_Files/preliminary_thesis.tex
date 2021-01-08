@@ -14,7 +14,12 @@
 \usepackage{float}
 \usepackage{booktabs}
 \usepackage{caption}
-
+\usepackage{makecell}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{geometry}
+%\geometry{a4paper,left=2cm,right=2cm,top=1cm,bottom=1cm}
+\geometry{a4paper,scale=0.8}
 
 	\title{ASC Student Supercomputer Challenge 2020-2021 Preliminary Round Thesis}
 	\author{TOSA ASC}
@@ -24,11 +29,12 @@
 \begin{document}
 
 	\maketitle
-	\captionsetup[figure]{labelfont={bf},name={Photo.},labelsep=period}
+	%\captionsetup[figure]{labelfont={bf},name={Photo.},labelsep=period}
+	\captionsetup[figure]{labelfont={bf},name={Figure.},labelsep=period}
 	
-	\begin{abstract}
-		[Abstract here. 120 words]
-	\end{abstract}
+	%\begin{abstract}
+		%[Abstract here. 120 words]
+	%\end{abstract}
 	
 	\pagenumbering{roman}
 	\tableofcontents
@@ -38,53 +44,191 @@
 	
 
 	\section{Introduction of the university department activities in supercomputing}
-		\subsection{Supercomputing-related hardware \& software platforms} [Draft Here.]
+		\subsection{Supercomputing-related hardware \& software platforms} 
+		
+			The High-Performance Computing Public Service of \textit{The Key Laboratory of Embedded System and Service Computing(Tongji University), Ministry of Education} is founded in 2007 In the School of Electronics and Information Engineering of the Tongji University. The service is equipped with IBM P570, Dell PC Servers Cluster, SUN massive storage array. These devices are interconnected as Heterogeneous Computing Platform, providing public services to teaching and researching. The Computing and Analyzing service of the lab, which is equipped with Mini Computers from IBM, and Sugon's x86 Clusters. 
+			
+			There is an IBM High-Performance Cluster serving for the bio-informatics centre of the School of Life Sciences and Technology, Tongji University, which consists 6 fat nodes(IBM HS22, 2x Intel x5650, 96GB of memory), 30 thin nodes(IBM HS22, 2x Intel x5650, 24GB of memory), DS3200 storage system with 48 2TB Hard Drives. The system is interconnected with QDR 40Gb Infiniband, and its theoretic peak floating performance is 4596.48Gflops. 
+		
+		
 		\subsection{Supercomputing-related courses \& interest groups} 
 		
-			Because of supercomputing are newly sprouted things, our school don’t have related courses or training, but we truly have a student club called Tongji Open Source Association. Committed to broaden the horizons of college students, especially for those who is interested in computer knowledge, TOSA give lectures about computer basic knowledge and advanced knowledge frequently.
+			There are two Supercomputing courses open to undergraduates. One is Supercomputers and Parallel Computing by Ke Sanhuang in the School of Physics. The other one is The Principle and Practice of Parallel Programming by Zhang Yichao in the School of Electronics and Information Engineering. And we have a student club called Tongji Open Source Association. Committed to broaden the horizons of college students, especially for those who is interested in computer knowledge, TOSA give lectures about computer knowledge and advanced technologies frequently, with opportunities to practices by themselves.
 			
-		\subsection{Supercomputing-related research and applications}
+		\subsection{Supercomputing-related research, applications \\ \& key achievements}
 		
-			Unfortunately, our school's research on supercomputing has just started, and there is no mature research or applications. But we believe that the greatest thing must have the smallest begin. Now, more and more student joined our club and learn about these knowledge, interest will eventually turns into achievement.
+			Several teachers in the mentioned lab of the School of Electronics and Information Engineering have been working on field researches. They had undertaken the project \textit{Granular computing and the technique of compiling, debugging and tuning} funded by the 863 Program, \textit{Automatic extraction of program's heterogenous feature and network  heterogenous parallel computation} funded by National Natural Science Foundation of China and several other programs. Certain research results received second prize of 2008 IEEE International Service Contest. 
 			
-		\subsection{Key achievements on supercomputing research} [Draft Here.]
 	\section{Team introduction}
 		\subsection{Team setup}
 		
 			Both of our teammates are interested in supercomputing and are from the same club called Tongji Open Source Association. Once we heard the competition, we immediately attention on it. After looking up relevant information and competition introduction on the Internet, we all hope to join in the competition. After several talk on social platform, our team leader select us according to our personal characteristics.
 		
 		\subsection{Team members} 
+		\captionsetup[figure]{labelfont={bf},name={Photo.},labelsep=period}
 			
 			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.3\textwidth]{F1.jpg}
+				\includegraphics[width=0.3\textwidth]{Lu.jpg}
 				\caption{Lu Yan} %图片标题
-				\label{fig:1}  %图片交叉引用时的标签
+				\label{photo:1}  %图片交叉引用时的标签
 			\end{figure} 
 			\paragraph{Lu Yan}: intrested in Computational Neuroscience and Neuromorphic Engineering.
 			
+			
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.3\textwidth]{Lu.jpg}
+				\caption{Liu Kongyang} %图片标题
+				\label{photo:2}  %图片交叉引用时的标签
+			\end{figure} 
 			\paragraph{Liu Kongyang}: interested in Computer Graphics, Computer Vision and Machine Learning.
 			
+			
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.3\textwidth]{Lu.jpg}
+				\caption{Qiu Zili} %图片标题
+				\label{photo:3}  %图片交叉引用时的标签
+			\end{figure} 
 			\paragraph{Qiu Zili}: interested in Hardware Configuration and Maintainence of HPC.
 			
+			
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.3\textwidth]{Lu.jpg}
+				\caption{Jiang Wenyuan} %图片标题
+				\label{photo:4}  %图片交叉引用时的标签
+			\end{figure} 
 			\paragraph{Jiang Wenyuan}: majors in Bioinformatics, and is interested in HPC's application in Biology.
 			
+			
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.3\textwidth]{Lu.jpg}
+				\caption{Xia Wenyong} %图片标题
+				\label{photo:5}  %图片交叉引用时的标签
+			\end{figure} 
 			\paragraph{Xia Wenyong}: interested in algorithm designation of HPC.
-
+			
+		\captionsetup[figure]{labelfont={bf},name={Figure.},labelsep=period}
 		\subsection{Team motto} 
 		
-			The ASC20-21 Team of Tongji University is a brand new one, though we are neither experienced nor with adequate resources, all of us are talented in the art of problem solving, and is eager to embrace the new knowledge on HPC. We’ll try our best in each challenge!
+			The ASC20-21 Team of Tongji University is a brand new one, though we are neither experienced nor with adequate resources, all of us are talented in the art of problem solving, and is eager to embrace the new knowledge on HPC. We'll try our best in each challenge!
 		
 		
 	\section{Technical proposal requirements}
-		[Draft Here.]
-		\subsection{Design of HPC system} [Draft Here.]
-		\subsection{HPL and HPCG} [Draft Here.]
-		\subsection{Language Exam (LE) Challenge} [Draft Here.]
-		\subsection{The QuEST Challenge} [Draft Here.]
+
+		\subsection{Design of HPC system}
+			\begin{table}[H]
+				\begin{center}
+					\caption{Design of HPC system}
+					\label{tab1}  
+					\begin{tabular}{l l l}
+						\toprule
+						Item & Name & Configuration\\			
+						\midrule
+						Server & \makecell[l]{Inspur \\NF5280M5 \\x6} & \makecell[l]{CPU: Intel Xeon Gold 6230 x2 2.1GHz 20 cores \\ Memory: 32G x12，DDR4，2933Mhz \\ Hard disk: 480G SSD SATA x1 \\ Power consumption estimation:\\ 6230 TDP 125W, memory 7.5W, hard disk 10W}\\
+						&&\\
+						GPU & Tesla V100 x8 & \makecell[l]{2 of the nodes is equipped with 4 NVIDIA Tesla \\V100.}\\
+						&&\\
+						HCA card & \makecell[l]{EDR\\
+							InfiniBand Mellanox \\ConnectX$^{\tiny{\textregistered}}$-5} & \makecell[l]{HCA card, single port\\
+							QSFP, EDR IB\\
+							Power consumption estimation: 9W
+						}\\
+						&&\\
+						Cable & InfiniBand cable I & InfiniBand EDR copper cable, QSFP port\\
+						&&\\
+						Switch & EDR-IB switch & \makecell[l]{Switch-IB$^{\tiny{\texttrademark}}$ EDR InfiniBand switch, \\36 QSFP port\\
+							Power consumption estimation: 130W
+						}\\
+						\bottomrule
+					\end{tabular}
+				\end{center}
+			\end{table}
+			There are two modes in theory. When in GPU mode, only two nodes with 4 V100s are used. And when in CPU mode, three nodes are used, but without any load for GPU. 
+			
+			It is estimated that in GPU mode, $(P_{GPU}+P_{CPU}+P_{Memory}+P_{Hard Disk} )=(8*250+4*125+12*7.5*2+2*10+2*9)=2718W$.
+			
+			In CPU mode, GPU is all in idle, thus need an estimate of 20W for a single card. For single CPU node, $(P_{CPU}+P_{Memory}+P_{Hard Disk})=(2*125+12*7.5+10+9)=359W$. We use 6 of them, which is 2314W in total. 
+			
+			Adding 130W to both mode doesn't make it violating power limit.
+			
+		\subsection{HPL and HPCG}
+		\subsubsection{Software and Hardware Environment}
+		\begin{table}[H]
+			\begin{center}
+				\caption{Software and Hardware Environment of our testing platform}
+				\label{tab2}
+				\begin{tabular}{l l l}
+					\toprule
+					Item & Name & Configuration\\			
+					\midrule
+					OS & \makecell[l]{CentOS Linux 8} & \makecell[l]{Kernel: 4.18.0-193.14.2.el8\_2.x86\_64\\
+						Shell: bash 4.4.19
+					}\\
+					&&\\
+					GPU & Tesla K80 x2 & \makecell[l]{The node is equipped with 2 NVIDIA Tesla K80.}\\
+					&&\\
+					CPU & Intel Engineering Sample & \makecell[l]{Two Engineering Samples of\\ Intel$^{\tiny{\textregistered}}$ Xeon$^{\tiny{\textregistered}}$ Gold 5117 Processor\\ where each core is assigned two processes,\\ a total of 28 cores and 56 processes.}\\
+					&&\\
+					Libraries & \makecell[l]{CUDA, MKL \\and OpenMPI} & \makecell[l]{CUDA 10.2,\\ Intel$^{\tiny{\textregistered}}$ MKL 2018.0.128,\\Open MPI 3.2.1}\\
+					&&\\
+					Complier & \makecell[l]{GCC} & \makecell[l]{GCC version 8.3.1 20191121 (Red Hat 8.3.1-5)}\\
+					&&\\
+					Memory & 63895MB & \makecell[l]{DDR4 2133MHz}\\
+					\bottomrule
+				\end{tabular}
+			\end{center}
+		\end{table}
+		\subsubsection{Detailed Configurations} You can find detailed configurations in the attachments.
+		\subsubsection{Performance Evaluation} 
+			We use GPUs to finish the whole tasks. In theory, a single Tesla K80 can achieve a FP32 (float) performance of 4.113 TFLOPS and a FP64 (double) performance of 1,371 GFLOPS (1:3). We used FP64 to finish these tasks. In theory, the peak performance is 2742 GFLOPs. 
+			
+			When it comes to HPL, we found 7.131e+02 GFLOPS, that is, 713.1GFLOPS. The efficiency is around 26\%.
+			
+			When it comes to HPCG\cite{luszczek2006hpc}, we found 49.3GFLOPS, 69.9GFLOPS, 64.3GFLOPS and 62.2GFLOPS in four subjects. That is around 3\% of the theoretical peak performance.
+			
+			It's interesting that our HPL/HPCG \% of peak is higher than expected. We have seen at least more than 5\%, sometimes more than 8\%. That may be caused by the low efficiency on HPL, but taking 70\% of peak performance and we have seen a 2-3\% value.
+		
+		
+		
+		
+		
+		
+		
+		
+		\subsection{Language Exam (LE) Challenge}
+			\subsubsection{Hardware and Software Environment}
+			
+				The code is written tested on a Surface Book 2 with 16GB of RAM, i7-8650U and GTX 1060 6G version. A pytorch on Windows 10 under anaconda was deployed, and the CUDA version is 10.1. 
+				Because of the lack of Video Memory, we can't train the model even when batch\_size was 4. Thus, we implemented tuning in the given code, and taking data parallelism into consideration. but because of the lack of time and sufficient computing power, it's hard for us to do meaningful training.
+				
+			\subsubsection{Details}
+			
+				In this part, we directly import the BERT\cite{devlin2018bert} model from the internet, and deploy it to infer the masked words in the exam. The average accuracy on train is estimated to be more than 60\%. 
+				BERT - Bidirectional Encoder Representation from Transformers is issued by Google. It masks tokens randomly when training, and attempts to maximize the conditional probability of certain words in the context. We use this feature to directly infer words from the given context, and choose the most likely one of the four choices. It's a simple but working strategy. 
+				
+			\subsubsection{The Directory Structure}
+				In the \texttt{LE} directory, a test folder and a \texttt{script} folder can be found. The missing model folder has been explained above. In the \texttt{test} folder, an \texttt{answer.json} should be found, which contains the result of test dataset. In the \texttt{script} folder, an \texttt{main.py} should be found, which contains our main program. 
+		\subsection{The QuEST Challenge} 
+		
+			\subsubsection{Hardware and Software Environment}
+			
+				The hardware and software configuration we employed to test our QuEST Challenge is the same as shown in Table \ref{tab2}, and you can find detailed configurations in our attachments.
+
+			\subsubsection{Details}
+			
+				
+				
+
+			
+			\subsubsection{Fine tuning plan}
+
 		\subsection{The PRESTO Challenge} [Draft Here.]
 
-	\section*{Attribution} [Attribution Here.]
+	\section*{Acknowledgement} We thank our teachers, parents, room-mates and girlfriends for their support our taking of the ASC Challenge and tolerance of the noise of our testing platform.
 
 \bibliographystyle{apacite}
 \bibliography{ref}
