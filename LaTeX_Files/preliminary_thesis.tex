@@ -6,7 +6,7 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
-\usepackage{apacite}
+%\usepackage{apacite}
 \usepackage{siunitx}
 \usepackage{graphicx}
 \usepackage{url}
@@ -17,6 +17,7 @@
 \usepackage{makecell}
 \usepackage{listings}
 \usepackage{xcolor}
+\usepackage{minted}
 \usepackage{geometry}
 %\geometry{a4paper,left=2cm,right=2cm,top=1cm,bottom=1cm}
 \geometry{a4paper,scale=0.8}
@@ -161,7 +162,7 @@
 			\begin{center}
 				\caption{Software and Hardware Environment of our testing platform}
 				\label{tab2}
-				\begin{tabular}{l l l}
+				\begin{tabular}{c l l}
 					\toprule
 					Item & Name & Configuration\\			
 					\midrule
@@ -171,9 +172,9 @@
 					&&\\
 					GPU & Tesla K80 x2 & \makecell[l]{The node is equipped with 2 NVIDIA Tesla K80.}\\
 					&&\\
-					CPU & Intel Engineering Sample & \makecell[l]{Two Engineering Samples of\\ Intel$^{\tiny{\textregistered}}$ Xeon$^{\tiny{\textregistered}}$ Gold 5117 Processor\\ where each core is assigned two processes,\\ a total of 28 cores and 56 processes.}\\
+					CPU & \makecell[l]{Intel\\(Engineering Sample)} & \makecell[l]{Two Engineering Samples of\\ Intel$^{\tiny{\textregistered}}$ Xeon$^{\tiny{\textregistered}}$ Gold 5117 Processor\\ where each core is assigned two processes,\\ a total of 28 cores and 56 processes.}\\
 					&&\\
-					Libraries & \makecell[l]{CUDA, MKL \\and OpenMPI} & \makecell[l]{CUDA 10.2,\\ Intel$^{\tiny{\textregistered}}$ MKL 2018.0.128,\\Open MPI 3.2.1}\\
+					Libraries & \makecell[l]{CUDA, MKL \\and OpenMPI} & \makecell[l]{CUDA 10.2,\\ Intel$^{\tiny{\textregistered}}$ MKL 2018.0.128,\\OpenMPI 3.2.1}\\
 					&&\\
 					Complier & \makecell[l]{GCC} & \makecell[l]{GCC version 8.3.1 20191121 (Red Hat 8.3.1-5)}\\
 					&&\\
@@ -188,7 +189,7 @@
 			
 			When it comes to HPL, we found 7.131e+02 GFLOPS, that is, 713.1GFLOPS. The efficiency is around 26\%.
 			
-			When it comes to HPCG\cite{luszczek2006hpc}, we found 49.3GFLOPS, 69.9GFLOPS, 64.3GFLOPS and 62.2GFLOPS in four subjects. That is around 3\% of the theoretical peak performance.
+			When it comes to HPCG\cite{dongarra2016high}, we found 49.3GFLOPS, 69.9GFLOPS, 64.3GFLOPS and 62.2GFLOPS in four subjects. That is around 3\% of the theoretical peak performance.
 			
 			It's interesting that our HPL/HPCG \% of peak is higher than expected. We have seen at least more than 5\%, sometimes more than 8\%. That may be caused by the low efficiency on HPL, but taking 70\% of peak performance and we have seen a 2-3\% value.
 		
@@ -212,6 +213,7 @@
 				
 			\subsubsection{The Directory Structure}
 				In the \texttt{LE} directory, a test folder and a \texttt{script} folder can be found. The missing model folder has been explained above. In the \texttt{test} folder, an \texttt{answer.json} should be found, which contains the result of test dataset. In the \texttt{script} folder, an \texttt{main.py} should be found, which contains our main program. 
+				
 		\subsection{The QuEST Challenge} 
 		
 			\subsubsection{Hardware and Software Environment}
@@ -220,17 +222,33 @@
 
 			\subsubsection{Details}
 			
+				We first cloned the QuEST\cite{jones2019quest} repository to our testing platform and followed the instructions given in \texttt{README.md} to build the GHZ\_QFT and random circuits. We compiled the \texttt{GHZ\_QFT.c} and \texttt{random.c} with default flags \texttt{-DGPUACCELERATED=0} and \texttt{-DGPUACCELERATED=0}.
 				
+				After successfully compiling and running the QuEST tasks, we compared the generated \texttt{probs.dat} and \texttt{stateVector.dat} with the corresponding reference data files, and we found no difference, which indicates that the complier and gave out the binary that produces correct results.
 				
+				Then we tried to employ the Tesla K80 to accelerate the computation. We set the complier flag \texttt{DGPUACCELERATED} to \texttt{-DGPUACCELERATED=1} and configured environment variables to compile a CUDA based QuEST binary. Considering that Tesla K80 have a CUDA \texttt{Compute Capability = 3.7}, another flag \texttt{-DGPU\_COMPUTE\_CAPABILITY=30} is added. The complier gave no warnings or errors, as is expected.
+				
+				However, when running both tests, only one of the two GPUs is used, and due to the fact that one K80 core has only 12GB of Video Memory but the GHZ\_QFT circuit and random circuit require at least 16GB of Video Memory, we fail to run the simulation at full scale. We cut the circuits to 27 qubits to suit our 12GB of Video Memory and did the same computation under a CPU environment to verify our the results given by GPU. The results given by CPU and GPU are the same, and using GPU only took 10\% to 20\% of the time on CPU platform. Since the results are not the full scale (30 qubits) of the GHZ\_QFT circuit and random circuit, we did not include them in our attachments.
+				
+				We also tried to compile the MPI version of CPU and GPU based QuEST. The CPU MPI version compiles well, but unfortunately, the  version of QuEST did not support running on multiple GPUs. Since we only had one testing platform, the results of MPI version are almost the same of non-MPI version, so we did not include the results of MPI version in our attachments.
+				
+				The files in our attachments shows that running on our 28 core CPU, both full scale GHZ\_QFT circuit and random circuit took about 500 seconds to give out desirable results.
 
 			
 			\subsubsection{Fine tuning plan}
+				
+				We plan to fine tune the QuEST Challenge based on following ideas:
+				
+				\begin{enumerate}
+					\item In CPU mode, making full use of the new features provided by Intel in their Xeon$^{\tiny{\textregistered}}$ Scalable$^{\tiny{\textregistered}}$ Processors is necessary to improve the performance. For example, \texttt{AVX512} instruction set should be used and the features of Intel MKL together with Intel C++ Compiler should be integrated.
+					\item Using multiple GPU to do the computation is a must in large scale quantum simulations. Tring to bring CUDA and MPI together may be a way to improve the performance and scalability greatly.
+				\end{enumerate}
 
 		\subsection{The PRESTO Challenge} [Draft Here.]
 
 	\section*{Acknowledgement} We thank our teachers, parents, room-mates and girlfriends for their support our taking of the ASC Challenge and tolerance of the noise of our testing platform.
 
-\bibliographystyle{apacite}
+\bibliographystyle{acm}
 \bibliography{ref}
 
 \end{document}
