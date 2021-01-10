@@ -1,0 +1,27 @@
+ Data file name without suffix          =  Sband_DM62.40
+ Telescope used                         =  FAST
+ Instrument used                        =  Unknown
+ Object being observed                  =  J2000-1234
+ J2000 Right Ascension (hh:mm:ss.ssss)  =  12:34:56.7890
+ J2000 Declination     (dd:mm:ss.ssss)  =  -12:34:56.7890
+ Data observed by                       =  unset
+ Epoch of observation (MJD)             =  58733.664776117264410
+ Barycentered?           (1 yes, 0 no)  =  1
+ Number of bins in the time series      =  131000     
+ Width of each time series bin (sec)    =  0.000196608
+ Any breaks in the data? (1 yes, 0 no)  =  1
+ On/Off bin pair #  1                   =  0          , 122873     
+ On/Off bin pair #  2                   =  130999     , 130999     
+ Type of observation (EM band)          =  Radio
+ Beam diameter (arcsec)                 =  170
+ Dispersion measure (cm-3 pc)           =  62.4
+ Central freq of low channel (MHz)      =  1000
+ Total bandwidth (MHz)                  =  500
+ Number of channels                     =  4096
+ Channel bandwidth (MHz)                =  0.1220703125
+ Data analyzed by                       =  root
+ Any additional notes:
+    Project ID unset, Date: 2019-09-07T16:03:24.5703.
+    2 polns were summed.  Samples have 1 bits.
+
+

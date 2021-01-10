@@ -1,0 +1,3268 @@
+
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are SIGPROC filterbank format...
+Reading SIGPROC filterbank data from 1 file:
+  '../Dec+1554_arcdrift+23.4-M12_0194.fil'
+
+    Number of files = 1
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 2400
+   Total points (N) = 131072
+     Total time (s) = 25.769803776  
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      131072           0  58733.66903437861765
+
+
+Warning:  You cannot (currently) barycenter subbands.
+          Setting the '-nobary' flag automatically.
+Writing subbands to:
+   'Sband_DM2.10.sub00'
+   'Sband_DM2.10.sub01'
+   'Sband_DM2.10.sub02'
+   'Sband_DM2.10.sub03'
+   'Sband_DM2.10.sub04'
+   'Sband_DM2.10.sub05'
+   'Sband_DM2.10.sub06'
+   'Sband_DM2.10.sub07'
+   'Sband_DM2.10.sub08'
+   'Sband_DM2.10.sub09'
+   'Sband_DM2.10.sub10'
+   'Sband_DM2.10.sub11'
+   'Sband_DM2.10.sub12'
+   'Sband_DM2.10.sub13'
+   'Sband_DM2.10.sub14'
+   'Sband_DM2.10.sub15'
+   'Sband_DM2.10.sub16'
+   'Sband_DM2.10.sub17'
+   'Sband_DM2.10.sub18'
+   'Sband_DM2.10.sub19'
+   'Sband_DM2.10.sub20'
+   'Sband_DM2.10.sub21'
+   'Sband_DM2.10.sub22'
+   'Sband_DM2.10.sub23'
+   'Sband_DM2.10.sub24'
+   'Sband_DM2.10.sub25'
+   'Sband_DM2.10.sub26'
+   'Sband_DM2.10.sub27'
+   'Sband_DM2.10.sub28'
+   'Sband_DM2.10.sub29'
+   'Sband_DM2.10.sub30'
+   'Sband_DM2.10.sub31'
+Setting a 'good' output length of 131072 samples
+
+De-dispersing using:
+       Subbands = 32
+     Average DM = 2.1
+
+Amount complete =   0%Amount complete =   1%Amount complete =   3%Amount complete =   5%Amount complete =   7%Amount complete =   9%Amount complete =  10%Amount complete =  12%Amount complete =  14%Amount complete =  16%Amount complete =  18%Amount complete =  20%Amount complete =  21%Amount complete =  23%Amount complete =  25%Amount complete =  27%Amount complete =  29%Amount complete =  31%Amount complete =  32%Amount complete =  34%Amount complete =  36%Amount complete =  38%Amount complete =  40%Amount complete =  42%Amount complete =  43%Amount complete =  45%Amount complete =  47%Amount complete =  49%Amount complete =  51%Amount complete =  53%Amount complete =  54%Amount complete =  56%Amount complete =  58%Amount complete =  60%Amount complete =  62%Amount complete =  64%Amount complete =  65%Amount complete =  67%Amount complete =  69%Amount complete =  71%Amount complete =  73%Amount complete =  75%Amount complete =  76%Amount complete =  78%Amount complete =  80%Amount complete =  82%Amount complete =  84%Amount complete =  86%Amount complete =  87%Amount complete =  89%Amount complete =  91%Amount complete =  93%
+Error in chkfopen(): No such file or directory
+   path = 'Sband_DM2.10.dat'
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are PRESTO subband format...
+Reading PRESTO subband data from 32 files:
+  'Sband_DM2.10.sub00'
+  'Sband_DM2.10.sub01'
+  'Sband_DM2.10.sub02'
+  'Sband_DM2.10.sub03'
+  'Sband_DM2.10.sub04'
+  'Sband_DM2.10.sub05'
+  'Sband_DM2.10.sub06'
+  'Sband_DM2.10.sub07'
+  'Sband_DM2.10.sub08'
+  'Sband_DM2.10.sub09'
+  'Sband_DM2.10.sub10'
+  'Sband_DM2.10.sub11'
+  'Sband_DM2.10.sub12'
+  'Sband_DM2.10.sub13'
+  'Sband_DM2.10.sub14'
+  'Sband_DM2.10.sub15'
+  'Sband_DM2.10.sub16'
+  'Sband_DM2.10.sub17'
+  'Sband_DM2.10.sub18'
+  'Sband_DM2.10.sub19'
+  'Sband_DM2.10.sub20'
+  'Sband_DM2.10.sub21'
+  'Sband_DM2.10.sub22'
+  'Sband_DM2.10.sub23'
+  'Sband_DM2.10.sub24'
+  'Sband_DM2.10.sub25'
+  'Sband_DM2.10.sub26'
+  'Sband_DM2.10.sub27'
+  'Sband_DM2.10.sub28'
+  'Sband_DM2.10.sub29'
+  'Sband_DM2.10.sub30'
+  'Sband_DM2.10.sub31'
+
+    Number of files = 32
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 1024
+   Total points (N) = 124800
+     Total time (s) = 24.5366784    
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      124800           0  58733.66903437861765
+
+Writing output data to:
+   'Sband_DM0.00.dat'
+   'Sband_DM0.20.dat'
+   'Sband_DM0.40.dat'
+   'Sband_DM0.60.dat'
+   'Sband_DM0.80.dat'
+   'Sband_DM1.00.dat'
+   'Sband_DM1.20.dat'
+   'Sband_DM1.40.dat'
+   'Sband_DM1.60.dat'
+   'Sband_DM1.80.dat'
+   'Sband_DM2.00.dat'
+   'Sband_DM2.20.dat'
+   'Sband_DM2.40.dat'
+   'Sband_DM2.60.dat'
+   'Sband_DM2.80.dat'
+   'Sband_DM3.00.dat'
+   'Sband_DM3.20.dat'
+   'Sband_DM3.40.dat'
+   'Sband_DM3.60.dat'
+   'Sband_DM3.80.dat'
+   'Sband_DM4.00.dat'
+   'Sband_DM4.20.dat'
+
+Generating barycentric corrections...
+   Average topocentric velocity (c) = 4.600388e-05
+   Maximum topocentric velocity (c) = 4.600981e-05
+   Minimum topocentric velocity (c) = 4.599794e-05
+
+De-dispersing and barycentering using:
+       Subbands = 32
+     Average DM = 2.1
+
+Amount complete =   0%Amount complete =   1%Amount complete =   2%Amount complete =   3%Amount complete =   4%Amount complete =   5%Amount complete =   6%Amount complete =   7%Amount complete =   8%Amount complete =   9%Amount complete =  10%Amount complete =  11%Amount complete =  12%Amount complete =  13%Amount complete =  14%Amount complete =  15%Amount complete =  16%Amount complete =  17%Amount complete =  18%Amount complete =  19%Amount complete =  20%Amount complete =  21%Amount complete =  22%Amount complete =  23%Amount complete =  24%Amount complete =  25%Amount complete =  26%Amount complete =  27%Amount complete =  28%Amount complete =  29%Amount complete =  30%Amount complete =  31%Amount complete =  32%Amount complete =  33%Amount complete =  34%Amount complete =  35%Amount complete =  36%Amount complete =  37%Amount complete =  38%Amount complete =  39%Amount complete =  40%Amount complete =  41%Amount complete =  42%Amount complete =  43%Amount complete =  44%Amount complete =  45%Amount complete =  46%Amount complete =  47%Amount complete =  48%Amount complete =  49%Amount complete =  50%Amount complete =  51%Amount complete =  52%Amount complete =  53%Amount complete =  54%Amount complete =  55%Amount complete =  56%Amount complete =  57%Amount complete =  58%Amount complete =  59%Amount complete =  60%Amount complete =  61%Amount complete =  62%Amount complete =  63%Amount complete =  64%Amount complete =  65%Amount complete =  66%Amount complete =  67%Amount complete =  68%Amount complete =  69%Amount complete =  70%Amount complete =  71%Amount complete =  72%Amount complete =  73%Amount complete =  74%Amount complete =  75%Amount complete =  76%Amount complete =  77%Amount complete =  78%Amount complete =  79%Amount complete =  80%Amount complete =  81%Amount complete =  82%Amount complete =  83%Amount complete =  84%Amount complete =  85%Amount complete =  86%Amount complete =  87%Amount complete =  88%Amount complete =  89%Amount complete =  90%Amount complete =  91%Amount complete =  92%Amount complete =  93%Amount complete = 100%
+
+Done.
+
+Simple statistics of the output data:
+             Data points written:  122874
+          Padding points written:  8126
+  Bins removed for barycentering:  6
+           Maximum value of data:  2201.00
+           Minimum value of data:  1800.00
+              Data average value:  1963.77
+         Data standard deviation:  41.07
+
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are SIGPROC filterbank format...
+Reading SIGPROC filterbank data from 1 file:
+  '../Dec+1554_arcdrift+23.4-M12_0194.fil'
+
+    Number of files = 1
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 2400
+   Total points (N) = 131072
+     Total time (s) = 25.769803776  
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      131072           0  58733.66903437861765
+
+
+Warning:  You cannot (currently) barycenter subbands.
+          Setting the '-nobary' flag automatically.
+Writing subbands to:
+   'Sband_DM6.50.sub00'
+   'Sband_DM6.50.sub01'
+   'Sband_DM6.50.sub02'
+   'Sband_DM6.50.sub03'
+   'Sband_DM6.50.sub04'
+   'Sband_DM6.50.sub05'
+   'Sband_DM6.50.sub06'
+   'Sband_DM6.50.sub07'
+   'Sband_DM6.50.sub08'
+   'Sband_DM6.50.sub09'
+   'Sband_DM6.50.sub10'
+   'Sband_DM6.50.sub11'
+   'Sband_DM6.50.sub12'
+   'Sband_DM6.50.sub13'
+   'Sband_DM6.50.sub14'
+   'Sband_DM6.50.sub15'
+   'Sband_DM6.50.sub16'
+   'Sband_DM6.50.sub17'
+   'Sband_DM6.50.sub18'
+   'Sband_DM6.50.sub19'
+   'Sband_DM6.50.sub20'
+   'Sband_DM6.50.sub21'
+   'Sband_DM6.50.sub22'
+   'Sband_DM6.50.sub23'
+   'Sband_DM6.50.sub24'
+   'Sband_DM6.50.sub25'
+   'Sband_DM6.50.sub26'
+   'Sband_DM6.50.sub27'
+   'Sband_DM6.50.sub28'
+   'Sband_DM6.50.sub29'
+   'Sband_DM6.50.sub30'
+   'Sband_DM6.50.sub31'
+Setting a 'good' output length of 131072 samples
+
+De-dispersing using:
+       Subbands = 32
+     Average DM = 6.5
+
+Amount complete =   0%Amount complete =   1%Amount complete =   3%Amount complete =   5%Amount complete =   7%Amount complete =   9%Amount complete =  10%Amount complete =  12%Amount complete =  14%Amount complete =  16%Amount complete =  18%Amount complete =  20%Amount complete =  21%Amount complete =  23%Amount complete =  25%Amount complete =  27%Amount complete =  29%Amount complete =  31%Amount complete =  32%Amount complete =  34%Amount complete =  36%Amount complete =  38%Amount complete =  40%Amount complete =  42%Amount complete =  43%Amount complete =  45%Amount complete =  47%Amount complete =  49%Amount complete =  51%Amount complete =  53%Amount complete =  54%Amount complete =  56%Amount complete =  58%Amount complete =  60%Amount complete =  62%Amount complete =  64%Amount complete =  65%Amount complete =  67%Amount complete =  69%Amount complete =  71%Amount complete =  73%Amount complete =  75%Amount complete =  76%Amount complete =  78%Amount complete =  80%Amount complete =  82%Amount complete =  84%Amount complete =  86%Amount complete =  87%Amount complete =  89%Amount complete =  91%Amount complete =  93%
+Error in chkfopen(): No such file or directory
+   path = 'Sband_DM6.50.dat'
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are PRESTO subband format...
+Reading PRESTO subband data from 32 files:
+  'Sband_DM6.50.sub00'
+  'Sband_DM6.50.sub01'
+  'Sband_DM6.50.sub02'
+  'Sband_DM6.50.sub03'
+  'Sband_DM6.50.sub04'
+  'Sband_DM6.50.sub05'
+  'Sband_DM6.50.sub06'
+  'Sband_DM6.50.sub07'
+  'Sband_DM6.50.sub08'
+  'Sband_DM6.50.sub09'
+  'Sband_DM6.50.sub10'
+  'Sband_DM6.50.sub11'
+  'Sband_DM6.50.sub12'
+  'Sband_DM6.50.sub13'
+  'Sband_DM6.50.sub14'
+  'Sband_DM6.50.sub15'
+  'Sband_DM6.50.sub16'
+  'Sband_DM6.50.sub17'
+  'Sband_DM6.50.sub18'
+  'Sband_DM6.50.sub19'
+  'Sband_DM6.50.sub20'
+  'Sband_DM6.50.sub21'
+  'Sband_DM6.50.sub22'
+  'Sband_DM6.50.sub23'
+  'Sband_DM6.50.sub24'
+  'Sband_DM6.50.sub25'
+  'Sband_DM6.50.sub26'
+  'Sband_DM6.50.sub27'
+  'Sband_DM6.50.sub28'
+  'Sband_DM6.50.sub29'
+  'Sband_DM6.50.sub30'
+  'Sband_DM6.50.sub31'
+
+    Number of files = 32
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 1024
+   Total points (N) = 124800
+     Total time (s) = 24.5366784    
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      124800           0  58733.66903437861765
+
+Writing output data to:
+   'Sband_DM4.40.dat'
+   'Sband_DM4.60.dat'
+   'Sband_DM4.80.dat'
+   'Sband_DM5.00.dat'
+   'Sband_DM5.20.dat'
+   'Sband_DM5.40.dat'
+   'Sband_DM5.60.dat'
+   'Sband_DM5.80.dat'
+   'Sband_DM6.00.dat'
+   'Sband_DM6.20.dat'
+   'Sband_DM6.40.dat'
+   'Sband_DM6.60.dat'
+   'Sband_DM6.80.dat'
+   'Sband_DM7.00.dat'
+   'Sband_DM7.20.dat'
+   'Sband_DM7.40.dat'
+   'Sband_DM7.60.dat'
+   'Sband_DM7.80.dat'
+   'Sband_DM8.00.dat'
+   'Sband_DM8.20.dat'
+   'Sband_DM8.40.dat'
+   'Sband_DM8.60.dat'
+
+Generating barycentric corrections...
+   Average topocentric velocity (c) = 4.600388e-05
+   Maximum topocentric velocity (c) = 4.600981e-05
+   Minimum topocentric velocity (c) = 4.599794e-05
+
+De-dispersing and barycentering using:
+       Subbands = 32
+     Average DM = 6.5
+
+Amount complete =   0%Amount complete =   1%Amount complete =   2%Amount complete =   3%Amount complete =   4%Amount complete =   5%Amount complete =   6%Amount complete =   7%Amount complete =   8%Amount complete =   9%Amount complete =  10%Amount complete =  11%Amount complete =  12%Amount complete =  13%Amount complete =  14%Amount complete =  15%Amount complete =  16%Amount complete =  17%Amount complete =  18%Amount complete =  19%Amount complete =  20%Amount complete =  21%Amount complete =  22%Amount complete =  23%Amount complete =  24%Amount complete =  25%Amount complete =  26%Amount complete =  27%Amount complete =  28%Amount complete =  29%Amount complete =  30%Amount complete =  31%Amount complete =  32%Amount complete =  33%Amount complete =  34%Amount complete =  35%Amount complete =  36%Amount complete =  37%Amount complete =  38%Amount complete =  39%Amount complete =  40%Amount complete =  41%Amount complete =  42%Amount complete =  43%Amount complete =  44%Amount complete =  45%Amount complete =  46%Amount complete =  47%Amount complete =  48%Amount complete =  49%Amount complete =  50%Amount complete =  51%Amount complete =  52%Amount complete =  53%Amount complete =  54%Amount complete =  55%Amount complete =  56%Amount complete =  57%Amount complete =  58%Amount complete =  59%Amount complete =  60%Amount complete =  61%Amount complete =  62%Amount complete =  63%Amount complete =  64%Amount complete =  65%Amount complete =  66%Amount complete =  67%Amount complete =  68%Amount complete =  69%Amount complete =  70%Amount complete =  71%Amount complete =  72%Amount complete =  73%Amount complete =  74%Amount complete =  75%Amount complete =  76%Amount complete =  77%Amount complete =  78%Amount complete =  79%Amount complete =  80%Amount complete =  81%Amount complete =  82%Amount complete =  83%Amount complete =  84%Amount complete =  85%Amount complete =  86%Amount complete =  87%Amount complete =  88%Amount complete =  89%Amount complete =  90%Amount complete =  91%Amount complete =  92%Amount complete =  93%Amount complete = 100%
+
+Done.
+
+Simple statistics of the output data:
+             Data points written:  122874
+          Padding points written:  8126
+  Bins removed for barycentering:  6
+           Maximum value of data:  2223.00
+           Minimum value of data:  1810.00
+              Data average value:  1963.78
+         Data standard deviation:  39.52
+
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are SIGPROC filterbank format...
+Reading SIGPROC filterbank data from 1 file:
+  '../Dec+1554_arcdrift+23.4-M12_0194.fil'
+
+    Number of files = 1
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 2400
+   Total points (N) = 131072
+     Total time (s) = 25.769803776  
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      131072           0  58733.66903437861765
+
+
+Warning:  You cannot (currently) barycenter subbands.
+          Setting the '-nobary' flag automatically.
+Writing subbands to:
+   'Sband_DM10.90.sub00'
+   'Sband_DM10.90.sub01'
+   'Sband_DM10.90.sub02'
+   'Sband_DM10.90.sub03'
+   'Sband_DM10.90.sub04'
+   'Sband_DM10.90.sub05'
+   'Sband_DM10.90.sub06'
+   'Sband_DM10.90.sub07'
+   'Sband_DM10.90.sub08'
+   'Sband_DM10.90.sub09'
+   'Sband_DM10.90.sub10'
+   'Sband_DM10.90.sub11'
+   'Sband_DM10.90.sub12'
+   'Sband_DM10.90.sub13'
+   'Sband_DM10.90.sub14'
+   'Sband_DM10.90.sub15'
+   'Sband_DM10.90.sub16'
+   'Sband_DM10.90.sub17'
+   'Sband_DM10.90.sub18'
+   'Sband_DM10.90.sub19'
+   'Sband_DM10.90.sub20'
+   'Sband_DM10.90.sub21'
+   'Sband_DM10.90.sub22'
+   'Sband_DM10.90.sub23'
+   'Sband_DM10.90.sub24'
+   'Sband_DM10.90.sub25'
+   'Sband_DM10.90.sub26'
+   'Sband_DM10.90.sub27'
+   'Sband_DM10.90.sub28'
+   'Sband_DM10.90.sub29'
+   'Sband_DM10.90.sub30'
+   'Sband_DM10.90.sub31'
+Setting a 'good' output length of 131072 samples
+
+De-dispersing using:
+       Subbands = 32
+     Average DM = 10.9
+
+Amount complete =   0%Amount complete =   1%Amount complete =   3%Amount complete =   5%Amount complete =   7%Amount complete =   9%Amount complete =  10%Amount complete =  12%Amount complete =  14%Amount complete =  16%Amount complete =  18%Amount complete =  20%Amount complete =  21%Amount complete =  23%Amount complete =  25%Amount complete =  27%Amount complete =  29%Amount complete =  31%Amount complete =  32%Amount complete =  34%Amount complete =  36%Amount complete =  38%Amount complete =  40%Amount complete =  42%Amount complete =  43%Amount complete =  45%Amount complete =  47%Amount complete =  49%Amount complete =  51%Amount complete =  53%Amount complete =  54%Amount complete =  56%Amount complete =  58%Amount complete =  60%Amount complete =  62%Amount complete =  64%Amount complete =  65%Amount complete =  67%Amount complete =  69%Amount complete =  71%Amount complete =  73%Amount complete =  75%Amount complete =  76%Amount complete =  78%Amount complete =  80%Amount complete =  82%Amount complete =  84%Amount complete =  86%Amount complete =  87%Amount complete =  89%Amount complete =  91%Amount complete =  93%
+Error in chkfopen(): No such file or directory
+   path = 'Sband_DM10.90.dat'
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are PRESTO subband format...
+Reading PRESTO subband data from 32 files:
+  'Sband_DM10.90.sub00'
+  'Sband_DM10.90.sub01'
+  'Sband_DM10.90.sub02'
+  'Sband_DM10.90.sub03'
+  'Sband_DM10.90.sub04'
+  'Sband_DM10.90.sub05'
+  'Sband_DM10.90.sub06'
+  'Sband_DM10.90.sub07'
+  'Sband_DM10.90.sub08'
+  'Sband_DM10.90.sub09'
+  'Sband_DM10.90.sub10'
+  'Sband_DM10.90.sub11'
+  'Sband_DM10.90.sub12'
+  'Sband_DM10.90.sub13'
+  'Sband_DM10.90.sub14'
+  'Sband_DM10.90.sub15'
+  'Sband_DM10.90.sub16'
+  'Sband_DM10.90.sub17'
+  'Sband_DM10.90.sub18'
+  'Sband_DM10.90.sub19'
+  'Sband_DM10.90.sub20'
+  'Sband_DM10.90.sub21'
+  'Sband_DM10.90.sub22'
+  'Sband_DM10.90.sub23'
+  'Sband_DM10.90.sub24'
+  'Sband_DM10.90.sub25'
+  'Sband_DM10.90.sub26'
+  'Sband_DM10.90.sub27'
+  'Sband_DM10.90.sub28'
+  'Sband_DM10.90.sub29'
+  'Sband_DM10.90.sub30'
+  'Sband_DM10.90.sub31'
+
+    Number of files = 32
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 1024
+   Total points (N) = 124800
+     Total time (s) = 24.5366784    
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      124800           0  58733.66903437861765
+
+Writing output data to:
+   'Sband_DM8.80.dat'
+   'Sband_DM9.00.dat'
+   'Sband_DM9.20.dat'
+   'Sband_DM9.40.dat'
+   'Sband_DM9.60.dat'
+   'Sband_DM9.80.dat'
+   'Sband_DM10.00.dat'
+   'Sband_DM10.20.dat'
+   'Sband_DM10.40.dat'
+   'Sband_DM10.60.dat'
+   'Sband_DM10.80.dat'
+   'Sband_DM11.00.dat'
+   'Sband_DM11.20.dat'
+   'Sband_DM11.40.dat'
+   'Sband_DM11.60.dat'
+   'Sband_DM11.80.dat'
+   'Sband_DM12.00.dat'
+   'Sband_DM12.20.dat'
+   'Sband_DM12.40.dat'
+   'Sband_DM12.60.dat'
+   'Sband_DM12.80.dat'
+   'Sband_DM13.00.dat'
+
+Generating barycentric corrections...
+   Average topocentric velocity (c) = 4.600388e-05
+   Maximum topocentric velocity (c) = 4.600981e-05
+   Minimum topocentric velocity (c) = 4.599794e-05
+
+De-dispersing and barycentering using:
+       Subbands = 32
+     Average DM = 10.9
+
+Amount complete =   0%Amount complete =   1%Amount complete =   2%Amount complete =   3%Amount complete =   4%Amount complete =   5%Amount complete =   6%Amount complete =   7%Amount complete =   8%Amount complete =   9%Amount complete =  10%Amount complete =  11%Amount complete =  12%Amount complete =  13%Amount complete =  14%Amount complete =  15%Amount complete =  16%Amount complete =  17%Amount complete =  18%Amount complete =  19%Amount complete =  20%Amount complete =  21%Amount complete =  22%Amount complete =  23%Amount complete =  24%Amount complete =  25%Amount complete =  26%Amount complete =  27%Amount complete =  28%Amount complete =  29%Amount complete =  30%Amount complete =  31%Amount complete =  32%Amount complete =  33%Amount complete =  34%Amount complete =  35%Amount complete =  36%Amount complete =  37%Amount complete =  38%Amount complete =  39%Amount complete =  40%Amount complete =  41%Amount complete =  42%Amount complete =  43%Amount complete =  44%Amount complete =  45%Amount complete =  46%Amount complete =  47%Amount complete =  48%Amount complete =  49%Amount complete =  50%Amount complete =  51%Amount complete =  52%Amount complete =  53%Amount complete =  54%Amount complete =  55%Amount complete =  56%Amount complete =  57%Amount complete =  58%Amount complete =  59%Amount complete =  60%Amount complete =  61%Amount complete =  62%Amount complete =  63%Amount complete =  64%Amount complete =  65%Amount complete =  66%Amount complete =  67%Amount complete =  68%Amount complete =  69%Amount complete =  70%Amount complete =  71%Amount complete =  72%Amount complete =  73%Amount complete =  74%Amount complete =  75%Amount complete =  76%Amount complete =  77%Amount complete =  78%Amount complete =  79%Amount complete =  80%Amount complete =  81%Amount complete =  82%Amount complete =  83%Amount complete =  84%Amount complete =  85%Amount complete =  86%Amount complete =  87%Amount complete =  88%Amount complete =  89%Amount complete =  90%Amount complete =  91%Amount complete =  92%Amount complete =  93%Amount complete = 100%
+
+Done.
+
+Simple statistics of the output data:
+             Data points written:  122874
+          Padding points written:  8126
+  Bins removed for barycentering:  6
+           Maximum value of data:  2271.00
+           Minimum value of data:  1813.00
+              Data average value:  1963.78
+         Data standard deviation:  40.37
+
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are SIGPROC filterbank format...
+Reading SIGPROC filterbank data from 1 file:
+  '../Dec+1554_arcdrift+23.4-M12_0194.fil'
+
+    Number of files = 1
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 2400
+   Total points (N) = 131072
+     Total time (s) = 25.769803776  
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      131072           0  58733.66903437861765
+
+
+Warning:  You cannot (currently) barycenter subbands.
+          Setting the '-nobary' flag automatically.
+Writing subbands to:
+   'Sband_DM15.30.sub00'
+   'Sband_DM15.30.sub01'
+   'Sband_DM15.30.sub02'
+   'Sband_DM15.30.sub03'
+   'Sband_DM15.30.sub04'
+   'Sband_DM15.30.sub05'
+   'Sband_DM15.30.sub06'
+   'Sband_DM15.30.sub07'
+   'Sband_DM15.30.sub08'
+   'Sband_DM15.30.sub09'
+   'Sband_DM15.30.sub10'
+   'Sband_DM15.30.sub11'
+   'Sband_DM15.30.sub12'
+   'Sband_DM15.30.sub13'
+   'Sband_DM15.30.sub14'
+   'Sband_DM15.30.sub15'
+   'Sband_DM15.30.sub16'
+   'Sband_DM15.30.sub17'
+   'Sband_DM15.30.sub18'
+   'Sband_DM15.30.sub19'
+   'Sband_DM15.30.sub20'
+   'Sband_DM15.30.sub21'
+   'Sband_DM15.30.sub22'
+   'Sband_DM15.30.sub23'
+   'Sband_DM15.30.sub24'
+   'Sband_DM15.30.sub25'
+   'Sband_DM15.30.sub26'
+   'Sband_DM15.30.sub27'
+   'Sband_DM15.30.sub28'
+   'Sband_DM15.30.sub29'
+   'Sband_DM15.30.sub30'
+   'Sband_DM15.30.sub31'
+Setting a 'good' output length of 131072 samples
+
+De-dispersing using:
+       Subbands = 32
+     Average DM = 15.3
+
+Amount complete =   0%Amount complete =   1%Amount complete =   3%Amount complete =   5%Amount complete =   7%Amount complete =   9%Amount complete =  10%Amount complete =  12%Amount complete =  14%Amount complete =  16%Amount complete =  18%Amount complete =  20%Amount complete =  21%Amount complete =  23%Amount complete =  25%Amount complete =  27%Amount complete =  29%Amount complete =  31%Amount complete =  32%Amount complete =  34%Amount complete =  36%Amount complete =  38%Amount complete =  40%Amount complete =  42%Amount complete =  43%Amount complete =  45%Amount complete =  47%Amount complete =  49%Amount complete =  51%Amount complete =  53%Amount complete =  54%Amount complete =  56%Amount complete =  58%Amount complete =  60%Amount complete =  62%Amount complete =  64%Amount complete =  65%Amount complete =  67%Amount complete =  69%Amount complete =  71%Amount complete =  73%Amount complete =  75%Amount complete =  76%Amount complete =  78%Amount complete =  80%Amount complete =  82%Amount complete =  84%Amount complete =  86%Amount complete =  87%Amount complete =  89%Amount complete =  91%Amount complete =  93%
+Error in chkfopen(): No such file or directory
+   path = 'Sband_DM15.30.dat'
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are PRESTO subband format...
+Reading PRESTO subband data from 32 files:
+  'Sband_DM15.30.sub00'
+  'Sband_DM15.30.sub01'
+  'Sband_DM15.30.sub02'
+  'Sband_DM15.30.sub03'
+  'Sband_DM15.30.sub04'
+  'Sband_DM15.30.sub05'
+  'Sband_DM15.30.sub06'
+  'Sband_DM15.30.sub07'
+  'Sband_DM15.30.sub08'
+  'Sband_DM15.30.sub09'
+  'Sband_DM15.30.sub10'
+  'Sband_DM15.30.sub11'
+  'Sband_DM15.30.sub12'
+  'Sband_DM15.30.sub13'
+  'Sband_DM15.30.sub14'
+  'Sband_DM15.30.sub15'
+  'Sband_DM15.30.sub16'
+  'Sband_DM15.30.sub17'
+  'Sband_DM15.30.sub18'
+  'Sband_DM15.30.sub19'
+  'Sband_DM15.30.sub20'
+  'Sband_DM15.30.sub21'
+  'Sband_DM15.30.sub22'
+  'Sband_DM15.30.sub23'
+  'Sband_DM15.30.sub24'
+  'Sband_DM15.30.sub25'
+  'Sband_DM15.30.sub26'
+  'Sband_DM15.30.sub27'
+  'Sband_DM15.30.sub28'
+  'Sband_DM15.30.sub29'
+  'Sband_DM15.30.sub30'
+  'Sband_DM15.30.sub31'
+
+    Number of files = 32
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 1024
+   Total points (N) = 124800
+     Total time (s) = 24.5366784    
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      124800           0  58733.66903437861765
+
+Writing output data to:
+   'Sband_DM13.20.dat'
+   'Sband_DM13.40.dat'
+   'Sband_DM13.60.dat'
+   'Sband_DM13.80.dat'
+   'Sband_DM14.00.dat'
+   'Sband_DM14.20.dat'
+   'Sband_DM14.40.dat'
+   'Sband_DM14.60.dat'
+   'Sband_DM14.80.dat'
+   'Sband_DM15.00.dat'
+   'Sband_DM15.20.dat'
+   'Sband_DM15.40.dat'
+   'Sband_DM15.60.dat'
+   'Sband_DM15.80.dat'
+   'Sband_DM16.00.dat'
+   'Sband_DM16.20.dat'
+   'Sband_DM16.40.dat'
+   'Sband_DM16.60.dat'
+   'Sband_DM16.80.dat'
+   'Sband_DM17.00.dat'
+   'Sband_DM17.20.dat'
+   'Sband_DM17.40.dat'
+
+Generating barycentric corrections...
+   Average topocentric velocity (c) = 4.600388e-05
+   Maximum topocentric velocity (c) = 4.600981e-05
+   Minimum topocentric velocity (c) = 4.599794e-05
+
+De-dispersing and barycentering using:
+       Subbands = 32
+     Average DM = 15.3
+
+Amount complete =   0%Amount complete =   1%Amount complete =   2%Amount complete =   3%Amount complete =   4%Amount complete =   5%Amount complete =   6%Amount complete =   7%Amount complete =   8%Amount complete =   9%Amount complete =  10%Amount complete =  11%Amount complete =  12%Amount complete =  13%Amount complete =  14%Amount complete =  15%Amount complete =  16%Amount complete =  17%Amount complete =  18%Amount complete =  19%Amount complete =  20%Amount complete =  21%Amount complete =  22%Amount complete =  23%Amount complete =  24%Amount complete =  25%Amount complete =  26%Amount complete =  27%Amount complete =  28%Amount complete =  29%Amount complete =  30%Amount complete =  31%Amount complete =  32%Amount complete =  33%Amount complete =  34%Amount complete =  35%Amount complete =  36%Amount complete =  37%Amount complete =  38%Amount complete =  39%Amount complete =  40%Amount complete =  41%Amount complete =  42%Amount complete =  43%Amount complete =  44%Amount complete =  45%Amount complete =  46%Amount complete =  47%Amount complete =  48%Amount complete =  49%Amount complete =  50%Amount complete =  51%Amount complete =  52%Amount complete =  53%Amount complete =  54%Amount complete =  55%Amount complete =  56%Amount complete =  57%Amount complete =  58%Amount complete =  59%Amount complete =  60%Amount complete =  61%Amount complete =  62%Amount complete =  63%Amount complete =  64%Amount complete =  65%Amount complete =  66%Amount complete =  67%Amount complete =  68%Amount complete =  69%Amount complete =  70%Amount complete =  71%Amount complete =  72%Amount complete =  73%Amount complete =  74%Amount complete =  75%Amount complete =  76%Amount complete =  77%Amount complete =  78%Amount complete =  79%Amount complete =  80%Amount complete =  81%Amount complete =  82%Amount complete =  83%Amount complete =  84%Amount complete =  85%Amount complete =  86%Amount complete =  87%Amount complete =  88%Amount complete =  89%Amount complete =  90%Amount complete =  91%Amount complete =  92%Amount complete =  93%Amount complete = 100%
+
+Done.
+
+Simple statistics of the output data:
+             Data points written:  122874
+          Padding points written:  8126
+  Bins removed for barycentering:  6
+           Maximum value of data:  2312.00
+           Minimum value of data:  1812.00
+              Data average value:  1963.78
+         Data standard deviation:  41.84
+
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are SIGPROC filterbank format...
+Reading SIGPROC filterbank data from 1 file:
+  '../Dec+1554_arcdrift+23.4-M12_0194.fil'
+
+    Number of files = 1
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 2400
+   Total points (N) = 131072
+     Total time (s) = 25.769803776  
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      131072           0  58733.66903437861765
+
+
+Warning:  You cannot (currently) barycenter subbands.
+          Setting the '-nobary' flag automatically.
+Writing subbands to:
+   'Sband_DM19.70.sub00'
+   'Sband_DM19.70.sub01'
+   'Sband_DM19.70.sub02'
+   'Sband_DM19.70.sub03'
+   'Sband_DM19.70.sub04'
+   'Sband_DM19.70.sub05'
+   'Sband_DM19.70.sub06'
+   'Sband_DM19.70.sub07'
+   'Sband_DM19.70.sub08'
+   'Sband_DM19.70.sub09'
+   'Sband_DM19.70.sub10'
+   'Sband_DM19.70.sub11'
+   'Sband_DM19.70.sub12'
+   'Sband_DM19.70.sub13'
+   'Sband_DM19.70.sub14'
+   'Sband_DM19.70.sub15'
+   'Sband_DM19.70.sub16'
+   'Sband_DM19.70.sub17'
+   'Sband_DM19.70.sub18'
+   'Sband_DM19.70.sub19'
+   'Sband_DM19.70.sub20'
+   'Sband_DM19.70.sub21'
+   'Sband_DM19.70.sub22'
+   'Sband_DM19.70.sub23'
+   'Sband_DM19.70.sub24'
+   'Sband_DM19.70.sub25'
+   'Sband_DM19.70.sub26'
+   'Sband_DM19.70.sub27'
+   'Sband_DM19.70.sub28'
+   'Sband_DM19.70.sub29'
+   'Sband_DM19.70.sub30'
+   'Sband_DM19.70.sub31'
+Setting a 'good' output length of 131072 samples
+
+De-dispersing using:
+       Subbands = 32
+     Average DM = 19.7
+
+Amount complete =   0%Amount complete =   1%Amount complete =   3%Amount complete =   5%Amount complete =   7%Amount complete =   9%Amount complete =  10%Amount complete =  12%Amount complete =  14%Amount complete =  16%Amount complete =  18%Amount complete =  20%Amount complete =  21%Amount complete =  23%Amount complete =  25%Amount complete =  27%Amount complete =  29%Amount complete =  31%Amount complete =  32%Amount complete =  34%Amount complete =  36%Amount complete =  38%Amount complete =  40%Amount complete =  42%Amount complete =  43%Amount complete =  45%Amount complete =  47%Amount complete =  49%Amount complete =  51%Amount complete =  53%Amount complete =  54%Amount complete =  56%Amount complete =  58%Amount complete =  60%Amount complete =  62%Amount complete =  64%Amount complete =  65%Amount complete =  67%Amount complete =  69%Amount complete =  71%Amount complete =  73%Amount complete =  75%Amount complete =  76%Amount complete =  78%Amount complete =  80%Amount complete =  82%Amount complete =  84%Amount complete =  86%Amount complete =  87%Amount complete =  89%Amount complete =  91%Amount complete =  93%
+Error in chkfopen(): No such file or directory
+   path = 'Sband_DM19.70.dat'
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are PRESTO subband format...
+Reading PRESTO subband data from 32 files:
+  'Sband_DM19.70.sub00'
+  'Sband_DM19.70.sub01'
+  'Sband_DM19.70.sub02'
+  'Sband_DM19.70.sub03'
+  'Sband_DM19.70.sub04'
+  'Sband_DM19.70.sub05'
+  'Sband_DM19.70.sub06'
+  'Sband_DM19.70.sub07'
+  'Sband_DM19.70.sub08'
+  'Sband_DM19.70.sub09'
+  'Sband_DM19.70.sub10'
+  'Sband_DM19.70.sub11'
+  'Sband_DM19.70.sub12'
+  'Sband_DM19.70.sub13'
+  'Sband_DM19.70.sub14'
+  'Sband_DM19.70.sub15'
+  'Sband_DM19.70.sub16'
+  'Sband_DM19.70.sub17'
+  'Sband_DM19.70.sub18'
+  'Sband_DM19.70.sub19'
+  'Sband_DM19.70.sub20'
+  'Sband_DM19.70.sub21'
+  'Sband_DM19.70.sub22'
+  'Sband_DM19.70.sub23'
+  'Sband_DM19.70.sub24'
+  'Sband_DM19.70.sub25'
+  'Sband_DM19.70.sub26'
+  'Sband_DM19.70.sub27'
+  'Sband_DM19.70.sub28'
+  'Sband_DM19.70.sub29'
+  'Sband_DM19.70.sub30'
+  'Sband_DM19.70.sub31'
+
+    Number of files = 32
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 1024
+   Total points (N) = 124800
+     Total time (s) = 24.5366784    
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      124800           0  58733.66903437861765
+
+Writing output data to:
+   'Sband_DM17.60.dat'
+   'Sband_DM17.80.dat'
+   'Sband_DM18.00.dat'
+   'Sband_DM18.20.dat'
+   'Sband_DM18.40.dat'
+   'Sband_DM18.60.dat'
+   'Sband_DM18.80.dat'
+   'Sband_DM19.00.dat'
+   'Sband_DM19.20.dat'
+   'Sband_DM19.40.dat'
+   'Sband_DM19.60.dat'
+   'Sband_DM19.80.dat'
+   'Sband_DM20.00.dat'
+   'Sband_DM20.20.dat'
+   'Sband_DM20.40.dat'
+   'Sband_DM20.60.dat'
+   'Sband_DM20.80.dat'
+   'Sband_DM21.00.dat'
+   'Sband_DM21.20.dat'
+   'Sband_DM21.40.dat'
+   'Sband_DM21.60.dat'
+   'Sband_DM21.80.dat'
+
+Generating barycentric corrections...
+   Average topocentric velocity (c) = 4.600388e-05
+   Maximum topocentric velocity (c) = 4.600981e-05
+   Minimum topocentric velocity (c) = 4.599794e-05
+
+De-dispersing and barycentering using:
+       Subbands = 32
+     Average DM = 19.7
+
+Amount complete =   0%Amount complete =   1%Amount complete =   2%Amount complete =   3%Amount complete =   4%Amount complete =   5%Amount complete =   6%Amount complete =   7%Amount complete =   8%Amount complete =   9%Amount complete =  10%Amount complete =  11%Amount complete =  12%Amount complete =  13%Amount complete =  14%Amount complete =  15%Amount complete =  16%Amount complete =  17%Amount complete =  18%Amount complete =  19%Amount complete =  20%Amount complete =  21%Amount complete =  22%Amount complete =  23%Amount complete =  24%Amount complete =  25%Amount complete =  26%Amount complete =  27%Amount complete =  28%Amount complete =  29%Amount complete =  30%Amount complete =  31%Amount complete =  32%Amount complete =  33%Amount complete =  34%Amount complete =  35%Amount complete =  36%Amount complete =  37%Amount complete =  38%Amount complete =  39%Amount complete =  40%Amount complete =  41%Amount complete =  42%Amount complete =  43%Amount complete =  44%Amount complete =  45%Amount complete =  46%Amount complete =  47%Amount complete =  48%Amount complete =  49%Amount complete =  50%Amount complete =  51%Amount complete =  52%Amount complete =  53%Amount complete =  54%Amount complete =  55%Amount complete =  56%Amount complete =  57%Amount complete =  58%Amount complete =  59%Amount complete =  60%Amount complete =  61%Amount complete =  62%Amount complete =  63%Amount complete =  64%Amount complete =  65%Amount complete =  66%Amount complete =  67%Amount complete =  68%Amount complete =  69%Amount complete =  70%Amount complete =  71%Amount complete =  72%Amount complete =  73%Amount complete =  74%Amount complete =  75%Amount complete =  76%Amount complete =  77%Amount complete =  78%Amount complete =  79%Amount complete =  80%Amount complete =  81%Amount complete =  82%Amount complete =  83%Amount complete =  84%Amount complete =  85%Amount complete =  86%Amount complete =  87%Amount complete =  88%Amount complete =  89%Amount complete =  90%Amount complete =  91%Amount complete =  92%Amount complete =  93%Amount complete = 100%
+
+Done.
+
+Simple statistics of the output data:
+             Data points written:  122874
+          Padding points written:  8126
+  Bins removed for barycentering:  6
+           Maximum value of data:  2408.00
+           Minimum value of data:  1798.00
+              Data average value:  1963.79
+         Data standard deviation:  44.31
+
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are SIGPROC filterbank format...
+Reading SIGPROC filterbank data from 1 file:
+  '../Dec+1554_arcdrift+23.4-M12_0194.fil'
+
+    Number of files = 1
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 2400
+   Total points (N) = 131072
+     Total time (s) = 25.769803776  
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      131072           0  58733.66903437861765
+
+
+Warning:  You cannot (currently) barycenter subbands.
+          Setting the '-nobary' flag automatically.
+Writing subbands to:
+   'Sband_DM24.10.sub00'
+   'Sband_DM24.10.sub01'
+   'Sband_DM24.10.sub02'
+   'Sband_DM24.10.sub03'
+   'Sband_DM24.10.sub04'
+   'Sband_DM24.10.sub05'
+   'Sband_DM24.10.sub06'
+   'Sband_DM24.10.sub07'
+   'Sband_DM24.10.sub08'
+   'Sband_DM24.10.sub09'
+   'Sband_DM24.10.sub10'
+   'Sband_DM24.10.sub11'
+   'Sband_DM24.10.sub12'
+   'Sband_DM24.10.sub13'
+   'Sband_DM24.10.sub14'
+   'Sband_DM24.10.sub15'
+   'Sband_DM24.10.sub16'
+   'Sband_DM24.10.sub17'
+   'Sband_DM24.10.sub18'
+   'Sband_DM24.10.sub19'
+   'Sband_DM24.10.sub20'
+   'Sband_DM24.10.sub21'
+   'Sband_DM24.10.sub22'
+   'Sband_DM24.10.sub23'
+   'Sband_DM24.10.sub24'
+   'Sband_DM24.10.sub25'
+   'Sband_DM24.10.sub26'
+   'Sband_DM24.10.sub27'
+   'Sband_DM24.10.sub28'
+   'Sband_DM24.10.sub29'
+   'Sband_DM24.10.sub30'
+   'Sband_DM24.10.sub31'
+Setting a 'good' output length of 131072 samples
+
+De-dispersing using:
+       Subbands = 32
+     Average DM = 24.1
+
+Amount complete =   0%Amount complete =   1%Amount complete =   3%Amount complete =   5%Amount complete =   7%Amount complete =   9%Amount complete =  10%Amount complete =  12%Amount complete =  14%Amount complete =  16%Amount complete =  18%Amount complete =  20%Amount complete =  21%Amount complete =  23%Amount complete =  25%Amount complete =  27%Amount complete =  29%Amount complete =  31%Amount complete =  32%Amount complete =  34%Amount complete =  36%Amount complete =  38%Amount complete =  40%Amount complete =  42%Amount complete =  43%Amount complete =  45%Amount complete =  47%Amount complete =  49%Amount complete =  51%Amount complete =  53%Amount complete =  54%Amount complete =  56%Amount complete =  58%Amount complete =  60%Amount complete =  62%Amount complete =  64%Amount complete =  65%Amount complete =  67%Amount complete =  69%Amount complete =  71%Amount complete =  73%Amount complete =  75%Amount complete =  76%Amount complete =  78%Amount complete =  80%Amount complete =  82%Amount complete =  84%Amount complete =  86%Amount complete =  87%Amount complete =  89%Amount complete =  91%Amount complete =  93%
+Error in chkfopen(): No such file or directory
+   path = 'Sband_DM24.10.dat'
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are PRESTO subband format...
+Reading PRESTO subband data from 32 files:
+  'Sband_DM24.10.sub00'
+  'Sband_DM24.10.sub01'
+  'Sband_DM24.10.sub02'
+  'Sband_DM24.10.sub03'
+  'Sband_DM24.10.sub04'
+  'Sband_DM24.10.sub05'
+  'Sband_DM24.10.sub06'
+  'Sband_DM24.10.sub07'
+  'Sband_DM24.10.sub08'
+  'Sband_DM24.10.sub09'
+  'Sband_DM24.10.sub10'
+  'Sband_DM24.10.sub11'
+  'Sband_DM24.10.sub12'
+  'Sband_DM24.10.sub13'
+  'Sband_DM24.10.sub14'
+  'Sband_DM24.10.sub15'
+  'Sband_DM24.10.sub16'
+  'Sband_DM24.10.sub17'
+  'Sband_DM24.10.sub18'
+  'Sband_DM24.10.sub19'
+  'Sband_DM24.10.sub20'
+  'Sband_DM24.10.sub21'
+  'Sband_DM24.10.sub22'
+  'Sband_DM24.10.sub23'
+  'Sband_DM24.10.sub24'
+  'Sband_DM24.10.sub25'
+  'Sband_DM24.10.sub26'
+  'Sband_DM24.10.sub27'
+  'Sband_DM24.10.sub28'
+  'Sband_DM24.10.sub29'
+  'Sband_DM24.10.sub30'
+  'Sband_DM24.10.sub31'
+
+    Number of files = 32
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 1024
+   Total points (N) = 124800
+     Total time (s) = 24.5366784    
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      124800           0  58733.66903437861765
+
+Writing output data to:
+   'Sband_DM22.00.dat'
+   'Sband_DM22.20.dat'
+   'Sband_DM22.40.dat'
+   'Sband_DM22.60.dat'
+   'Sband_DM22.80.dat'
+   'Sband_DM23.00.dat'
+   'Sband_DM23.20.dat'
+   'Sband_DM23.40.dat'
+   'Sband_DM23.60.dat'
+   'Sband_DM23.80.dat'
+   'Sband_DM24.00.dat'
+   'Sband_DM24.20.dat'
+   'Sband_DM24.40.dat'
+   'Sband_DM24.60.dat'
+   'Sband_DM24.80.dat'
+   'Sband_DM25.00.dat'
+   'Sband_DM25.20.dat'
+   'Sband_DM25.40.dat'
+   'Sband_DM25.60.dat'
+   'Sband_DM25.80.dat'
+   'Sband_DM26.00.dat'
+   'Sband_DM26.20.dat'
+
+Generating barycentric corrections...
+   Average topocentric velocity (c) = 4.600388e-05
+   Maximum topocentric velocity (c) = 4.600981e-05
+   Minimum topocentric velocity (c) = 4.599794e-05
+
+De-dispersing and barycentering using:
+       Subbands = 32
+     Average DM = 24.1
+
+Amount complete =   0%Amount complete =   1%Amount complete =   2%Amount complete =   3%Amount complete =   4%Amount complete =   5%Amount complete =   6%Amount complete =   7%Amount complete =   8%Amount complete =   9%Amount complete =  10%Amount complete =  11%Amount complete =  12%Amount complete =  13%Amount complete =  14%Amount complete =  15%Amount complete =  16%Amount complete =  17%Amount complete =  18%Amount complete =  19%Amount complete =  20%Amount complete =  21%Amount complete =  22%Amount complete =  23%Amount complete =  24%Amount complete =  25%Amount complete =  26%Amount complete =  27%Amount complete =  28%Amount complete =  29%Amount complete =  30%Amount complete =  31%Amount complete =  32%Amount complete =  33%Amount complete =  34%Amount complete =  35%Amount complete =  36%Amount complete =  37%Amount complete =  38%Amount complete =  39%Amount complete =  40%Amount complete =  41%Amount complete =  42%Amount complete =  43%Amount complete =  44%Amount complete =  45%Amount complete =  46%Amount complete =  47%Amount complete =  48%Amount complete =  49%Amount complete =  50%Amount complete =  51%Amount complete =  52%Amount complete =  53%Amount complete =  54%Amount complete =  55%Amount complete =  56%Amount complete =  57%Amount complete =  58%Amount complete =  59%Amount complete =  60%Amount complete =  61%Amount complete =  62%Amount complete =  63%Amount complete =  64%Amount complete =  65%Amount complete =  66%Amount complete =  67%Amount complete =  68%Amount complete =  69%Amount complete =  70%Amount complete =  71%Amount complete =  72%Amount complete =  73%Amount complete =  74%Amount complete =  75%Amount complete =  76%Amount complete =  77%Amount complete =  78%Amount complete =  79%Amount complete =  80%Amount complete =  81%Amount complete =  82%Amount complete =  83%Amount complete =  84%Amount complete =  85%Amount complete =  86%Amount complete =  87%Amount complete =  88%Amount complete =  89%Amount complete =  90%Amount complete =  91%Amount complete =  92%Amount complete =  93%Amount complete = 100%
+
+Done.
+
+Simple statistics of the output data:
+             Data points written:  122874
+          Padding points written:  8126
+  Bins removed for barycentering:  6
+           Maximum value of data:  2509.00
+           Minimum value of data:  1811.00
+              Data average value:  1963.79
+         Data standard deviation:  48.41
+
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are SIGPROC filterbank format...
+Reading SIGPROC filterbank data from 1 file:
+  '../Dec+1554_arcdrift+23.4-M12_0194.fil'
+
+    Number of files = 1
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 2400
+   Total points (N) = 131072
+     Total time (s) = 25.769803776  
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      131072           0  58733.66903437861765
+
+
+Warning:  You cannot (currently) barycenter subbands.
+          Setting the '-nobary' flag automatically.
+Writing subbands to:
+   'Sband_DM28.50.sub00'
+   'Sband_DM28.50.sub01'
+   'Sband_DM28.50.sub02'
+   'Sband_DM28.50.sub03'
+   'Sband_DM28.50.sub04'
+   'Sband_DM28.50.sub05'
+   'Sband_DM28.50.sub06'
+   'Sband_DM28.50.sub07'
+   'Sband_DM28.50.sub08'
+   'Sband_DM28.50.sub09'
+   'Sband_DM28.50.sub10'
+   'Sband_DM28.50.sub11'
+   'Sband_DM28.50.sub12'
+   'Sband_DM28.50.sub13'
+   'Sband_DM28.50.sub14'
+   'Sband_DM28.50.sub15'
+   'Sband_DM28.50.sub16'
+   'Sband_DM28.50.sub17'
+   'Sband_DM28.50.sub18'
+   'Sband_DM28.50.sub19'
+   'Sband_DM28.50.sub20'
+   'Sband_DM28.50.sub21'
+   'Sband_DM28.50.sub22'
+   'Sband_DM28.50.sub23'
+   'Sband_DM28.50.sub24'
+   'Sband_DM28.50.sub25'
+   'Sband_DM28.50.sub26'
+   'Sband_DM28.50.sub27'
+   'Sband_DM28.50.sub28'
+   'Sband_DM28.50.sub29'
+   'Sband_DM28.50.sub30'
+   'Sband_DM28.50.sub31'
+Setting a 'good' output length of 131072 samples
+
+De-dispersing using:
+       Subbands = 32
+     Average DM = 28.5
+
+Amount complete =   0%Amount complete =   1%Amount complete =   3%Amount complete =   5%Amount complete =   7%Amount complete =   9%Amount complete =  10%Amount complete =  12%Amount complete =  14%Amount complete =  16%Amount complete =  18%Amount complete =  20%Amount complete =  21%Amount complete =  23%Amount complete =  25%Amount complete =  27%Amount complete =  29%Amount complete =  31%Amount complete =  32%Amount complete =  34%Amount complete =  36%Amount complete =  38%Amount complete =  40%Amount complete =  42%Amount complete =  43%Amount complete =  45%Amount complete =  47%Amount complete =  49%Amount complete =  51%Amount complete =  53%Amount complete =  54%Amount complete =  56%Amount complete =  58%Amount complete =  60%Amount complete =  62%Amount complete =  64%Amount complete =  65%Amount complete =  67%Amount complete =  69%Amount complete =  71%Amount complete =  73%Amount complete =  75%Amount complete =  76%Amount complete =  78%Amount complete =  80%Amount complete =  82%Amount complete =  84%Amount complete =  86%Amount complete =  87%Amount complete =  89%Amount complete =  91%Amount complete =  93%
+Error in chkfopen(): No such file or directory
+   path = 'Sband_DM28.50.dat'
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are PRESTO subband format...
+Reading PRESTO subband data from 32 files:
+  'Sband_DM28.50.sub00'
+  'Sband_DM28.50.sub01'
+  'Sband_DM28.50.sub02'
+  'Sband_DM28.50.sub03'
+  'Sband_DM28.50.sub04'
+  'Sband_DM28.50.sub05'
+  'Sband_DM28.50.sub06'
+  'Sband_DM28.50.sub07'
+  'Sband_DM28.50.sub08'
+  'Sband_DM28.50.sub09'
+  'Sband_DM28.50.sub10'
+  'Sband_DM28.50.sub11'
+  'Sband_DM28.50.sub12'
+  'Sband_DM28.50.sub13'
+  'Sband_DM28.50.sub14'
+  'Sband_DM28.50.sub15'
+  'Sband_DM28.50.sub16'
+  'Sband_DM28.50.sub17'
+  'Sband_DM28.50.sub18'
+  'Sband_DM28.50.sub19'
+  'Sband_DM28.50.sub20'
+  'Sband_DM28.50.sub21'
+  'Sband_DM28.50.sub22'
+  'Sband_DM28.50.sub23'
+  'Sband_DM28.50.sub24'
+  'Sband_DM28.50.sub25'
+  'Sband_DM28.50.sub26'
+  'Sband_DM28.50.sub27'
+  'Sband_DM28.50.sub28'
+  'Sband_DM28.50.sub29'
+  'Sband_DM28.50.sub30'
+  'Sband_DM28.50.sub31'
+
+    Number of files = 32
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 1024
+   Total points (N) = 124800
+     Total time (s) = 24.5366784    
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      124800           0  58733.66903437861765
+
+Writing output data to:
+   'Sband_DM26.40.dat'
+   'Sband_DM26.60.dat'
+   'Sband_DM26.80.dat'
+   'Sband_DM27.00.dat'
+   'Sband_DM27.20.dat'
+   'Sband_DM27.40.dat'
+   'Sband_DM27.60.dat'
+   'Sband_DM27.80.dat'
+   'Sband_DM28.00.dat'
+   'Sband_DM28.20.dat'
+   'Sband_DM28.40.dat'
+   'Sband_DM28.60.dat'
+   'Sband_DM28.80.dat'
+   'Sband_DM29.00.dat'
+   'Sband_DM29.20.dat'
+   'Sband_DM29.40.dat'
+   'Sband_DM29.60.dat'
+   'Sband_DM29.80.dat'
+   'Sband_DM30.00.dat'
+   'Sband_DM30.20.dat'
+   'Sband_DM30.40.dat'
+   'Sband_DM30.60.dat'
+
+Generating barycentric corrections...
+   Average topocentric velocity (c) = 4.600388e-05
+   Maximum topocentric velocity (c) = 4.600981e-05
+   Minimum topocentric velocity (c) = 4.599794e-05
+
+De-dispersing and barycentering using:
+       Subbands = 32
+     Average DM = 28.5
+
+Amount complete =   0%Amount complete =   1%Amount complete =   2%Amount complete =   3%Amount complete =   4%Amount complete =   5%Amount complete =   6%Amount complete =   7%Amount complete =   8%Amount complete =   9%Amount complete =  10%Amount complete =  11%Amount complete =  12%Amount complete =  13%Amount complete =  14%Amount complete =  15%Amount complete =  16%Amount complete =  17%Amount complete =  18%Amount complete =  19%Amount complete =  20%Amount complete =  21%Amount complete =  22%Amount complete =  23%Amount complete =  24%Amount complete =  25%Amount complete =  26%Amount complete =  27%Amount complete =  28%Amount complete =  29%Amount complete =  30%Amount complete =  31%Amount complete =  32%Amount complete =  33%Amount complete =  34%Amount complete =  35%Amount complete =  36%Amount complete =  37%Amount complete =  38%Amount complete =  39%Amount complete =  40%Amount complete =  41%Amount complete =  42%Amount complete =  43%Amount complete =  44%Amount complete =  45%Amount complete =  46%Amount complete =  47%Amount complete =  48%Amount complete =  49%Amount complete =  50%Amount complete =  51%Amount complete =  52%Amount complete =  53%Amount complete =  54%Amount complete =  55%Amount complete =  56%Amount complete =  57%Amount complete =  58%Amount complete =  59%Amount complete =  60%Amount complete =  61%Amount complete =  62%Amount complete =  63%Amount complete =  64%Amount complete =  65%Amount complete =  66%Amount complete =  67%Amount complete =  68%Amount complete =  69%Amount complete =  70%Amount complete =  71%Amount complete =  72%Amount complete =  73%Amount complete =  74%Amount complete =  75%Amount complete =  76%Amount complete =  77%Amount complete =  78%Amount complete =  79%Amount complete =  80%Amount complete =  81%Amount complete =  82%Amount complete =  83%Amount complete =  84%Amount complete =  85%Amount complete =  86%Amount complete =  87%Amount complete =  88%Amount complete =  89%Amount complete =  90%Amount complete =  91%Amount complete =  92%Amount complete =  93%Amount complete = 100%
+
+Done.
+
+Simple statistics of the output data:
+             Data points written:  122874
+          Padding points written:  8126
+  Bins removed for barycentering:  6
+           Maximum value of data:  2941.00
+           Minimum value of data:  1797.00
+              Data average value:  1963.78
+         Data standard deviation:  58.74
+
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are SIGPROC filterbank format...
+Reading SIGPROC filterbank data from 1 file:
+  '../Dec+1554_arcdrift+23.4-M12_0194.fil'
+
+    Number of files = 1
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 2400
+   Total points (N) = 131072
+     Total time (s) = 25.769803776  
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      131072           0  58733.66903437861765
+
+
+Warning:  You cannot (currently) barycenter subbands.
+          Setting the '-nobary' flag automatically.
+Writing subbands to:
+   'Sband_DM32.90.sub00'
+   'Sband_DM32.90.sub01'
+   'Sband_DM32.90.sub02'
+   'Sband_DM32.90.sub03'
+   'Sband_DM32.90.sub04'
+   'Sband_DM32.90.sub05'
+   'Sband_DM32.90.sub06'
+   'Sband_DM32.90.sub07'
+   'Sband_DM32.90.sub08'
+   'Sband_DM32.90.sub09'
+   'Sband_DM32.90.sub10'
+   'Sband_DM32.90.sub11'
+   'Sband_DM32.90.sub12'
+   'Sband_DM32.90.sub13'
+   'Sband_DM32.90.sub14'
+   'Sband_DM32.90.sub15'
+   'Sband_DM32.90.sub16'
+   'Sband_DM32.90.sub17'
+   'Sband_DM32.90.sub18'
+   'Sband_DM32.90.sub19'
+   'Sband_DM32.90.sub20'
+   'Sband_DM32.90.sub21'
+   'Sband_DM32.90.sub22'
+   'Sband_DM32.90.sub23'
+   'Sband_DM32.90.sub24'
+   'Sband_DM32.90.sub25'
+   'Sband_DM32.90.sub26'
+   'Sband_DM32.90.sub27'
+   'Sband_DM32.90.sub28'
+   'Sband_DM32.90.sub29'
+   'Sband_DM32.90.sub30'
+   'Sband_DM32.90.sub31'
+Setting a 'good' output length of 131072 samples
+
+De-dispersing using:
+       Subbands = 32
+     Average DM = 32.9
+
+Amount complete =   0%Amount complete =   1%Amount complete =   3%Amount complete =   5%Amount complete =   7%Amount complete =   9%Amount complete =  10%Amount complete =  12%Amount complete =  14%Amount complete =  16%Amount complete =  18%Amount complete =  20%Amount complete =  21%Amount complete =  23%Amount complete =  25%Amount complete =  27%Amount complete =  29%Amount complete =  31%Amount complete =  32%Amount complete =  34%Amount complete =  36%Amount complete =  38%Amount complete =  40%Amount complete =  42%Amount complete =  43%Amount complete =  45%Amount complete =  47%Amount complete =  49%Amount complete =  51%Amount complete =  53%Amount complete =  54%Amount complete =  56%Amount complete =  58%Amount complete =  60%Amount complete =  62%Amount complete =  64%Amount complete =  65%Amount complete =  67%Amount complete =  69%Amount complete =  71%Amount complete =  73%Amount complete =  75%Amount complete =  76%Amount complete =  78%Amount complete =  80%Amount complete =  82%Amount complete =  84%Amount complete =  86%Amount complete =  87%Amount complete =  89%Amount complete =  91%Amount complete =  93%
+Error in chkfopen(): No such file or directory
+   path = 'Sband_DM32.90.dat'
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are PRESTO subband format...
+Reading PRESTO subband data from 32 files:
+  'Sband_DM32.90.sub00'
+  'Sband_DM32.90.sub01'
+  'Sband_DM32.90.sub02'
+  'Sband_DM32.90.sub03'
+  'Sband_DM32.90.sub04'
+  'Sband_DM32.90.sub05'
+  'Sband_DM32.90.sub06'
+  'Sband_DM32.90.sub07'
+  'Sband_DM32.90.sub08'
+  'Sband_DM32.90.sub09'
+  'Sband_DM32.90.sub10'
+  'Sband_DM32.90.sub11'
+  'Sband_DM32.90.sub12'
+  'Sband_DM32.90.sub13'
+  'Sband_DM32.90.sub14'
+  'Sband_DM32.90.sub15'
+  'Sband_DM32.90.sub16'
+  'Sband_DM32.90.sub17'
+  'Sband_DM32.90.sub18'
+  'Sband_DM32.90.sub19'
+  'Sband_DM32.90.sub20'
+  'Sband_DM32.90.sub21'
+  'Sband_DM32.90.sub22'
+  'Sband_DM32.90.sub23'
+  'Sband_DM32.90.sub24'
+  'Sband_DM32.90.sub25'
+  'Sband_DM32.90.sub26'
+  'Sband_DM32.90.sub27'
+  'Sband_DM32.90.sub28'
+  'Sband_DM32.90.sub29'
+  'Sband_DM32.90.sub30'
+  'Sband_DM32.90.sub31'
+
+    Number of files = 32
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 1024
+   Total points (N) = 124800
+     Total time (s) = 24.5366784    
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      124800           0  58733.66903437861765
+
+Writing output data to:
+   'Sband_DM30.80.dat'
+   'Sband_DM31.00.dat'
+   'Sband_DM31.20.dat'
+   'Sband_DM31.40.dat'
+   'Sband_DM31.60.dat'
+   'Sband_DM31.80.dat'
+   'Sband_DM32.00.dat'
+   'Sband_DM32.20.dat'
+   'Sband_DM32.40.dat'
+   'Sband_DM32.60.dat'
+   'Sband_DM32.80.dat'
+   'Sband_DM33.00.dat'
+   'Sband_DM33.20.dat'
+   'Sband_DM33.40.dat'
+   'Sband_DM33.60.dat'
+   'Sband_DM33.80.dat'
+   'Sband_DM34.00.dat'
+   'Sband_DM34.20.dat'
+   'Sband_DM34.40.dat'
+   'Sband_DM34.60.dat'
+   'Sband_DM34.80.dat'
+   'Sband_DM35.00.dat'
+
+Generating barycentric corrections...
+   Average topocentric velocity (c) = 4.600388e-05
+   Maximum topocentric velocity (c) = 4.600981e-05
+   Minimum topocentric velocity (c) = 4.599794e-05
+
+De-dispersing and barycentering using:
+       Subbands = 32
+     Average DM = 32.9
+
+Amount complete =   0%Amount complete =   1%Amount complete =   2%Amount complete =   3%Amount complete =   4%Amount complete =   5%Amount complete =   6%Amount complete =   7%Amount complete =   8%Amount complete =   9%Amount complete =  10%Amount complete =  11%Amount complete =  12%Amount complete =  13%Amount complete =  14%Amount complete =  15%Amount complete =  16%Amount complete =  17%Amount complete =  18%Amount complete =  19%Amount complete =  20%Amount complete =  21%Amount complete =  22%Amount complete =  23%Amount complete =  24%Amount complete =  25%Amount complete =  26%Amount complete =  27%Amount complete =  28%Amount complete =  29%Amount complete =  30%Amount complete =  31%Amount complete =  32%Amount complete =  33%Amount complete =  34%Amount complete =  35%Amount complete =  36%Amount complete =  37%Amount complete =  38%Amount complete =  39%Amount complete =  40%Amount complete =  41%Amount complete =  42%Amount complete =  43%Amount complete =  44%Amount complete =  45%Amount complete =  46%Amount complete =  47%Amount complete =  48%Amount complete =  49%Amount complete =  50%Amount complete =  51%Amount complete =  52%Amount complete =  53%Amount complete =  54%Amount complete =  55%Amount complete =  56%Amount complete =  57%Amount complete =  58%Amount complete =  59%Amount complete =  60%Amount complete =  61%Amount complete =  62%Amount complete =  63%Amount complete =  64%Amount complete =  65%Amount complete =  66%Amount complete =  67%Amount complete =  68%Amount complete =  69%Amount complete =  70%Amount complete =  71%Amount complete =  72%Amount complete =  73%Amount complete =  74%Amount complete =  75%Amount complete =  76%Amount complete =  77%Amount complete =  78%Amount complete =  79%Amount complete =  80%Amount complete =  81%Amount complete =  82%Amount complete =  83%Amount complete =  84%Amount complete =  85%Amount complete =  86%Amount complete =  87%Amount complete =  88%Amount complete =  89%Amount complete =  90%Amount complete =  91%Amount complete =  92%Amount complete =  93%Amount complete = 100%
+
+Done.
+
+Simple statistics of the output data:
+             Data points written:  122874
+          Padding points written:  8126
+  Bins removed for barycentering:  6
+           Maximum value of data:  3286.00
+           Minimum value of data:  1816.00
+              Data average value:  1963.78
+         Data standard deviation:  63.80
+
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are SIGPROC filterbank format...
+Reading SIGPROC filterbank data from 1 file:
+  '../Dec+1554_arcdrift+23.4-M12_0194.fil'
+
+    Number of files = 1
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 2400
+   Total points (N) = 131072
+     Total time (s) = 25.769803776  
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      131072           0  58733.66903437861765
+
+
+Warning:  You cannot (currently) barycenter subbands.
+          Setting the '-nobary' flag automatically.
+Writing subbands to:
+   'Sband_DM37.30.sub00'
+   'Sband_DM37.30.sub01'
+   'Sband_DM37.30.sub02'
+   'Sband_DM37.30.sub03'
+   'Sband_DM37.30.sub04'
+   'Sband_DM37.30.sub05'
+   'Sband_DM37.30.sub06'
+   'Sband_DM37.30.sub07'
+   'Sband_DM37.30.sub08'
+   'Sband_DM37.30.sub09'
+   'Sband_DM37.30.sub10'
+   'Sband_DM37.30.sub11'
+   'Sband_DM37.30.sub12'
+   'Sband_DM37.30.sub13'
+   'Sband_DM37.30.sub14'
+   'Sband_DM37.30.sub15'
+   'Sband_DM37.30.sub16'
+   'Sband_DM37.30.sub17'
+   'Sband_DM37.30.sub18'
+   'Sband_DM37.30.sub19'
+   'Sband_DM37.30.sub20'
+   'Sband_DM37.30.sub21'
+   'Sband_DM37.30.sub22'
+   'Sband_DM37.30.sub23'
+   'Sband_DM37.30.sub24'
+   'Sband_DM37.30.sub25'
+   'Sband_DM37.30.sub26'
+   'Sband_DM37.30.sub27'
+   'Sband_DM37.30.sub28'
+   'Sband_DM37.30.sub29'
+   'Sband_DM37.30.sub30'
+   'Sband_DM37.30.sub31'
+Setting a 'good' output length of 131072 samples
+
+De-dispersing using:
+       Subbands = 32
+     Average DM = 37.3
+
+Amount complete =   0%Amount complete =   1%Amount complete =   3%Amount complete =   5%Amount complete =   7%Amount complete =   9%Amount complete =  10%Amount complete =  12%Amount complete =  14%Amount complete =  16%Amount complete =  18%Amount complete =  20%Amount complete =  21%Amount complete =  23%Amount complete =  25%Amount complete =  27%Amount complete =  29%Amount complete =  31%Amount complete =  32%Amount complete =  34%Amount complete =  36%Amount complete =  38%Amount complete =  40%Amount complete =  42%Amount complete =  43%Amount complete =  45%Amount complete =  47%Amount complete =  49%Amount complete =  51%Amount complete =  53%Amount complete =  54%Amount complete =  56%Amount complete =  58%Amount complete =  60%Amount complete =  62%Amount complete =  64%Amount complete =  65%Amount complete =  67%Amount complete =  69%Amount complete =  71%Amount complete =  73%Amount complete =  75%Amount complete =  76%Amount complete =  78%Amount complete =  80%Amount complete =  82%Amount complete =  84%Amount complete =  86%Amount complete =  87%Amount complete =  89%Amount complete =  91%Amount complete =  93%
+Error in chkfopen(): No such file or directory
+   path = 'Sband_DM37.30.dat'
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are PRESTO subband format...
+Reading PRESTO subband data from 32 files:
+  'Sband_DM37.30.sub00'
+  'Sband_DM37.30.sub01'
+  'Sband_DM37.30.sub02'
+  'Sband_DM37.30.sub03'
+  'Sband_DM37.30.sub04'
+  'Sband_DM37.30.sub05'
+  'Sband_DM37.30.sub06'
+  'Sband_DM37.30.sub07'
+  'Sband_DM37.30.sub08'
+  'Sband_DM37.30.sub09'
+  'Sband_DM37.30.sub10'
+  'Sband_DM37.30.sub11'
+  'Sband_DM37.30.sub12'
+  'Sband_DM37.30.sub13'
+  'Sband_DM37.30.sub14'
+  'Sband_DM37.30.sub15'
+  'Sband_DM37.30.sub16'
+  'Sband_DM37.30.sub17'
+  'Sband_DM37.30.sub18'
+  'Sband_DM37.30.sub19'
+  'Sband_DM37.30.sub20'
+  'Sband_DM37.30.sub21'
+  'Sband_DM37.30.sub22'
+  'Sband_DM37.30.sub23'
+  'Sband_DM37.30.sub24'
+  'Sband_DM37.30.sub25'
+  'Sband_DM37.30.sub26'
+  'Sband_DM37.30.sub27'
+  'Sband_DM37.30.sub28'
+  'Sband_DM37.30.sub29'
+  'Sband_DM37.30.sub30'
+  'Sband_DM37.30.sub31'
+
+    Number of files = 32
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 1024
+   Total points (N) = 124800
+     Total time (s) = 24.5366784    
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      124800           0  58733.66903437861765
+
+Writing output data to:
+   'Sband_DM35.20.dat'
+   'Sband_DM35.40.dat'
+   'Sband_DM35.60.dat'
+   'Sband_DM35.80.dat'
+   'Sband_DM36.00.dat'
+   'Sband_DM36.20.dat'
+   'Sband_DM36.40.dat'
+   'Sband_DM36.60.dat'
+   'Sband_DM36.80.dat'
+   'Sband_DM37.00.dat'
+   'Sband_DM37.20.dat'
+   'Sband_DM37.40.dat'
+   'Sband_DM37.60.dat'
+   'Sband_DM37.80.dat'
+   'Sband_DM38.00.dat'
+   'Sband_DM38.20.dat'
+   'Sband_DM38.40.dat'
+   'Sband_DM38.60.dat'
+   'Sband_DM38.80.dat'
+   'Sband_DM39.00.dat'
+   'Sband_DM39.20.dat'
+   'Sband_DM39.40.dat'
+
+Generating barycentric corrections...
+   Average topocentric velocity (c) = 4.600388e-05
+   Maximum topocentric velocity (c) = 4.600981e-05
+   Minimum topocentric velocity (c) = 4.599794e-05
+
+De-dispersing and barycentering using:
+       Subbands = 32
+     Average DM = 37.3
+
+Amount complete =   0%Amount complete =   1%Amount complete =   2%Amount complete =   3%Amount complete =   4%Amount complete =   5%Amount complete =   6%Amount complete =   7%Amount complete =   8%Amount complete =   9%Amount complete =  10%Amount complete =  11%Amount complete =  12%Amount complete =  13%Amount complete =  14%Amount complete =  15%Amount complete =  16%Amount complete =  17%Amount complete =  18%Amount complete =  19%Amount complete =  20%Amount complete =  21%Amount complete =  22%Amount complete =  23%Amount complete =  24%Amount complete =  25%Amount complete =  26%Amount complete =  27%Amount complete =  28%Amount complete =  29%Amount complete =  30%Amount complete =  31%Amount complete =  32%Amount complete =  33%Amount complete =  34%Amount complete =  35%Amount complete =  36%Amount complete =  37%Amount complete =  38%Amount complete =  39%Amount complete =  40%Amount complete =  41%Amount complete =  42%Amount complete =  43%Amount complete =  44%Amount complete =  45%Amount complete =  46%Amount complete =  47%Amount complete =  48%Amount complete =  49%Amount complete =  50%Amount complete =  51%Amount complete =  52%Amount complete =  53%Amount complete =  54%Amount complete =  55%Amount complete =  56%Amount complete =  57%Amount complete =  58%Amount complete =  59%Amount complete =  60%Amount complete =  61%Amount complete =  62%Amount complete =  63%Amount complete =  64%Amount complete =  65%Amount complete =  66%Amount complete =  67%Amount complete =  68%Amount complete =  69%Amount complete =  70%Amount complete =  71%Amount complete =  72%Amount complete =  73%Amount complete =  74%Amount complete =  75%Amount complete =  76%Amount complete =  77%Amount complete =  78%Amount complete =  79%Amount complete =  80%Amount complete =  81%Amount complete =  82%Amount complete =  83%Amount complete =  84%Amount complete =  85%Amount complete =  86%Amount complete =  87%Amount complete =  88%Amount complete =  89%Amount complete =  90%Amount complete =  91%Amount complete =  92%Amount complete =  93%Amount complete = 100%
+
+Done.
+
+Simple statistics of the output data:
+             Data points written:  122874
+          Padding points written:  8126
+  Bins removed for barycentering:  6
+           Maximum value of data:  2571.00
+           Minimum value of data:  1821.00
+              Data average value:  1963.79
+         Data standard deviation:  50.22
+
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are SIGPROC filterbank format...
+Reading SIGPROC filterbank data from 1 file:
+  '../Dec+1554_arcdrift+23.4-M12_0194.fil'
+
+    Number of files = 1
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 2400
+   Total points (N) = 131072
+     Total time (s) = 25.769803776  
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      131072           0  58733.66903437861765
+
+
+Warning:  You cannot (currently) barycenter subbands.
+          Setting the '-nobary' flag automatically.
+Writing subbands to:
+   'Sband_DM41.70.sub00'
+   'Sband_DM41.70.sub01'
+   'Sband_DM41.70.sub02'
+   'Sband_DM41.70.sub03'
+   'Sband_DM41.70.sub04'
+   'Sband_DM41.70.sub05'
+   'Sband_DM41.70.sub06'
+   'Sband_DM41.70.sub07'
+   'Sband_DM41.70.sub08'
+   'Sband_DM41.70.sub09'
+   'Sband_DM41.70.sub10'
+   'Sband_DM41.70.sub11'
+   'Sband_DM41.70.sub12'
+   'Sband_DM41.70.sub13'
+   'Sband_DM41.70.sub14'
+   'Sband_DM41.70.sub15'
+   'Sband_DM41.70.sub16'
+   'Sband_DM41.70.sub17'
+   'Sband_DM41.70.sub18'
+   'Sband_DM41.70.sub19'
+   'Sband_DM41.70.sub20'
+   'Sband_DM41.70.sub21'
+   'Sband_DM41.70.sub22'
+   'Sband_DM41.70.sub23'
+   'Sband_DM41.70.sub24'
+   'Sband_DM41.70.sub25'
+   'Sband_DM41.70.sub26'
+   'Sband_DM41.70.sub27'
+   'Sband_DM41.70.sub28'
+   'Sband_DM41.70.sub29'
+   'Sband_DM41.70.sub30'
+   'Sband_DM41.70.sub31'
+Setting a 'good' output length of 131072 samples
+
+De-dispersing using:
+       Subbands = 32
+     Average DM = 41.7
+
+Amount complete =   0%Amount complete =   1%Amount complete =   3%Amount complete =   5%Amount complete =   7%Amount complete =   9%Amount complete =  10%Amount complete =  12%Amount complete =  14%Amount complete =  16%Amount complete =  18%Amount complete =  20%Amount complete =  21%Amount complete =  23%Amount complete =  25%Amount complete =  27%Amount complete =  29%Amount complete =  31%Amount complete =  32%Amount complete =  34%Amount complete =  36%Amount complete =  38%Amount complete =  40%Amount complete =  42%Amount complete =  43%Amount complete =  45%Amount complete =  47%Amount complete =  49%Amount complete =  51%Amount complete =  53%Amount complete =  54%Amount complete =  56%Amount complete =  58%Amount complete =  60%Amount complete =  62%Amount complete =  64%Amount complete =  65%Amount complete =  67%Amount complete =  69%Amount complete =  71%Amount complete =  73%Amount complete =  75%Amount complete =  76%Amount complete =  78%Amount complete =  80%Amount complete =  82%Amount complete =  84%Amount complete =  86%Amount complete =  87%Amount complete =  89%Amount complete =  91%Amount complete =  93%
+Error in chkfopen(): No such file or directory
+   path = 'Sband_DM41.70.dat'
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are PRESTO subband format...
+Reading PRESTO subband data from 32 files:
+  'Sband_DM41.70.sub00'
+  'Sband_DM41.70.sub01'
+  'Sband_DM41.70.sub02'
+  'Sband_DM41.70.sub03'
+  'Sband_DM41.70.sub04'
+  'Sband_DM41.70.sub05'
+  'Sband_DM41.70.sub06'
+  'Sband_DM41.70.sub07'
+  'Sband_DM41.70.sub08'
+  'Sband_DM41.70.sub09'
+  'Sband_DM41.70.sub10'
+  'Sband_DM41.70.sub11'
+  'Sband_DM41.70.sub12'
+  'Sband_DM41.70.sub13'
+  'Sband_DM41.70.sub14'
+  'Sband_DM41.70.sub15'
+  'Sband_DM41.70.sub16'
+  'Sband_DM41.70.sub17'
+  'Sband_DM41.70.sub18'
+  'Sband_DM41.70.sub19'
+  'Sband_DM41.70.sub20'
+  'Sband_DM41.70.sub21'
+  'Sband_DM41.70.sub22'
+  'Sband_DM41.70.sub23'
+  'Sband_DM41.70.sub24'
+  'Sband_DM41.70.sub25'
+  'Sband_DM41.70.sub26'
+  'Sband_DM41.70.sub27'
+  'Sband_DM41.70.sub28'
+  'Sband_DM41.70.sub29'
+  'Sband_DM41.70.sub30'
+  'Sband_DM41.70.sub31'
+
+    Number of files = 32
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 1024
+   Total points (N) = 124800
+     Total time (s) = 24.5366784    
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      124800           0  58733.66903437861765
+
+Writing output data to:
+   'Sband_DM39.60.dat'
+   'Sband_DM39.80.dat'
+   'Sband_DM40.00.dat'
+   'Sband_DM40.20.dat'
+   'Sband_DM40.40.dat'
+   'Sband_DM40.60.dat'
+   'Sband_DM40.80.dat'
+   'Sband_DM41.00.dat'
+   'Sband_DM41.20.dat'
+   'Sband_DM41.40.dat'
+   'Sband_DM41.60.dat'
+   'Sband_DM41.80.dat'
+   'Sband_DM42.00.dat'
+   'Sband_DM42.20.dat'
+   'Sband_DM42.40.dat'
+   'Sband_DM42.60.dat'
+   'Sband_DM42.80.dat'
+   'Sband_DM43.00.dat'
+   'Sband_DM43.20.dat'
+   'Sband_DM43.40.dat'
+   'Sband_DM43.60.dat'
+   'Sband_DM43.80.dat'
+
+Generating barycentric corrections...
+   Average topocentric velocity (c) = 4.600388e-05
+   Maximum topocentric velocity (c) = 4.600981e-05
+   Minimum topocentric velocity (c) = 4.599794e-05
+
+De-dispersing and barycentering using:
+       Subbands = 32
+     Average DM = 41.7
+
+Amount complete =   0%Amount complete =   1%Amount complete =   2%Amount complete =   3%Amount complete =   4%Amount complete =   5%Amount complete =   6%Amount complete =   7%Amount complete =   8%Amount complete =   9%Amount complete =  10%Amount complete =  11%Amount complete =  12%Amount complete =  13%Amount complete =  14%Amount complete =  15%Amount complete =  16%Amount complete =  17%Amount complete =  18%Amount complete =  19%Amount complete =  20%Amount complete =  21%Amount complete =  22%Amount complete =  23%Amount complete =  24%Amount complete =  25%Amount complete =  26%Amount complete =  27%Amount complete =  28%Amount complete =  29%Amount complete =  30%Amount complete =  31%Amount complete =  32%Amount complete =  33%Amount complete =  34%Amount complete =  35%Amount complete =  36%Amount complete =  37%Amount complete =  38%Amount complete =  39%Amount complete =  40%Amount complete =  41%Amount complete =  42%Amount complete =  43%Amount complete =  44%Amount complete =  45%Amount complete =  46%Amount complete =  47%Amount complete =  48%Amount complete =  49%Amount complete =  50%Amount complete =  51%Amount complete =  52%Amount complete =  53%Amount complete =  54%Amount complete =  55%Amount complete =  56%Amount complete =  57%Amount complete =  58%Amount complete =  59%Amount complete =  60%Amount complete =  61%Amount complete =  62%Amount complete =  63%Amount complete =  64%Amount complete =  65%Amount complete =  66%Amount complete =  67%Amount complete =  68%Amount complete =  69%Amount complete =  70%Amount complete =  71%Amount complete =  72%Amount complete =  73%Amount complete =  74%Amount complete =  75%Amount complete =  76%Amount complete =  77%Amount complete =  78%Amount complete =  79%Amount complete =  80%Amount complete =  81%Amount complete =  82%Amount complete =  83%Amount complete =  84%Amount complete =  85%Amount complete =  86%Amount complete =  87%Amount complete =  88%Amount complete =  89%Amount complete =  90%Amount complete =  91%Amount complete =  92%Amount complete =  93%Amount complete = 100%
+
+Done.
+
+Simple statistics of the output data:
+             Data points written:  122874
+          Padding points written:  8126
+  Bins removed for barycentering:  6
+           Maximum value of data:  2390.00
+           Minimum value of data:  1802.00
+              Data average value:  1963.79
+         Data standard deviation:  45.10
+
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are SIGPROC filterbank format...
+Reading SIGPROC filterbank data from 1 file:
+  '../Dec+1554_arcdrift+23.4-M12_0194.fil'
+
+    Number of files = 1
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 2400
+   Total points (N) = 131072
+     Total time (s) = 25.769803776  
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      131072           0  58733.66903437861765
+
+
+Warning:  You cannot (currently) barycenter subbands.
+          Setting the '-nobary' flag automatically.
+Writing subbands to:
+   'Sband_DM46.10.sub00'
+   'Sband_DM46.10.sub01'
+   'Sband_DM46.10.sub02'
+   'Sband_DM46.10.sub03'
+   'Sband_DM46.10.sub04'
+   'Sband_DM46.10.sub05'
+   'Sband_DM46.10.sub06'
+   'Sband_DM46.10.sub07'
+   'Sband_DM46.10.sub08'
+   'Sband_DM46.10.sub09'
+   'Sband_DM46.10.sub10'
+   'Sband_DM46.10.sub11'
+   'Sband_DM46.10.sub12'
+   'Sband_DM46.10.sub13'
+   'Sband_DM46.10.sub14'
+   'Sband_DM46.10.sub15'
+   'Sband_DM46.10.sub16'
+   'Sband_DM46.10.sub17'
+   'Sband_DM46.10.sub18'
+   'Sband_DM46.10.sub19'
+   'Sband_DM46.10.sub20'
+   'Sband_DM46.10.sub21'
+   'Sband_DM46.10.sub22'
+   'Sband_DM46.10.sub23'
+   'Sband_DM46.10.sub24'
+   'Sband_DM46.10.sub25'
+   'Sband_DM46.10.sub26'
+   'Sband_DM46.10.sub27'
+   'Sband_DM46.10.sub28'
+   'Sband_DM46.10.sub29'
+   'Sband_DM46.10.sub30'
+   'Sband_DM46.10.sub31'
+Setting a 'good' output length of 131072 samples
+
+De-dispersing using:
+       Subbands = 32
+     Average DM = 46.1
+
+Amount complete =   0%Amount complete =   1%Amount complete =   3%Amount complete =   5%Amount complete =   7%Amount complete =   9%Amount complete =  10%Amount complete =  12%Amount complete =  14%Amount complete =  16%Amount complete =  18%Amount complete =  20%Amount complete =  21%Amount complete =  23%Amount complete =  25%Amount complete =  27%Amount complete =  29%Amount complete =  31%Amount complete =  32%Amount complete =  34%Amount complete =  36%Amount complete =  38%Amount complete =  40%Amount complete =  42%Amount complete =  43%Amount complete =  45%Amount complete =  47%Amount complete =  49%Amount complete =  51%Amount complete =  53%Amount complete =  54%Amount complete =  56%Amount complete =  58%Amount complete =  60%Amount complete =  62%Amount complete =  64%Amount complete =  65%Amount complete =  67%Amount complete =  69%Amount complete =  71%Amount complete =  73%Amount complete =  75%Amount complete =  76%Amount complete =  78%Amount complete =  80%Amount complete =  82%Amount complete =  84%Amount complete =  86%Amount complete =  87%Amount complete =  89%Amount complete =  91%Amount complete =  93%
+Error in chkfopen(): No such file or directory
+   path = 'Sband_DM46.10.dat'
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are PRESTO subband format...
+Reading PRESTO subband data from 32 files:
+  'Sband_DM46.10.sub00'
+  'Sband_DM46.10.sub01'
+  'Sband_DM46.10.sub02'
+  'Sband_DM46.10.sub03'
+  'Sband_DM46.10.sub04'
+  'Sband_DM46.10.sub05'
+  'Sband_DM46.10.sub06'
+  'Sband_DM46.10.sub07'
+  'Sband_DM46.10.sub08'
+  'Sband_DM46.10.sub09'
+  'Sband_DM46.10.sub10'
+  'Sband_DM46.10.sub11'
+  'Sband_DM46.10.sub12'
+  'Sband_DM46.10.sub13'
+  'Sband_DM46.10.sub14'
+  'Sband_DM46.10.sub15'
+  'Sband_DM46.10.sub16'
+  'Sband_DM46.10.sub17'
+  'Sband_DM46.10.sub18'
+  'Sband_DM46.10.sub19'
+  'Sband_DM46.10.sub20'
+  'Sband_DM46.10.sub21'
+  'Sband_DM46.10.sub22'
+  'Sband_DM46.10.sub23'
+  'Sband_DM46.10.sub24'
+  'Sband_DM46.10.sub25'
+  'Sband_DM46.10.sub26'
+  'Sband_DM46.10.sub27'
+  'Sband_DM46.10.sub28'
+  'Sband_DM46.10.sub29'
+  'Sband_DM46.10.sub30'
+  'Sband_DM46.10.sub31'
+
+    Number of files = 32
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 1024
+   Total points (N) = 124800
+     Total time (s) = 24.5366784    
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      124800           0  58733.66903437861765
+
+Writing output data to:
+   'Sband_DM44.00.dat'
+   'Sband_DM44.20.dat'
+   'Sband_DM44.40.dat'
+   'Sband_DM44.60.dat'
+   'Sband_DM44.80.dat'
+   'Sband_DM45.00.dat'
+   'Sband_DM45.20.dat'
+   'Sband_DM45.40.dat'
+   'Sband_DM45.60.dat'
+   'Sband_DM45.80.dat'
+   'Sband_DM46.00.dat'
+   'Sband_DM46.20.dat'
+   'Sband_DM46.40.dat'
+   'Sband_DM46.60.dat'
+   'Sband_DM46.80.dat'
+   'Sband_DM47.00.dat'
+   'Sband_DM47.20.dat'
+   'Sband_DM47.40.dat'
+   'Sband_DM47.60.dat'
+   'Sband_DM47.80.dat'
+   'Sband_DM48.00.dat'
+   'Sband_DM48.20.dat'
+
+Generating barycentric corrections...
+   Average topocentric velocity (c) = 4.600388e-05
+   Maximum topocentric velocity (c) = 4.600981e-05
+   Minimum topocentric velocity (c) = 4.599794e-05
+
+De-dispersing and barycentering using:
+       Subbands = 32
+     Average DM = 46.1
+
+Amount complete =   0%Amount complete =   1%Amount complete =   2%Amount complete =   3%Amount complete =   4%Amount complete =   5%Amount complete =   6%Amount complete =   7%Amount complete =   8%Amount complete =   9%Amount complete =  10%Amount complete =  11%Amount complete =  12%Amount complete =  13%Amount complete =  14%Amount complete =  15%Amount complete =  16%Amount complete =  17%Amount complete =  18%Amount complete =  19%Amount complete =  20%Amount complete =  21%Amount complete =  22%Amount complete =  23%Amount complete =  24%Amount complete =  25%Amount complete =  26%Amount complete =  27%Amount complete =  28%Amount complete =  29%Amount complete =  30%Amount complete =  31%Amount complete =  32%Amount complete =  33%Amount complete =  34%Amount complete =  35%Amount complete =  36%Amount complete =  37%Amount complete =  38%Amount complete =  39%Amount complete =  40%Amount complete =  41%Amount complete =  42%Amount complete =  43%Amount complete =  44%Amount complete =  45%Amount complete =  46%Amount complete =  47%Amount complete =  48%Amount complete =  49%Amount complete =  50%Amount complete =  51%Amount complete =  52%Amount complete =  53%Amount complete =  54%Amount complete =  55%Amount complete =  56%Amount complete =  57%Amount complete =  58%Amount complete =  59%Amount complete =  60%Amount complete =  61%Amount complete =  62%Amount complete =  63%Amount complete =  64%Amount complete =  65%Amount complete =  66%Amount complete =  67%Amount complete =  68%Amount complete =  69%Amount complete =  70%Amount complete =  71%Amount complete =  72%Amount complete =  73%Amount complete =  74%Amount complete =  75%Amount complete =  76%Amount complete =  77%Amount complete =  78%Amount complete =  79%Amount complete =  80%Amount complete =  81%Amount complete =  82%Amount complete =  83%Amount complete =  84%Amount complete =  85%Amount complete =  86%Amount complete =  87%Amount complete =  88%Amount complete =  89%Amount complete =  90%Amount complete =  91%Amount complete =  92%Amount complete =  93%Amount complete = 100%
+
+Done.
+
+Simple statistics of the output data:
+             Data points written:  122874
+          Padding points written:  8126
+  Bins removed for barycentering:  6
+           Maximum value of data:  2335.00
+           Minimum value of data:  1818.00
+              Data average value:  1963.79
+         Data standard deviation:  42.37
+
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are SIGPROC filterbank format...
+Reading SIGPROC filterbank data from 1 file:
+  '../Dec+1554_arcdrift+23.4-M12_0194.fil'
+
+    Number of files = 1
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 2400
+   Total points (N) = 131072
+     Total time (s) = 25.769803776  
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      131072           0  58733.66903437861765
+
+
+Warning:  You cannot (currently) barycenter subbands.
+          Setting the '-nobary' flag automatically.
+Writing subbands to:
+   'Sband_DM50.50.sub00'
+   'Sband_DM50.50.sub01'
+   'Sband_DM50.50.sub02'
+   'Sband_DM50.50.sub03'
+   'Sband_DM50.50.sub04'
+   'Sband_DM50.50.sub05'
+   'Sband_DM50.50.sub06'
+   'Sband_DM50.50.sub07'
+   'Sband_DM50.50.sub08'
+   'Sband_DM50.50.sub09'
+   'Sband_DM50.50.sub10'
+   'Sband_DM50.50.sub11'
+   'Sband_DM50.50.sub12'
+   'Sband_DM50.50.sub13'
+   'Sband_DM50.50.sub14'
+   'Sband_DM50.50.sub15'
+   'Sband_DM50.50.sub16'
+   'Sband_DM50.50.sub17'
+   'Sband_DM50.50.sub18'
+   'Sband_DM50.50.sub19'
+   'Sband_DM50.50.sub20'
+   'Sband_DM50.50.sub21'
+   'Sband_DM50.50.sub22'
+   'Sband_DM50.50.sub23'
+   'Sband_DM50.50.sub24'
+   'Sband_DM50.50.sub25'
+   'Sband_DM50.50.sub26'
+   'Sband_DM50.50.sub27'
+   'Sband_DM50.50.sub28'
+   'Sband_DM50.50.sub29'
+   'Sband_DM50.50.sub30'
+   'Sband_DM50.50.sub31'
+Setting a 'good' output length of 131072 samples
+
+De-dispersing using:
+       Subbands = 32
+     Average DM = 50.5
+
+Amount complete =   0%Amount complete =   1%Amount complete =   3%Amount complete =   5%Amount complete =   7%Amount complete =   9%Amount complete =  10%Amount complete =  12%Amount complete =  14%Amount complete =  16%Amount complete =  18%Amount complete =  20%Amount complete =  21%Amount complete =  23%Amount complete =  25%Amount complete =  27%Amount complete =  29%Amount complete =  31%Amount complete =  32%Amount complete =  34%Amount complete =  36%Amount complete =  38%Amount complete =  40%Amount complete =  42%Amount complete =  43%Amount complete =  45%Amount complete =  47%Amount complete =  49%Amount complete =  51%Amount complete =  53%Amount complete =  54%Amount complete =  56%Amount complete =  58%Amount complete =  60%Amount complete =  62%Amount complete =  64%Amount complete =  65%Amount complete =  67%Amount complete =  69%Amount complete =  71%Amount complete =  73%Amount complete =  75%Amount complete =  76%Amount complete =  78%Amount complete =  80%Amount complete =  82%Amount complete =  84%Amount complete =  86%Amount complete =  87%Amount complete =  89%Amount complete =  91%Amount complete =  93%
+Error in chkfopen(): No such file or directory
+   path = 'Sband_DM50.50.dat'
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are PRESTO subband format...
+Reading PRESTO subband data from 32 files:
+  'Sband_DM50.50.sub00'
+  'Sband_DM50.50.sub01'
+  'Sband_DM50.50.sub02'
+  'Sband_DM50.50.sub03'
+  'Sband_DM50.50.sub04'
+  'Sband_DM50.50.sub05'
+  'Sband_DM50.50.sub06'
+  'Sband_DM50.50.sub07'
+  'Sband_DM50.50.sub08'
+  'Sband_DM50.50.sub09'
+  'Sband_DM50.50.sub10'
+  'Sband_DM50.50.sub11'
+  'Sband_DM50.50.sub12'
+  'Sband_DM50.50.sub13'
+  'Sband_DM50.50.sub14'
+  'Sband_DM50.50.sub15'
+  'Sband_DM50.50.sub16'
+  'Sband_DM50.50.sub17'
+  'Sband_DM50.50.sub18'
+  'Sband_DM50.50.sub19'
+  'Sband_DM50.50.sub20'
+  'Sband_DM50.50.sub21'
+  'Sband_DM50.50.sub22'
+  'Sband_DM50.50.sub23'
+  'Sband_DM50.50.sub24'
+  'Sband_DM50.50.sub25'
+  'Sband_DM50.50.sub26'
+  'Sband_DM50.50.sub27'
+  'Sband_DM50.50.sub28'
+  'Sband_DM50.50.sub29'
+  'Sband_DM50.50.sub30'
+  'Sband_DM50.50.sub31'
+
+    Number of files = 32
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 1024
+   Total points (N) = 124800
+     Total time (s) = 24.5366784    
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      124800           0  58733.66903437861765
+
+Writing output data to:
+   'Sband_DM48.40.dat'
+   'Sband_DM48.60.dat'
+   'Sband_DM48.80.dat'
+   'Sband_DM49.00.dat'
+   'Sband_DM49.20.dat'
+   'Sband_DM49.40.dat'
+   'Sband_DM49.60.dat'
+   'Sband_DM49.80.dat'
+   'Sband_DM50.00.dat'
+   'Sband_DM50.20.dat'
+   'Sband_DM50.40.dat'
+   'Sband_DM50.60.dat'
+   'Sband_DM50.80.dat'
+   'Sband_DM51.00.dat'
+   'Sband_DM51.20.dat'
+   'Sband_DM51.40.dat'
+   'Sband_DM51.60.dat'
+   'Sband_DM51.80.dat'
+   'Sband_DM52.00.dat'
+   'Sband_DM52.20.dat'
+   'Sband_DM52.40.dat'
+   'Sband_DM52.60.dat'
+
+Generating barycentric corrections...
+   Average topocentric velocity (c) = 4.600388e-05
+   Maximum topocentric velocity (c) = 4.600981e-05
+   Minimum topocentric velocity (c) = 4.599794e-05
+
+De-dispersing and barycentering using:
+       Subbands = 32
+     Average DM = 50.5
+
+Amount complete =   0%Amount complete =   1%Amount complete =   2%Amount complete =   3%Amount complete =   4%Amount complete =   5%Amount complete =   6%Amount complete =   7%Amount complete =   8%Amount complete =   9%Amount complete =  10%Amount complete =  11%Amount complete =  12%Amount complete =  13%Amount complete =  14%Amount complete =  15%Amount complete =  16%Amount complete =  17%Amount complete =  18%Amount complete =  19%Amount complete =  20%Amount complete =  21%Amount complete =  22%Amount complete =  23%Amount complete =  24%Amount complete =  25%Amount complete =  26%Amount complete =  27%Amount complete =  28%Amount complete =  29%Amount complete =  30%Amount complete =  31%Amount complete =  32%Amount complete =  33%Amount complete =  34%Amount complete =  35%Amount complete =  36%Amount complete =  37%Amount complete =  38%Amount complete =  39%Amount complete =  40%Amount complete =  41%Amount complete =  42%Amount complete =  43%Amount complete =  44%Amount complete =  45%Amount complete =  46%Amount complete =  47%Amount complete =  48%Amount complete =  49%Amount complete =  50%Amount complete =  51%Amount complete =  52%Amount complete =  53%Amount complete =  54%Amount complete =  55%Amount complete =  56%Amount complete =  57%Amount complete =  58%Amount complete =  59%Amount complete =  60%Amount complete =  61%Amount complete =  62%Amount complete =  63%Amount complete =  64%Amount complete =  65%Amount complete =  66%Amount complete =  67%Amount complete =  68%Amount complete =  69%Amount complete =  70%Amount complete =  71%Amount complete =  72%Amount complete =  73%Amount complete =  74%Amount complete =  75%Amount complete =  76%Amount complete =  77%Amount complete =  78%Amount complete =  79%Amount complete =  80%Amount complete =  81%Amount complete =  82%Amount complete =  83%Amount complete =  84%Amount complete =  85%Amount complete =  86%Amount complete =  87%Amount complete =  88%Amount complete =  89%Amount complete =  90%Amount complete =  91%Amount complete =  92%Amount complete =  93%Amount complete = 100%
+
+Done.
+
+Simple statistics of the output data:
+             Data points written:  122874
+          Padding points written:  8126
+  Bins removed for barycentering:  6
+           Maximum value of data:  2314.00
+           Minimum value of data:  1808.00
+              Data average value:  1963.79
+         Data standard deviation:  40.49
+
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are SIGPROC filterbank format...
+Reading SIGPROC filterbank data from 1 file:
+  '../Dec+1554_arcdrift+23.4-M12_0194.fil'
+
+    Number of files = 1
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 2400
+   Total points (N) = 131072
+     Total time (s) = 25.769803776  
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      131072           0  58733.66903437861765
+
+
+Warning:  You cannot (currently) barycenter subbands.
+          Setting the '-nobary' flag automatically.
+Writing subbands to:
+   'Sband_DM54.90.sub00'
+   'Sband_DM54.90.sub01'
+   'Sband_DM54.90.sub02'
+   'Sband_DM54.90.sub03'
+   'Sband_DM54.90.sub04'
+   'Sband_DM54.90.sub05'
+   'Sband_DM54.90.sub06'
+   'Sband_DM54.90.sub07'
+   'Sband_DM54.90.sub08'
+   'Sband_DM54.90.sub09'
+   'Sband_DM54.90.sub10'
+   'Sband_DM54.90.sub11'
+   'Sband_DM54.90.sub12'
+   'Sband_DM54.90.sub13'
+   'Sband_DM54.90.sub14'
+   'Sband_DM54.90.sub15'
+   'Sband_DM54.90.sub16'
+   'Sband_DM54.90.sub17'
+   'Sband_DM54.90.sub18'
+   'Sband_DM54.90.sub19'
+   'Sband_DM54.90.sub20'
+   'Sband_DM54.90.sub21'
+   'Sband_DM54.90.sub22'
+   'Sband_DM54.90.sub23'
+   'Sband_DM54.90.sub24'
+   'Sband_DM54.90.sub25'
+   'Sband_DM54.90.sub26'
+   'Sband_DM54.90.sub27'
+   'Sband_DM54.90.sub28'
+   'Sband_DM54.90.sub29'
+   'Sband_DM54.90.sub30'
+   'Sband_DM54.90.sub31'
+Setting a 'good' output length of 131072 samples
+
+De-dispersing using:
+       Subbands = 32
+     Average DM = 54.9
+
+Amount complete =   0%Amount complete =   1%Amount complete =   3%Amount complete =   5%Amount complete =   7%Amount complete =   9%Amount complete =  10%Amount complete =  12%Amount complete =  14%Amount complete =  16%Amount complete =  18%Amount complete =  20%Amount complete =  21%Amount complete =  23%Amount complete =  25%Amount complete =  27%Amount complete =  29%Amount complete =  31%Amount complete =  32%Amount complete =  34%Amount complete =  36%Amount complete =  38%Amount complete =  40%Amount complete =  42%Amount complete =  43%Amount complete =  45%Amount complete =  47%Amount complete =  49%Amount complete =  51%Amount complete =  53%Amount complete =  54%Amount complete =  56%Amount complete =  58%Amount complete =  60%Amount complete =  62%Amount complete =  64%Amount complete =  65%Amount complete =  67%Amount complete =  69%Amount complete =  71%Amount complete =  73%Amount complete =  75%Amount complete =  76%Amount complete =  78%Amount complete =  80%Amount complete =  82%Amount complete =  84%Amount complete =  86%Amount complete =  87%Amount complete =  89%Amount complete =  91%Amount complete =  93%
+Error in chkfopen(): No such file or directory
+   path = 'Sband_DM54.90.dat'
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are PRESTO subband format...
+Reading PRESTO subband data from 32 files:
+  'Sband_DM54.90.sub00'
+  'Sband_DM54.90.sub01'
+  'Sband_DM54.90.sub02'
+  'Sband_DM54.90.sub03'
+  'Sband_DM54.90.sub04'
+  'Sband_DM54.90.sub05'
+  'Sband_DM54.90.sub06'
+  'Sband_DM54.90.sub07'
+  'Sband_DM54.90.sub08'
+  'Sband_DM54.90.sub09'
+  'Sband_DM54.90.sub10'
+  'Sband_DM54.90.sub11'
+  'Sband_DM54.90.sub12'
+  'Sband_DM54.90.sub13'
+  'Sband_DM54.90.sub14'
+  'Sband_DM54.90.sub15'
+  'Sband_DM54.90.sub16'
+  'Sband_DM54.90.sub17'
+  'Sband_DM54.90.sub18'
+  'Sband_DM54.90.sub19'
+  'Sband_DM54.90.sub20'
+  'Sband_DM54.90.sub21'
+  'Sband_DM54.90.sub22'
+  'Sband_DM54.90.sub23'
+  'Sband_DM54.90.sub24'
+  'Sband_DM54.90.sub25'
+  'Sband_DM54.90.sub26'
+  'Sband_DM54.90.sub27'
+  'Sband_DM54.90.sub28'
+  'Sband_DM54.90.sub29'
+  'Sband_DM54.90.sub30'
+  'Sband_DM54.90.sub31'
+
+    Number of files = 32
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 1024
+   Total points (N) = 124800
+     Total time (s) = 24.5366784    
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      124800           0  58733.66903437861765
+
+Writing output data to:
+   'Sband_DM52.80.dat'
+   'Sband_DM53.00.dat'
+   'Sband_DM53.20.dat'
+   'Sband_DM53.40.dat'
+   'Sband_DM53.60.dat'
+   'Sband_DM53.80.dat'
+   'Sband_DM54.00.dat'
+   'Sband_DM54.20.dat'
+   'Sband_DM54.40.dat'
+   'Sband_DM54.60.dat'
+   'Sband_DM54.80.dat'
+   'Sband_DM55.00.dat'
+   'Sband_DM55.20.dat'
+   'Sband_DM55.40.dat'
+   'Sband_DM55.60.dat'
+   'Sband_DM55.80.dat'
+   'Sband_DM56.00.dat'
+   'Sband_DM56.20.dat'
+   'Sband_DM56.40.dat'
+   'Sband_DM56.60.dat'
+   'Sband_DM56.80.dat'
+   'Sband_DM57.00.dat'
+
+Generating barycentric corrections...
+   Average topocentric velocity (c) = 4.600388e-05
+   Maximum topocentric velocity (c) = 4.600981e-05
+   Minimum topocentric velocity (c) = 4.599794e-05
+
+De-dispersing and barycentering using:
+       Subbands = 32
+     Average DM = 54.9
+
+Amount complete =   0%Amount complete =   1%Amount complete =   2%Amount complete =   3%Amount complete =   4%Amount complete =   5%Amount complete =   6%Amount complete =   7%Amount complete =   8%Amount complete =   9%Amount complete =  10%Amount complete =  11%Amount complete =  12%Amount complete =  13%Amount complete =  14%Amount complete =  15%Amount complete =  16%Amount complete =  17%Amount complete =  18%Amount complete =  19%Amount complete =  20%Amount complete =  21%Amount complete =  22%Amount complete =  23%Amount complete =  24%Amount complete =  25%Amount complete =  26%Amount complete =  27%Amount complete =  28%Amount complete =  29%Amount complete =  30%Amount complete =  31%Amount complete =  32%Amount complete =  33%Amount complete =  34%Amount complete =  35%Amount complete =  36%Amount complete =  37%Amount complete =  38%Amount complete =  39%Amount complete =  40%Amount complete =  41%Amount complete =  42%Amount complete =  43%Amount complete =  44%Amount complete =  45%Amount complete =  46%Amount complete =  47%Amount complete =  48%Amount complete =  49%Amount complete =  50%Amount complete =  51%Amount complete =  52%Amount complete =  53%Amount complete =  54%Amount complete =  55%Amount complete =  56%Amount complete =  57%Amount complete =  58%Amount complete =  59%Amount complete =  60%Amount complete =  61%Amount complete =  62%Amount complete =  63%Amount complete =  64%Amount complete =  65%Amount complete =  66%Amount complete =  67%Amount complete =  68%Amount complete =  69%Amount complete =  70%Amount complete =  71%Amount complete =  72%Amount complete =  73%Amount complete =  74%Amount complete =  75%Amount complete =  76%Amount complete =  77%Amount complete =  78%Amount complete =  79%Amount complete =  80%Amount complete =  81%Amount complete =  82%Amount complete =  83%Amount complete =  84%Amount complete =  85%Amount complete =  86%Amount complete =  87%Amount complete =  88%Amount complete =  89%Amount complete =  90%Amount complete =  91%Amount complete =  92%Amount complete =  93%Amount complete = 100%
+
+Done.
+
+Simple statistics of the output data:
+             Data points written:  122874
+          Padding points written:  8126
+  Bins removed for barycentering:  6
+           Maximum value of data:  2246.00
+           Minimum value of data:  1820.00
+              Data average value:  1963.80
+         Data standard deviation:  39.14
+
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are SIGPROC filterbank format...
+Reading SIGPROC filterbank data from 1 file:
+  '../Dec+1554_arcdrift+23.4-M12_0194.fil'
+
+    Number of files = 1
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 2400
+   Total points (N) = 131072
+     Total time (s) = 25.769803776  
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      131072           0  58733.66903437861765
+
+
+Warning:  You cannot (currently) barycenter subbands.
+          Setting the '-nobary' flag automatically.
+Writing subbands to:
+   'Sband_DM59.30.sub00'
+   'Sband_DM59.30.sub01'
+   'Sband_DM59.30.sub02'
+   'Sband_DM59.30.sub03'
+   'Sband_DM59.30.sub04'
+   'Sband_DM59.30.sub05'
+   'Sband_DM59.30.sub06'
+   'Sband_DM59.30.sub07'
+   'Sband_DM59.30.sub08'
+   'Sband_DM59.30.sub09'
+   'Sband_DM59.30.sub10'
+   'Sband_DM59.30.sub11'
+   'Sband_DM59.30.sub12'
+   'Sband_DM59.30.sub13'
+   'Sband_DM59.30.sub14'
+   'Sband_DM59.30.sub15'
+   'Sband_DM59.30.sub16'
+   'Sband_DM59.30.sub17'
+   'Sband_DM59.30.sub18'
+   'Sband_DM59.30.sub19'
+   'Sband_DM59.30.sub20'
+   'Sband_DM59.30.sub21'
+   'Sband_DM59.30.sub22'
+   'Sband_DM59.30.sub23'
+   'Sband_DM59.30.sub24'
+   'Sband_DM59.30.sub25'
+   'Sband_DM59.30.sub26'
+   'Sband_DM59.30.sub27'
+   'Sband_DM59.30.sub28'
+   'Sband_DM59.30.sub29'
+   'Sband_DM59.30.sub30'
+   'Sband_DM59.30.sub31'
+Setting a 'good' output length of 131072 samples
+
+De-dispersing using:
+       Subbands = 32
+     Average DM = 59.3
+
+Amount complete =   0%Amount complete =   1%Amount complete =   3%Amount complete =   5%Amount complete =   7%Amount complete =   9%Amount complete =  10%Amount complete =  12%Amount complete =  14%Amount complete =  16%Amount complete =  18%Amount complete =  20%Amount complete =  21%Amount complete =  23%Amount complete =  25%Amount complete =  27%Amount complete =  29%Amount complete =  31%Amount complete =  32%Amount complete =  34%Amount complete =  36%Amount complete =  38%Amount complete =  40%Amount complete =  42%Amount complete =  43%Amount complete =  45%Amount complete =  47%Amount complete =  49%Amount complete =  51%Amount complete =  53%Amount complete =  54%Amount complete =  56%Amount complete =  58%Amount complete =  60%Amount complete =  62%Amount complete =  64%Amount complete =  65%Amount complete =  67%Amount complete =  69%Amount complete =  71%Amount complete =  73%Amount complete =  75%Amount complete =  76%Amount complete =  78%Amount complete =  80%Amount complete =  82%Amount complete =  84%Amount complete =  86%Amount complete =  87%Amount complete =  89%Amount complete =  91%Amount complete =  93%
+Error in chkfopen(): No such file or directory
+   path = 'Sband_DM59.30.dat'
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are PRESTO subband format...
+Reading PRESTO subband data from 32 files:
+  'Sband_DM59.30.sub00'
+  'Sband_DM59.30.sub01'
+  'Sband_DM59.30.sub02'
+  'Sband_DM59.30.sub03'
+  'Sband_DM59.30.sub04'
+  'Sband_DM59.30.sub05'
+  'Sband_DM59.30.sub06'
+  'Sband_DM59.30.sub07'
+  'Sband_DM59.30.sub08'
+  'Sband_DM59.30.sub09'
+  'Sband_DM59.30.sub10'
+  'Sband_DM59.30.sub11'
+  'Sband_DM59.30.sub12'
+  'Sband_DM59.30.sub13'
+  'Sband_DM59.30.sub14'
+  'Sband_DM59.30.sub15'
+  'Sband_DM59.30.sub16'
+  'Sband_DM59.30.sub17'
+  'Sband_DM59.30.sub18'
+  'Sband_DM59.30.sub19'
+  'Sband_DM59.30.sub20'
+  'Sband_DM59.30.sub21'
+  'Sband_DM59.30.sub22'
+  'Sband_DM59.30.sub23'
+  'Sband_DM59.30.sub24'
+  'Sband_DM59.30.sub25'
+  'Sband_DM59.30.sub26'
+  'Sband_DM59.30.sub27'
+  'Sband_DM59.30.sub28'
+  'Sband_DM59.30.sub29'
+  'Sband_DM59.30.sub30'
+  'Sband_DM59.30.sub31'
+
+    Number of files = 32
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 1024
+   Total points (N) = 124800
+     Total time (s) = 24.5366784    
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      124800           0  58733.66903437861765
+
+Writing output data to:
+   'Sband_DM57.20.dat'
+   'Sband_DM57.40.dat'
+   'Sband_DM57.60.dat'
+   'Sband_DM57.80.dat'
+   'Sband_DM58.00.dat'
+   'Sband_DM58.20.dat'
+   'Sband_DM58.40.dat'
+   'Sband_DM58.60.dat'
+   'Sband_DM58.80.dat'
+   'Sband_DM59.00.dat'
+   'Sband_DM59.20.dat'
+   'Sband_DM59.40.dat'
+   'Sband_DM59.60.dat'
+   'Sband_DM59.80.dat'
+   'Sband_DM60.00.dat'
+   'Sband_DM60.20.dat'
+   'Sband_DM60.40.dat'
+   'Sband_DM60.60.dat'
+   'Sband_DM60.80.dat'
+   'Sband_DM61.00.dat'
+   'Sband_DM61.20.dat'
+   'Sband_DM61.40.dat'
+
+Generating barycentric corrections...
+   Average topocentric velocity (c) = 4.600388e-05
+   Maximum topocentric velocity (c) = 4.600981e-05
+   Minimum topocentric velocity (c) = 4.599794e-05
+
+De-dispersing and barycentering using:
+       Subbands = 32
+     Average DM = 59.3
+
+Amount complete =   0%Amount complete =   1%Amount complete =   2%Amount complete =   3%Amount complete =   4%Amount complete =   5%Amount complete =   6%Amount complete =   7%Amount complete =   8%Amount complete =   9%Amount complete =  10%Amount complete =  11%Amount complete =  12%Amount complete =  13%Amount complete =  14%Amount complete =  15%Amount complete =  16%Amount complete =  17%Amount complete =  18%Amount complete =  19%Amount complete =  20%Amount complete =  21%Amount complete =  22%Amount complete =  23%Amount complete =  24%Amount complete =  25%Amount complete =  26%Amount complete =  27%Amount complete =  28%Amount complete =  29%Amount complete =  30%Amount complete =  31%Amount complete =  32%Amount complete =  33%Amount complete =  34%Amount complete =  35%Amount complete =  36%Amount complete =  37%Amount complete =  38%Amount complete =  39%Amount complete =  40%Amount complete =  41%Amount complete =  42%Amount complete =  43%Amount complete =  44%Amount complete =  45%Amount complete =  46%Amount complete =  47%Amount complete =  48%Amount complete =  49%Amount complete =  50%Amount complete =  51%Amount complete =  52%Amount complete =  53%Amount complete =  54%Amount complete =  55%Amount complete =  56%Amount complete =  57%Amount complete =  58%Amount complete =  59%Amount complete =  60%Amount complete =  61%Amount complete =  62%Amount complete =  63%Amount complete =  64%Amount complete =  65%Amount complete =  66%Amount complete =  67%Amount complete =  68%Amount complete =  69%Amount complete =  70%Amount complete =  71%Amount complete =  72%Amount complete =  73%Amount complete =  74%Amount complete =  75%Amount complete =  76%Amount complete =  77%Amount complete =  78%Amount complete =  79%Amount complete =  80%Amount complete =  81%Amount complete =  82%Amount complete =  83%Amount complete =  84%Amount complete =  85%Amount complete =  86%Amount complete =  87%Amount complete =  88%Amount complete =  89%Amount complete =  90%Amount complete =  91%Amount complete =  92%Amount complete =  93%Amount complete = 100%
+
+Done.
+
+Simple statistics of the output data:
+             Data points written:  122874
+          Padding points written:  8126
+  Bins removed for barycentering:  6
+           Maximum value of data:  2228.00
+           Minimum value of data:  1801.00
+              Data average value:  1963.81
+         Data standard deviation:  38.14
+
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are SIGPROC filterbank format...
+Reading SIGPROC filterbank data from 1 file:
+  '../Dec+1554_arcdrift+23.4-M12_0194.fil'
+
+    Number of files = 1
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 2400
+   Total points (N) = 131072
+     Total time (s) = 25.769803776  
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      131072           0  58733.66903437861765
+
+
+Warning:  You cannot (currently) barycenter subbands.
+          Setting the '-nobary' flag automatically.
+Writing subbands to:
+   'Sband_DM63.70.sub00'
+   'Sband_DM63.70.sub01'
+   'Sband_DM63.70.sub02'
+   'Sband_DM63.70.sub03'
+   'Sband_DM63.70.sub04'
+   'Sband_DM63.70.sub05'
+   'Sband_DM63.70.sub06'
+   'Sband_DM63.70.sub07'
+   'Sband_DM63.70.sub08'
+   'Sband_DM63.70.sub09'
+   'Sband_DM63.70.sub10'
+   'Sband_DM63.70.sub11'
+   'Sband_DM63.70.sub12'
+   'Sband_DM63.70.sub13'
+   'Sband_DM63.70.sub14'
+   'Sband_DM63.70.sub15'
+   'Sband_DM63.70.sub16'
+   'Sband_DM63.70.sub17'
+   'Sband_DM63.70.sub18'
+   'Sband_DM63.70.sub19'
+   'Sband_DM63.70.sub20'
+   'Sband_DM63.70.sub21'
+   'Sband_DM63.70.sub22'
+   'Sband_DM63.70.sub23'
+   'Sband_DM63.70.sub24'
+   'Sband_DM63.70.sub25'
+   'Sband_DM63.70.sub26'
+   'Sband_DM63.70.sub27'
+   'Sband_DM63.70.sub28'
+   'Sband_DM63.70.sub29'
+   'Sband_DM63.70.sub30'
+   'Sband_DM63.70.sub31'
+Setting a 'good' output length of 131072 samples
+
+De-dispersing using:
+       Subbands = 32
+     Average DM = 63.7
+
+Amount complete =   0%Amount complete =   1%Amount complete =   3%Amount complete =   5%Amount complete =   7%Amount complete =   9%Amount complete =  10%Amount complete =  12%Amount complete =  14%Amount complete =  16%Amount complete =  18%Amount complete =  20%Amount complete =  21%Amount complete =  23%Amount complete =  25%Amount complete =  27%Amount complete =  29%Amount complete =  31%Amount complete =  32%Amount complete =  34%Amount complete =  36%Amount complete =  38%Amount complete =  40%Amount complete =  42%Amount complete =  43%Amount complete =  45%Amount complete =  47%Amount complete =  49%Amount complete =  51%Amount complete =  53%Amount complete =  54%Amount complete =  56%Amount complete =  58%Amount complete =  60%Amount complete =  62%Amount complete =  64%Amount complete =  65%Amount complete =  67%Amount complete =  69%Amount complete =  71%Amount complete =  73%Amount complete =  75%Amount complete =  76%Amount complete =  78%Amount complete =  80%Amount complete =  82%Amount complete =  84%Amount complete =  86%Amount complete =  87%Amount complete =  89%Amount complete =  91%Amount complete =  93%
+Error in chkfopen(): No such file or directory
+   path = 'Sband_DM63.70.dat'
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are PRESTO subband format...
+Reading PRESTO subband data from 32 files:
+  'Sband_DM63.70.sub00'
+  'Sband_DM63.70.sub01'
+  'Sband_DM63.70.sub02'
+  'Sband_DM63.70.sub03'
+  'Sband_DM63.70.sub04'
+  'Sband_DM63.70.sub05'
+  'Sband_DM63.70.sub06'
+  'Sband_DM63.70.sub07'
+  'Sband_DM63.70.sub08'
+  'Sband_DM63.70.sub09'
+  'Sband_DM63.70.sub10'
+  'Sband_DM63.70.sub11'
+  'Sband_DM63.70.sub12'
+  'Sband_DM63.70.sub13'
+  'Sband_DM63.70.sub14'
+  'Sband_DM63.70.sub15'
+  'Sband_DM63.70.sub16'
+  'Sband_DM63.70.sub17'
+  'Sband_DM63.70.sub18'
+  'Sband_DM63.70.sub19'
+  'Sband_DM63.70.sub20'
+  'Sband_DM63.70.sub21'
+  'Sband_DM63.70.sub22'
+  'Sband_DM63.70.sub23'
+  'Sband_DM63.70.sub24'
+  'Sband_DM63.70.sub25'
+  'Sband_DM63.70.sub26'
+  'Sband_DM63.70.sub27'
+  'Sband_DM63.70.sub28'
+  'Sband_DM63.70.sub29'
+  'Sband_DM63.70.sub30'
+  'Sband_DM63.70.sub31'
+
+    Number of files = 32
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 1024
+   Total points (N) = 124800
+     Total time (s) = 24.5366784    
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      124800           0  58733.66903437861765
+
+Writing output data to:
+   'Sband_DM61.60.dat'
+   'Sband_DM61.80.dat'
+   'Sband_DM62.00.dat'
+   'Sband_DM62.20.dat'
+   'Sband_DM62.40.dat'
+   'Sband_DM62.60.dat'
+   'Sband_DM62.80.dat'
+   'Sband_DM63.00.dat'
+   'Sband_DM63.20.dat'
+   'Sband_DM63.40.dat'
+   'Sband_DM63.60.dat'
+   'Sband_DM63.80.dat'
+   'Sband_DM64.00.dat'
+   'Sband_DM64.20.dat'
+   'Sband_DM64.40.dat'
+   'Sband_DM64.60.dat'
+   'Sband_DM64.80.dat'
+   'Sband_DM65.00.dat'
+   'Sband_DM65.20.dat'
+   'Sband_DM65.40.dat'
+   'Sband_DM65.60.dat'
+   'Sband_DM65.80.dat'
+
+Generating barycentric corrections...
+   Average topocentric velocity (c) = 4.600388e-05
+   Maximum topocentric velocity (c) = 4.600981e-05
+   Minimum topocentric velocity (c) = 4.599794e-05
+
+De-dispersing and barycentering using:
+       Subbands = 32
+     Average DM = 63.7
+
+Amount complete =   0%Amount complete =   1%Amount complete =   2%Amount complete =   3%Amount complete =   4%Amount complete =   5%Amount complete =   6%Amount complete =   7%Amount complete =   8%Amount complete =   9%Amount complete =  10%Amount complete =  11%Amount complete =  12%Amount complete =  13%Amount complete =  14%Amount complete =  15%Amount complete =  16%Amount complete =  17%Amount complete =  18%Amount complete =  19%Amount complete =  20%Amount complete =  21%Amount complete =  22%Amount complete =  23%Amount complete =  24%Amount complete =  25%Amount complete =  26%Amount complete =  27%Amount complete =  28%Amount complete =  29%Amount complete =  30%Amount complete =  31%Amount complete =  32%Amount complete =  33%Amount complete =  34%Amount complete =  35%Amount complete =  36%Amount complete =  37%Amount complete =  38%Amount complete =  39%Amount complete =  40%Amount complete =  41%Amount complete =  42%Amount complete =  43%Amount complete =  44%Amount complete =  45%Amount complete =  46%Amount complete =  47%Amount complete =  48%Amount complete =  49%Amount complete =  50%Amount complete =  51%Amount complete =  52%Amount complete =  53%Amount complete =  54%Amount complete =  55%Amount complete =  56%Amount complete =  57%Amount complete =  58%Amount complete =  59%Amount complete =  60%Amount complete =  61%Amount complete =  62%Amount complete =  63%Amount complete =  64%Amount complete =  65%Amount complete =  66%Amount complete =  67%Amount complete =  68%Amount complete =  69%Amount complete =  70%Amount complete =  71%Amount complete =  72%Amount complete =  73%Amount complete =  74%Amount complete =  75%Amount complete =  76%Amount complete =  77%Amount complete =  78%Amount complete =  79%Amount complete =  80%Amount complete =  81%Amount complete =  82%Amount complete =  83%Amount complete =  84%Amount complete =  85%Amount complete =  86%Amount complete =  87%Amount complete =  88%Amount complete =  89%Amount complete =  90%Amount complete =  91%Amount complete =  92%Amount complete =  93%Amount complete = 100%
+
+Done.
+
+Simple statistics of the output data:
+             Data points written:  122874
+          Padding points written:  8126
+  Bins removed for barycentering:  6
+           Maximum value of data:  2209.00
+           Minimum value of data:  1800.00
+              Data average value:  1963.81
+         Data standard deviation:  37.47
+
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are SIGPROC filterbank format...
+Reading SIGPROC filterbank data from 1 file:
+  '../Dec+1554_arcdrift+23.4-M12_0194.fil'
+
+    Number of files = 1
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 2400
+   Total points (N) = 131072
+     Total time (s) = 25.769803776  
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      131072           0  58733.66903437861765
+
+
+Warning:  You cannot (currently) barycenter subbands.
+          Setting the '-nobary' flag automatically.
+Writing subbands to:
+   'Sband_DM68.10.sub00'
+   'Sband_DM68.10.sub01'
+   'Sband_DM68.10.sub02'
+   'Sband_DM68.10.sub03'
+   'Sband_DM68.10.sub04'
+   'Sband_DM68.10.sub05'
+   'Sband_DM68.10.sub06'
+   'Sband_DM68.10.sub07'
+   'Sband_DM68.10.sub08'
+   'Sband_DM68.10.sub09'
+   'Sband_DM68.10.sub10'
+   'Sband_DM68.10.sub11'
+   'Sband_DM68.10.sub12'
+   'Sband_DM68.10.sub13'
+   'Sband_DM68.10.sub14'
+   'Sband_DM68.10.sub15'
+   'Sband_DM68.10.sub16'
+   'Sband_DM68.10.sub17'
+   'Sband_DM68.10.sub18'
+   'Sband_DM68.10.sub19'
+   'Sband_DM68.10.sub20'
+   'Sband_DM68.10.sub21'
+   'Sband_DM68.10.sub22'
+   'Sband_DM68.10.sub23'
+   'Sband_DM68.10.sub24'
+   'Sband_DM68.10.sub25'
+   'Sband_DM68.10.sub26'
+   'Sband_DM68.10.sub27'
+   'Sband_DM68.10.sub28'
+   'Sband_DM68.10.sub29'
+   'Sband_DM68.10.sub30'
+   'Sband_DM68.10.sub31'
+Setting a 'good' output length of 131072 samples
+
+De-dispersing using:
+       Subbands = 32
+     Average DM = 68.1
+
+Amount complete =   0%Amount complete =   1%Amount complete =   3%Amount complete =   5%Amount complete =   7%Amount complete =   9%Amount complete =  10%Amount complete =  12%Amount complete =  14%Amount complete =  16%Amount complete =  18%Amount complete =  20%Amount complete =  21%Amount complete =  23%Amount complete =  25%Amount complete =  27%Amount complete =  29%Amount complete =  31%Amount complete =  32%Amount complete =  34%Amount complete =  36%Amount complete =  38%Amount complete =  40%Amount complete =  42%Amount complete =  43%Amount complete =  45%Amount complete =  47%Amount complete =  49%Amount complete =  51%Amount complete =  53%Amount complete =  54%Amount complete =  56%Amount complete =  58%Amount complete =  60%Amount complete =  62%Amount complete =  64%Amount complete =  65%Amount complete =  67%Amount complete =  69%Amount complete =  71%Amount complete =  73%Amount complete =  75%Amount complete =  76%Amount complete =  78%Amount complete =  80%Amount complete =  82%Amount complete =  84%Amount complete =  86%Amount complete =  87%Amount complete =  89%Amount complete =  91%Amount complete =  93%
+Error in chkfopen(): No such file or directory
+   path = 'Sband_DM68.10.dat'
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are PRESTO subband format...
+Reading PRESTO subband data from 32 files:
+  'Sband_DM68.10.sub00'
+  'Sband_DM68.10.sub01'
+  'Sband_DM68.10.sub02'
+  'Sband_DM68.10.sub03'
+  'Sband_DM68.10.sub04'
+  'Sband_DM68.10.sub05'
+  'Sband_DM68.10.sub06'
+  'Sband_DM68.10.sub07'
+  'Sband_DM68.10.sub08'
+  'Sband_DM68.10.sub09'
+  'Sband_DM68.10.sub10'
+  'Sband_DM68.10.sub11'
+  'Sband_DM68.10.sub12'
+  'Sband_DM68.10.sub13'
+  'Sband_DM68.10.sub14'
+  'Sband_DM68.10.sub15'
+  'Sband_DM68.10.sub16'
+  'Sband_DM68.10.sub17'
+  'Sband_DM68.10.sub18'
+  'Sband_DM68.10.sub19'
+  'Sband_DM68.10.sub20'
+  'Sband_DM68.10.sub21'
+  'Sband_DM68.10.sub22'
+  'Sband_DM68.10.sub23'
+  'Sband_DM68.10.sub24'
+  'Sband_DM68.10.sub25'
+  'Sband_DM68.10.sub26'
+  'Sband_DM68.10.sub27'
+  'Sband_DM68.10.sub28'
+  'Sband_DM68.10.sub29'
+  'Sband_DM68.10.sub30'
+  'Sband_DM68.10.sub31'
+
+    Number of files = 32
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 1024
+   Total points (N) = 124800
+     Total time (s) = 24.5366784    
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      124800           0  58733.66903437861765
+
+Writing output data to:
+   'Sband_DM66.00.dat'
+   'Sband_DM66.20.dat'
+   'Sband_DM66.40.dat'
+   'Sband_DM66.60.dat'
+   'Sband_DM66.80.dat'
+   'Sband_DM67.00.dat'
+   'Sband_DM67.20.dat'
+   'Sband_DM67.40.dat'
+   'Sband_DM67.60.dat'
+   'Sband_DM67.80.dat'
+   'Sband_DM68.00.dat'
+   'Sband_DM68.20.dat'
+   'Sband_DM68.40.dat'
+   'Sband_DM68.60.dat'
+   'Sband_DM68.80.dat'
+   'Sband_DM69.00.dat'
+   'Sband_DM69.20.dat'
+   'Sband_DM69.40.dat'
+   'Sband_DM69.60.dat'
+   'Sband_DM69.80.dat'
+   'Sband_DM70.00.dat'
+   'Sband_DM70.20.dat'
+
+Generating barycentric corrections...
+   Average topocentric velocity (c) = 4.600388e-05
+   Maximum topocentric velocity (c) = 4.600981e-05
+   Minimum topocentric velocity (c) = 4.599794e-05
+
+De-dispersing and barycentering using:
+       Subbands = 32
+     Average DM = 68.1
+
+Amount complete =   0%Amount complete =   1%Amount complete =   2%Amount complete =   3%Amount complete =   4%Amount complete =   5%Amount complete =   6%Amount complete =   7%Amount complete =   8%Amount complete =   9%Amount complete =  10%Amount complete =  11%Amount complete =  12%Amount complete =  13%Amount complete =  14%Amount complete =  15%Amount complete =  16%Amount complete =  17%Amount complete =  18%Amount complete =  19%Amount complete =  20%Amount complete =  21%Amount complete =  22%Amount complete =  23%Amount complete =  24%Amount complete =  25%Amount complete =  26%Amount complete =  27%Amount complete =  28%Amount complete =  29%Amount complete =  30%Amount complete =  31%Amount complete =  32%Amount complete =  33%Amount complete =  34%Amount complete =  35%Amount complete =  36%Amount complete =  37%Amount complete =  38%Amount complete =  39%Amount complete =  40%Amount complete =  41%Amount complete =  42%Amount complete =  43%Amount complete =  44%Amount complete =  45%Amount complete =  46%Amount complete =  47%Amount complete =  48%Amount complete =  49%Amount complete =  50%Amount complete =  51%Amount complete =  52%Amount complete =  53%Amount complete =  54%Amount complete =  55%Amount complete =  56%Amount complete =  57%Amount complete =  58%Amount complete =  59%Amount complete =  60%Amount complete =  61%Amount complete =  62%Amount complete =  63%Amount complete =  64%Amount complete =  65%Amount complete =  66%Amount complete =  67%Amount complete =  68%Amount complete =  69%Amount complete =  70%Amount complete =  71%Amount complete =  72%Amount complete =  73%Amount complete =  74%Amount complete =  75%Amount complete =  76%Amount complete =  77%Amount complete =  78%Amount complete =  79%Amount complete =  80%Amount complete =  81%Amount complete =  82%Amount complete =  83%Amount complete =  84%Amount complete =  85%Amount complete =  86%Amount complete =  87%Amount complete =  88%Amount complete =  89%Amount complete =  90%Amount complete =  91%Amount complete =  92%Amount complete =  93%Amount complete = 100%
+
+Done.
+
+Simple statistics of the output data:
+             Data points written:  122874
+          Padding points written:  8126
+  Bins removed for barycentering:  6
+           Maximum value of data:  2185.00
+           Minimum value of data:  1822.00
+              Data average value:  1963.81
+         Data standard deviation:  36.88
+
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are SIGPROC filterbank format...
+Reading SIGPROC filterbank data from 1 file:
+  '../Dec+1554_arcdrift+23.4-M12_0194.fil'
+
+    Number of files = 1
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 2400
+   Total points (N) = 131072
+     Total time (s) = 25.769803776  
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      131072           0  58733.66903437861765
+
+
+Warning:  You cannot (currently) barycenter subbands.
+          Setting the '-nobary' flag automatically.
+Writing subbands to:
+   'Sband_DM72.50.sub00'
+   'Sband_DM72.50.sub01'
+   'Sband_DM72.50.sub02'
+   'Sband_DM72.50.sub03'
+   'Sband_DM72.50.sub04'
+   'Sband_DM72.50.sub05'
+   'Sband_DM72.50.sub06'
+   'Sband_DM72.50.sub07'
+   'Sband_DM72.50.sub08'
+   'Sband_DM72.50.sub09'
+   'Sband_DM72.50.sub10'
+   'Sband_DM72.50.sub11'
+   'Sband_DM72.50.sub12'
+   'Sband_DM72.50.sub13'
+   'Sband_DM72.50.sub14'
+   'Sband_DM72.50.sub15'
+   'Sband_DM72.50.sub16'
+   'Sband_DM72.50.sub17'
+   'Sband_DM72.50.sub18'
+   'Sband_DM72.50.sub19'
+   'Sband_DM72.50.sub20'
+   'Sband_DM72.50.sub21'
+   'Sband_DM72.50.sub22'
+   'Sband_DM72.50.sub23'
+   'Sband_DM72.50.sub24'
+   'Sband_DM72.50.sub25'
+   'Sband_DM72.50.sub26'
+   'Sband_DM72.50.sub27'
+   'Sband_DM72.50.sub28'
+   'Sband_DM72.50.sub29'
+   'Sband_DM72.50.sub30'
+   'Sband_DM72.50.sub31'
+Setting a 'good' output length of 131072 samples
+
+De-dispersing using:
+       Subbands = 32
+     Average DM = 72.5
+
+Amount complete =   0%Amount complete =   1%Amount complete =   3%Amount complete =   5%Amount complete =   7%Amount complete =   9%Amount complete =  10%Amount complete =  12%Amount complete =  14%Amount complete =  16%Amount complete =  18%Amount complete =  20%Amount complete =  21%Amount complete =  23%Amount complete =  25%Amount complete =  27%Amount complete =  29%Amount complete =  31%Amount complete =  32%Amount complete =  34%Amount complete =  36%Amount complete =  38%Amount complete =  40%Amount complete =  42%Amount complete =  43%Amount complete =  45%Amount complete =  47%Amount complete =  49%Amount complete =  51%Amount complete =  53%Amount complete =  54%Amount complete =  56%Amount complete =  58%Amount complete =  60%Amount complete =  62%Amount complete =  64%Amount complete =  65%Amount complete =  67%Amount complete =  69%Amount complete =  71%Amount complete =  73%Amount complete =  75%Amount complete =  76%Amount complete =  78%Amount complete =  80%Amount complete =  82%Amount complete =  84%Amount complete =  86%Amount complete =  87%Amount complete =  89%Amount complete =  91%Amount complete =  93%
+Error in chkfopen(): No such file or directory
+   path = 'Sband_DM72.50.dat'
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are PRESTO subband format...
+Reading PRESTO subband data from 32 files:
+  'Sband_DM72.50.sub00'
+  'Sband_DM72.50.sub01'
+  'Sband_DM72.50.sub02'
+  'Sband_DM72.50.sub03'
+  'Sband_DM72.50.sub04'
+  'Sband_DM72.50.sub05'
+  'Sband_DM72.50.sub06'
+  'Sband_DM72.50.sub07'
+  'Sband_DM72.50.sub08'
+  'Sband_DM72.50.sub09'
+  'Sband_DM72.50.sub10'
+  'Sband_DM72.50.sub11'
+  'Sband_DM72.50.sub12'
+  'Sband_DM72.50.sub13'
+  'Sband_DM72.50.sub14'
+  'Sband_DM72.50.sub15'
+  'Sband_DM72.50.sub16'
+  'Sband_DM72.50.sub17'
+  'Sband_DM72.50.sub18'
+  'Sband_DM72.50.sub19'
+  'Sband_DM72.50.sub20'
+  'Sband_DM72.50.sub21'
+  'Sband_DM72.50.sub22'
+  'Sband_DM72.50.sub23'
+  'Sband_DM72.50.sub24'
+  'Sband_DM72.50.sub25'
+  'Sband_DM72.50.sub26'
+  'Sband_DM72.50.sub27'
+  'Sband_DM72.50.sub28'
+  'Sband_DM72.50.sub29'
+  'Sband_DM72.50.sub30'
+  'Sband_DM72.50.sub31'
+
+    Number of files = 32
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 1024
+   Total points (N) = 124800
+     Total time (s) = 24.5366784    
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      124800           0  58733.66903437861765
+
+Writing output data to:
+   'Sband_DM70.40.dat'
+   'Sband_DM70.60.dat'
+   'Sband_DM70.80.dat'
+   'Sband_DM71.00.dat'
+   'Sband_DM71.20.dat'
+   'Sband_DM71.40.dat'
+   'Sband_DM71.60.dat'
+   'Sband_DM71.80.dat'
+   'Sband_DM72.00.dat'
+   'Sband_DM72.20.dat'
+   'Sband_DM72.40.dat'
+   'Sband_DM72.60.dat'
+   'Sband_DM72.80.dat'
+   'Sband_DM73.00.dat'
+   'Sband_DM73.20.dat'
+   'Sband_DM73.40.dat'
+   'Sband_DM73.60.dat'
+   'Sband_DM73.80.dat'
+   'Sband_DM74.00.dat'
+   'Sband_DM74.20.dat'
+   'Sband_DM74.40.dat'
+   'Sband_DM74.60.dat'
+
+Generating barycentric corrections...
+   Average topocentric velocity (c) = 4.600388e-05
+   Maximum topocentric velocity (c) = 4.600981e-05
+   Minimum topocentric velocity (c) = 4.599794e-05
+
+De-dispersing and barycentering using:
+       Subbands = 32
+     Average DM = 72.5
+
+Amount complete =   0%Amount complete =   1%Amount complete =   2%Amount complete =   3%Amount complete =   4%Amount complete =   5%Amount complete =   6%Amount complete =   7%Amount complete =   8%Amount complete =   9%Amount complete =  10%Amount complete =  11%Amount complete =  12%Amount complete =  13%Amount complete =  14%Amount complete =  15%Amount complete =  16%Amount complete =  17%Amount complete =  18%Amount complete =  19%Amount complete =  20%Amount complete =  21%Amount complete =  22%Amount complete =  23%Amount complete =  24%Amount complete =  25%Amount complete =  26%Amount complete =  27%Amount complete =  28%Amount complete =  29%Amount complete =  30%Amount complete =  31%Amount complete =  32%Amount complete =  33%Amount complete =  34%Amount complete =  35%Amount complete =  36%Amount complete =  37%Amount complete =  38%Amount complete =  39%Amount complete =  40%Amount complete =  41%Amount complete =  42%Amount complete =  43%Amount complete =  44%Amount complete =  45%Amount complete =  46%Amount complete =  47%Amount complete =  48%Amount complete =  49%Amount complete =  50%Amount complete =  51%Amount complete =  52%Amount complete =  53%Amount complete =  54%Amount complete =  55%Amount complete =  56%Amount complete =  57%Amount complete =  58%Amount complete =  59%Amount complete =  60%Amount complete =  61%Amount complete =  62%Amount complete =  63%Amount complete =  64%Amount complete =  65%Amount complete =  66%Amount complete =  67%Amount complete =  68%Amount complete =  69%Amount complete =  70%Amount complete =  71%Amount complete =  72%Amount complete =  73%Amount complete =  74%Amount complete =  75%Amount complete =  76%Amount complete =  77%Amount complete =  78%Amount complete =  79%Amount complete =  80%Amount complete =  81%Amount complete =  82%Amount complete =  83%Amount complete =  84%Amount complete =  85%Amount complete =  86%Amount complete =  87%Amount complete =  88%Amount complete =  89%Amount complete =  90%Amount complete =  91%Amount complete =  92%Amount complete =  93%Amount complete = 100%
+
+Done.
+
+Simple statistics of the output data:
+             Data points written:  122874
+          Padding points written:  8126
+  Bins removed for barycentering:  6
+           Maximum value of data:  2169.00
+           Minimum value of data:  1819.00
+              Data average value:  1963.81
+         Data standard deviation:  36.34
+
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are SIGPROC filterbank format...
+Reading SIGPROC filterbank data from 1 file:
+  '../Dec+1554_arcdrift+23.4-M12_0194.fil'
+
+    Number of files = 1
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 2400
+   Total points (N) = 131072
+     Total time (s) = 25.769803776  
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      131072           0  58733.66903437861765
+
+
+Warning:  You cannot (currently) barycenter subbands.
+          Setting the '-nobary' flag automatically.
+Writing subbands to:
+   'Sband_DM76.90.sub00'
+   'Sband_DM76.90.sub01'
+   'Sband_DM76.90.sub02'
+   'Sband_DM76.90.sub03'
+   'Sband_DM76.90.sub04'
+   'Sband_DM76.90.sub05'
+   'Sband_DM76.90.sub06'
+   'Sband_DM76.90.sub07'
+   'Sband_DM76.90.sub08'
+   'Sband_DM76.90.sub09'
+   'Sband_DM76.90.sub10'
+   'Sband_DM76.90.sub11'
+   'Sband_DM76.90.sub12'
+   'Sband_DM76.90.sub13'
+   'Sband_DM76.90.sub14'
+   'Sband_DM76.90.sub15'
+   'Sband_DM76.90.sub16'
+   'Sband_DM76.90.sub17'
+   'Sband_DM76.90.sub18'
+   'Sband_DM76.90.sub19'
+   'Sband_DM76.90.sub20'
+   'Sband_DM76.90.sub21'
+   'Sband_DM76.90.sub22'
+   'Sband_DM76.90.sub23'
+   'Sband_DM76.90.sub24'
+   'Sband_DM76.90.sub25'
+   'Sband_DM76.90.sub26'
+   'Sband_DM76.90.sub27'
+   'Sband_DM76.90.sub28'
+   'Sband_DM76.90.sub29'
+   'Sband_DM76.90.sub30'
+   'Sband_DM76.90.sub31'
+Setting a 'good' output length of 131072 samples
+
+De-dispersing using:
+       Subbands = 32
+     Average DM = 76.9
+
+Amount complete =   0%Amount complete =   1%Amount complete =   3%Amount complete =   5%Amount complete =   7%Amount complete =   9%Amount complete =  10%Amount complete =  12%Amount complete =  14%Amount complete =  16%Amount complete =  18%Amount complete =  20%Amount complete =  21%Amount complete =  23%Amount complete =  25%Amount complete =  27%Amount complete =  29%Amount complete =  31%Amount complete =  32%Amount complete =  34%Amount complete =  36%Amount complete =  38%Amount complete =  40%Amount complete =  42%Amount complete =  43%Amount complete =  45%Amount complete =  47%Amount complete =  49%Amount complete =  51%Amount complete =  53%Amount complete =  54%Amount complete =  56%Amount complete =  58%Amount complete =  60%Amount complete =  62%Amount complete =  64%Amount complete =  65%Amount complete =  67%Amount complete =  69%Amount complete =  71%Amount complete =  73%Amount complete =  75%Amount complete =  76%Amount complete =  78%Amount complete =  80%Amount complete =  82%Amount complete =  84%Amount complete =  86%Amount complete =  87%Amount complete =  89%Amount complete =  91%Amount complete =  93%
+Error in chkfopen(): No such file or directory
+   path = 'Sband_DM76.90.dat'
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are PRESTO subband format...
+Reading PRESTO subband data from 32 files:
+  'Sband_DM76.90.sub00'
+  'Sband_DM76.90.sub01'
+  'Sband_DM76.90.sub02'
+  'Sband_DM76.90.sub03'
+  'Sband_DM76.90.sub04'
+  'Sband_DM76.90.sub05'
+  'Sband_DM76.90.sub06'
+  'Sband_DM76.90.sub07'
+  'Sband_DM76.90.sub08'
+  'Sband_DM76.90.sub09'
+  'Sband_DM76.90.sub10'
+  'Sband_DM76.90.sub11'
+  'Sband_DM76.90.sub12'
+  'Sband_DM76.90.sub13'
+  'Sband_DM76.90.sub14'
+  'Sband_DM76.90.sub15'
+  'Sband_DM76.90.sub16'
+  'Sband_DM76.90.sub17'
+  'Sband_DM76.90.sub18'
+  'Sband_DM76.90.sub19'
+  'Sband_DM76.90.sub20'
+  'Sband_DM76.90.sub21'
+  'Sband_DM76.90.sub22'
+  'Sband_DM76.90.sub23'
+  'Sband_DM76.90.sub24'
+  'Sband_DM76.90.sub25'
+  'Sband_DM76.90.sub26'
+  'Sband_DM76.90.sub27'
+  'Sband_DM76.90.sub28'
+  'Sband_DM76.90.sub29'
+  'Sband_DM76.90.sub30'
+  'Sband_DM76.90.sub31'
+
+    Number of files = 32
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 1024
+   Total points (N) = 124800
+     Total time (s) = 24.5366784    
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      124800           0  58733.66903437861765
+
+Writing output data to:
+   'Sband_DM74.80.dat'
+   'Sband_DM75.00.dat'
+   'Sband_DM75.20.dat'
+   'Sband_DM75.40.dat'
+   'Sband_DM75.60.dat'
+   'Sband_DM75.80.dat'
+   'Sband_DM76.00.dat'
+   'Sband_DM76.20.dat'
+   'Sband_DM76.40.dat'
+   'Sband_DM76.60.dat'
+   'Sband_DM76.80.dat'
+   'Sband_DM77.00.dat'
+   'Sband_DM77.20.dat'
+   'Sband_DM77.40.dat'
+   'Sband_DM77.60.dat'
+   'Sband_DM77.80.dat'
+   'Sband_DM78.00.dat'
+   'Sband_DM78.20.dat'
+   'Sband_DM78.40.dat'
+   'Sband_DM78.60.dat'
+   'Sband_DM78.80.dat'
+   'Sband_DM79.00.dat'
+
+Generating barycentric corrections...
+   Average topocentric velocity (c) = 4.600388e-05
+   Maximum topocentric velocity (c) = 4.600981e-05
+   Minimum topocentric velocity (c) = 4.599794e-05
+
+De-dispersing and barycentering using:
+       Subbands = 32
+     Average DM = 76.9
+
+Amount complete =   0%Amount complete =   1%Amount complete =   2%Amount complete =   3%Amount complete =   4%Amount complete =   5%Amount complete =   6%Amount complete =   7%Amount complete =   8%Amount complete =   9%Amount complete =  10%Amount complete =  11%Amount complete =  12%Amount complete =  13%Amount complete =  14%Amount complete =  15%Amount complete =  16%Amount complete =  17%Amount complete =  18%Amount complete =  19%Amount complete =  20%Amount complete =  21%Amount complete =  22%Amount complete =  23%Amount complete =  24%Amount complete =  25%Amount complete =  26%Amount complete =  27%Amount complete =  28%Amount complete =  29%Amount complete =  30%Amount complete =  31%Amount complete =  32%Amount complete =  33%Amount complete =  34%Amount complete =  35%Amount complete =  36%Amount complete =  37%Amount complete =  38%Amount complete =  39%Amount complete =  40%Amount complete =  41%Amount complete =  42%Amount complete =  43%Amount complete =  44%Amount complete =  45%Amount complete =  46%Amount complete =  47%Amount complete =  48%Amount complete =  49%Amount complete =  50%Amount complete =  51%Amount complete =  52%Amount complete =  53%Amount complete =  54%Amount complete =  55%Amount complete =  56%Amount complete =  57%Amount complete =  58%Amount complete =  59%Amount complete =  60%Amount complete =  61%Amount complete =  62%Amount complete =  63%Amount complete =  64%Amount complete =  65%Amount complete =  66%Amount complete =  67%Amount complete =  68%Amount complete =  69%Amount complete =  70%Amount complete =  71%Amount complete =  72%Amount complete =  73%Amount complete =  74%Amount complete =  75%Amount complete =  76%Amount complete =  77%Amount complete =  78%Amount complete =  79%Amount complete =  80%Amount complete =  81%Amount complete =  82%Amount complete =  83%Amount complete =  84%Amount complete =  85%Amount complete =  86%Amount complete =  87%Amount complete =  88%Amount complete =  89%Amount complete =  90%Amount complete =  91%Amount complete =  92%Amount complete =  93%Amount complete = 100%
+
+Done.
+
+Simple statistics of the output data:
+             Data points written:  122874
+          Padding points written:  8126
+  Bins removed for barycentering:  6
+           Maximum value of data:  2169.00
+           Minimum value of data:  1815.00
+              Data average value:  1963.81
+         Data standard deviation:  36.07
+
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are SIGPROC filterbank format...
+Reading SIGPROC filterbank data from 1 file:
+  '../Dec+1554_arcdrift+23.4-M12_0194.fil'
+
+    Number of files = 1
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 2400
+   Total points (N) = 131072
+     Total time (s) = 25.769803776  
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      131072           0  58733.66903437861765
+
+
+Warning:  You cannot (currently) barycenter subbands.
+          Setting the '-nobary' flag automatically.
+Writing subbands to:
+   'Sband_DM81.30.sub00'
+   'Sband_DM81.30.sub01'
+   'Sband_DM81.30.sub02'
+   'Sband_DM81.30.sub03'
+   'Sband_DM81.30.sub04'
+   'Sband_DM81.30.sub05'
+   'Sband_DM81.30.sub06'
+   'Sband_DM81.30.sub07'
+   'Sband_DM81.30.sub08'
+   'Sband_DM81.30.sub09'
+   'Sband_DM81.30.sub10'
+   'Sband_DM81.30.sub11'
+   'Sband_DM81.30.sub12'
+   'Sband_DM81.30.sub13'
+   'Sband_DM81.30.sub14'
+   'Sband_DM81.30.sub15'
+   'Sband_DM81.30.sub16'
+   'Sband_DM81.30.sub17'
+   'Sband_DM81.30.sub18'
+   'Sband_DM81.30.sub19'
+   'Sband_DM81.30.sub20'
+   'Sband_DM81.30.sub21'
+   'Sband_DM81.30.sub22'
+   'Sband_DM81.30.sub23'
+   'Sband_DM81.30.sub24'
+   'Sband_DM81.30.sub25'
+   'Sband_DM81.30.sub26'
+   'Sband_DM81.30.sub27'
+   'Sband_DM81.30.sub28'
+   'Sband_DM81.30.sub29'
+   'Sband_DM81.30.sub30'
+   'Sband_DM81.30.sub31'
+Setting a 'good' output length of 131072 samples
+
+De-dispersing using:
+       Subbands = 32
+     Average DM = 81.3
+
+Amount complete =   0%Amount complete =   1%Amount complete =   3%Amount complete =   5%Amount complete =   7%Amount complete =   9%Amount complete =  10%Amount complete =  12%Amount complete =  14%Amount complete =  16%Amount complete =  18%Amount complete =  20%Amount complete =  21%Amount complete =  23%Amount complete =  25%Amount complete =  27%Amount complete =  29%Amount complete =  31%Amount complete =  32%Amount complete =  34%Amount complete =  36%Amount complete =  38%Amount complete =  40%Amount complete =  42%Amount complete =  43%Amount complete =  45%Amount complete =  47%Amount complete =  49%Amount complete =  51%Amount complete =  53%Amount complete =  54%Amount complete =  56%Amount complete =  58%Amount complete =  60%Amount complete =  62%Amount complete =  64%Amount complete =  65%Amount complete =  67%Amount complete =  69%Amount complete =  71%Amount complete =  73%Amount complete =  75%Amount complete =  76%Amount complete =  78%Amount complete =  80%Amount complete =  82%Amount complete =  84%Amount complete =  86%Amount complete =  87%Amount complete =  89%Amount complete =  91%Amount complete =  93%
+Error in chkfopen(): No such file or directory
+   path = 'Sband_DM81.30.dat'
+
+          Pulsar Subband De-dispersion Routine
+                 by Scott M. Ransom
+
+Assuming the data are PRESTO subband format...
+Reading PRESTO subband data from 32 files:
+  'Sband_DM81.30.sub00'
+  'Sband_DM81.30.sub01'
+  'Sband_DM81.30.sub02'
+  'Sband_DM81.30.sub03'
+  'Sband_DM81.30.sub04'
+  'Sband_DM81.30.sub05'
+  'Sband_DM81.30.sub06'
+  'Sband_DM81.30.sub07'
+  'Sband_DM81.30.sub08'
+  'Sband_DM81.30.sub09'
+  'Sband_DM81.30.sub10'
+  'Sband_DM81.30.sub11'
+  'Sband_DM81.30.sub12'
+  'Sband_DM81.30.sub13'
+  'Sband_DM81.30.sub14'
+  'Sband_DM81.30.sub15'
+  'Sband_DM81.30.sub16'
+  'Sband_DM81.30.sub17'
+  'Sband_DM81.30.sub18'
+  'Sband_DM81.30.sub19'
+  'Sband_DM81.30.sub20'
+  'Sband_DM81.30.sub21'
+  'Sband_DM81.30.sub22'
+  'Sband_DM81.30.sub23'
+  'Sband_DM81.30.sub24'
+  'Sband_DM81.30.sub25'
+  'Sband_DM81.30.sub26'
+  'Sband_DM81.30.sub27'
+  'Sband_DM81.30.sub28'
+  'Sband_DM81.30.sub29'
+  'Sband_DM81.30.sub30'
+  'Sband_DM81.30.sub31'
+
+    Number of files = 32
+       Num of polns = 2 (summed)
+  Center freq (MHz) = 1249.939
+    Num of channels = 4096
+    Sample time (s) = 0.000196608   
+     Spectra/subint = 1024
+   Total points (N) = 124800
+     Total time (s) = 24.5366784    
+     Clipping sigma = 6.000
+   Invert the band? = False
+          Byteswap? = False
+     Remove zeroDM? = False
+
+File  Start Spec   Samples     Padding        Start MJD
+----  ----------  ----------  ----------  --------------------
+1              0      124800           0  58733.66903437861765
+
+Writing output data to:
+   'Sband_DM79.20.dat'
+   'Sband_DM79.40.dat'
+   'Sband_DM79.60.dat'
+   'Sband_DM79.80.dat'
+   'Sband_DM80.00.dat'
+   'Sband_DM80.20.dat'
+   'Sband_DM80.40.dat'
+   'Sband_DM80.60.dat'
+   'Sband_DM80.80.dat'
+   'Sband_DM81.00.dat'
+   'Sband_DM81.20.dat'
+   'Sband_DM81.40.dat'
+   'Sband_DM81.60.dat'
+   'Sband_DM81.80.dat'
+   'Sband_DM82.00.dat'
+   'Sband_DM82.20.dat'
+   'Sband_DM82.40.dat'
+   'Sband_DM82.60.dat'
+   'Sband_DM82.80.dat'
+   'Sband_DM83.00.dat'
+   'Sband_DM83.20.dat'
+   'Sband_DM83.40.dat'
+
+Generating barycentric corrections...
+   Average topocentric velocity (c) = 4.600388e-05
+   Maximum topocentric velocity (c) = 4.600981e-05
+   Minimum topocentric velocity (c) = 4.599794e-05
+
+De-dispersing and barycentering using:
+       Subbands = 32
+     Average DM = 81.3
+
+Amount complete =   0%Amount complete =   1%Amount complete =   2%Amount complete =   3%Amount complete =   4%Amount complete =   5%Amount complete =   6%Amount complete =   7%Amount complete =   8%Amount complete =   9%Amount complete =  10%Amount complete =  11%Amount complete =  12%Amount complete =  13%Amount complete =  14%Amount complete =  15%Amount complete =  16%Amount complete =  17%Amount complete =  18%Amount complete =  19%Amount complete =  20%Amount complete =  21%Amount complete =  22%Amount complete =  23%Amount complete =  24%Amount complete =  25%Amount complete =  26%Amount complete =  27%Amount complete =  28%Amount complete =  29%Amount complete =  30%Amount complete =  31%Amount complete =  32%Amount complete =  33%Amount complete =  34%Amount complete =  35%Amount complete =  36%Amount complete =  37%Amount complete =  38%Amount complete =  39%Amount complete =  40%Amount complete =  41%Amount complete =  42%Amount complete =  43%Amount complete =  44%Amount complete =  45%Amount complete =  46%Amount complete =  47%Amount complete =  48%Amount complete =  49%Amount complete =  50%Amount complete =  51%Amount complete =  52%Amount complete =  53%Amount complete =  54%Amount complete =  55%Amount complete =  56%Amount complete =  57%Amount complete =  58%Amount complete =  59%Amount complete =  60%Amount complete =  61%Amount complete =  62%Amount complete =  63%Amount complete =  64%Amount complete =  65%Amount complete =  66%Amount complete =  67%Amount complete =  68%Amount complete =  69%Amount complete =  70%Amount complete =  71%Amount complete =  72%Amount complete =  73%Amount complete =  74%Amount complete =  75%Amount complete =  76%Amount complete =  77%Amount complete =  78%Amount complete =  79%Amount complete =  80%Amount complete =  81%Amount complete =  82%Amount complete =  83%Amount complete =  84%Amount complete =  85%Amount complete =  86%Amount complete =  87%Amount complete =  88%Amount complete =  89%Amount complete =  90%Amount complete =  91%Amount complete =  92%Amount complete =  93%Amount complete = 100%
+
+Done.
+
+Simple statistics of the output data:
+             Data points written:  122874
+          Padding points written:  8126
+  Bins removed for barycentering:  6
+           Maximum value of data:  2153.00
+           Minimum value of data:  1811.00
+              Data average value:  1963.81
+         Data standard deviation:  35.62

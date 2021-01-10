@@ -1,0 +1,1015 @@
+
+
+====================Read Header======================
+
+
+/ASC/presto-master/bin/readfile Dec+1554_arcdrift+23.4-M12_0194.fil
+Assuming the data is a SIGPROC filterbank file.
+
+
+1: From the SIGPROC filterbank file 'Dec+1554_arcdrift+23.4-M12_0194.fil':
+                  Telescope = FAST
+                Source Name = J2000-1234
+                    Backend = Unknown
+            Obs Date String = 2019-09-07T16:03:24.5703
+             MJD start time = 58733.66903437861765
+                   RA J2000 = 12:34:56.7890
+             RA J2000 (deg) = 188.736620833333 
+                  Dec J2000 = -12:34:56.7890
+            Dec J2000 (deg) = -12.5824413888889
+                  Tracking? = True
+              Azimuth (deg) = 0
+           Zenith Ang (deg) = 0
+            Number of polns = 2 (summed)
+           Sample time (us) = 196.608          
+         Central freq (MHz) = 1249.93896484375 
+          Low channel (MHz) = 1000             
+         High channel (MHz) = 1499.8779296875  
+        Channel width (MHz) = 0.1220703125     
+         Number of channels = 4096
+      Total Bandwidth (MHz) = 500              
+                       Beam = 12 of 1
+            Beam FWHM (deg) = 0.047
+         Spectra per subint = 2400
+           Spectra per file = 131072
+      Time per subint (sec) = 0.4718592
+        Time per file (sec) = 25.769803776
+            bits per sample = 1
+          bytes per spectra = 512
+        samples per spectra = 4096
+           bytes per subint = 1228800
+         samples per subint = 9830400
+                zero offset = 0                
+           Invert the band? = False
+       bytes in file header = 344
+
+
+
+============Generate Dedispersion Plan===============
+
+
+DDplan.py -d 80 -n 4096 -b 500.0 -t 0.000197 -f 1249.938965 -s 32 -o DDplan.ps
+
+Minimum total smearing     : 0.279 ms
+--------------------------------------------
+Minimum channel smearing   : 0 ms
+Minimum smearing across BW : 0.0106 ms
+Minimum sample time        : 0.197 ms
+
+Setting the new 'best' resolution to : 0.197 ms
+Best guess for optimal initial dDM is 0.185
+
+  Low DM    High DM     dDM  DownSamp  dsubDM   #DMs  DMs/call  calls  WorkFract
+    0.000     83.600    0.20       1    4.40     418      22      19    1
+
+
+
+
+
+================Dedisperse Subbands==================
+
+
+/ASC/presto-master/bin/prepsubband -sub -subdm 2.10 -nsub 32 -downsamp 1 -o Sband ../Dec+1554_arcdrift+23.4-M12_0194.fil
+/ASC/presto-master/bin/prepsubband -nsub 32 -lodm 0.000000 -dmstep 0.200000 -numdms 22 -numout 131000 -downsamp 1 -o Sband Sband_DM2.10.sub[0-9]*
+/ASC/presto-master/bin/prepsubband -sub -subdm 6.50 -nsub 32 -downsamp 1 -o Sband ../Dec+1554_arcdrift+23.4-M12_0194.fil
+/ASC/presto-master/bin/prepsubband -nsub 32 -lodm 4.400000 -dmstep 0.200000 -numdms 22 -numout 131000 -downsamp 1 -o Sband Sband_DM6.50.sub[0-9]*
+/ASC/presto-master/bin/prepsubband -sub -subdm 10.90 -nsub 32 -downsamp 1 -o Sband ../Dec+1554_arcdrift+23.4-M12_0194.fil
+/ASC/presto-master/bin/prepsubband -nsub 32 -lodm 8.800000 -dmstep 0.200000 -numdms 22 -numout 131000 -downsamp 1 -o Sband Sband_DM10.90.sub[0-9]*
+/ASC/presto-master/bin/prepsubband -sub -subdm 15.30 -nsub 32 -downsamp 1 -o Sband ../Dec+1554_arcdrift+23.4-M12_0194.fil
+/ASC/presto-master/bin/prepsubband -nsub 32 -lodm 13.200000 -dmstep 0.200000 -numdms 22 -numout 131000 -downsamp 1 -o Sband Sband_DM15.30.sub[0-9]*
+/ASC/presto-master/bin/prepsubband -sub -subdm 19.70 -nsub 32 -downsamp 1 -o Sband ../Dec+1554_arcdrift+23.4-M12_0194.fil
+/ASC/presto-master/bin/prepsubband -nsub 32 -lodm 17.600000 -dmstep 0.200000 -numdms 22 -numout 131000 -downsamp 1 -o Sband Sband_DM19.70.sub[0-9]*
+/ASC/presto-master/bin/prepsubband -sub -subdm 24.10 -nsub 32 -downsamp 1 -o Sband ../Dec+1554_arcdrift+23.4-M12_0194.fil
+/ASC/presto-master/bin/prepsubband -nsub 32 -lodm 22.000000 -dmstep 0.200000 -numdms 22 -numout 131000 -downsamp 1 -o Sband Sband_DM24.10.sub[0-9]*
+/ASC/presto-master/bin/prepsubband -sub -subdm 28.50 -nsub 32 -downsamp 1 -o Sband ../Dec+1554_arcdrift+23.4-M12_0194.fil
+/ASC/presto-master/bin/prepsubband -nsub 32 -lodm 26.400000 -dmstep 0.200000 -numdms 22 -numout 131000 -downsamp 1 -o Sband Sband_DM28.50.sub[0-9]*
+/ASC/presto-master/bin/prepsubband -sub -subdm 32.90 -nsub 32 -downsamp 1 -o Sband ../Dec+1554_arcdrift+23.4-M12_0194.fil
+/ASC/presto-master/bin/prepsubband -nsub 32 -lodm 30.800000 -dmstep 0.200000 -numdms 22 -numout 131000 -downsamp 1 -o Sband Sband_DM32.90.sub[0-9]*
+/ASC/presto-master/bin/prepsubband -sub -subdm 37.30 -nsub 32 -downsamp 1 -o Sband ../Dec+1554_arcdrift+23.4-M12_0194.fil
+/ASC/presto-master/bin/prepsubband -nsub 32 -lodm 35.200000 -dmstep 0.200000 -numdms 22 -numout 131000 -downsamp 1 -o Sband Sband_DM37.30.sub[0-9]*
+/ASC/presto-master/bin/prepsubband -sub -subdm 41.70 -nsub 32 -downsamp 1 -o Sband ../Dec+1554_arcdrift+23.4-M12_0194.fil
+/ASC/presto-master/bin/prepsubband -nsub 32 -lodm 39.600000 -dmstep 0.200000 -numdms 22 -numout 131000 -downsamp 1 -o Sband Sband_DM41.70.sub[0-9]*
+/ASC/presto-master/bin/prepsubband -sub -subdm 46.10 -nsub 32 -downsamp 1 -o Sband ../Dec+1554_arcdrift+23.4-M12_0194.fil
+/ASC/presto-master/bin/prepsubband -nsub 32 -lodm 44.000000 -dmstep 0.200000 -numdms 22 -numout 131000 -downsamp 1 -o Sband Sband_DM46.10.sub[0-9]*
+/ASC/presto-master/bin/prepsubband -sub -subdm 50.50 -nsub 32 -downsamp 1 -o Sband ../Dec+1554_arcdrift+23.4-M12_0194.fil
+/ASC/presto-master/bin/prepsubband -nsub 32 -lodm 48.400000 -dmstep 0.200000 -numdms 22 -numout 131000 -downsamp 1 -o Sband Sband_DM50.50.sub[0-9]*
+/ASC/presto-master/bin/prepsubband -sub -subdm 54.90 -nsub 32 -downsamp 1 -o Sband ../Dec+1554_arcdrift+23.4-M12_0194.fil
+/ASC/presto-master/bin/prepsubband -nsub 32 -lodm 52.800000 -dmstep 0.200000 -numdms 22 -numout 131000 -downsamp 1 -o Sband Sband_DM54.90.sub[0-9]*
+/ASC/presto-master/bin/prepsubband -sub -subdm 59.30 -nsub 32 -downsamp 1 -o Sband ../Dec+1554_arcdrift+23.4-M12_0194.fil
+/ASC/presto-master/bin/prepsubband -nsub 32 -lodm 57.200000 -dmstep 0.200000 -numdms 22 -numout 131000 -downsamp 1 -o Sband Sband_DM59.30.sub[0-9]*
+/ASC/presto-master/bin/prepsubband -sub -subdm 63.70 -nsub 32 -downsamp 1 -o Sband ../Dec+1554_arcdrift+23.4-M12_0194.fil
+/ASC/presto-master/bin/prepsubband -nsub 32 -lodm 61.600000 -dmstep 0.200000 -numdms 22 -numout 131000 -downsamp 1 -o Sband Sband_DM63.70.sub[0-9]*
+/ASC/presto-master/bin/prepsubband -sub -subdm 68.10 -nsub 32 -downsamp 1 -o Sband ../Dec+1554_arcdrift+23.4-M12_0194.fil
+/ASC/presto-master/bin/prepsubband -nsub 32 -lodm 66.000000 -dmstep 0.200000 -numdms 22 -numout 131000 -downsamp 1 -o Sband Sband_DM68.10.sub[0-9]*
+/ASC/presto-master/bin/prepsubband -sub -subdm 72.50 -nsub 32 -downsamp 1 -o Sband ../Dec+1554_arcdrift+23.4-M12_0194.fil
+/ASC/presto-master/bin/prepsubband -nsub 32 -lodm 70.400000 -dmstep 0.200000 -numdms 22 -numout 131000 -downsamp 1 -o Sband Sband_DM72.50.sub[0-9]*
+/ASC/presto-master/bin/prepsubband -sub -subdm 76.90 -nsub 32 -downsamp 1 -o Sband ../Dec+1554_arcdrift+23.4-M12_0194.fil
+/ASC/presto-master/bin/prepsubband -nsub 32 -lodm 74.800000 -dmstep 0.200000 -numdms 22 -numout 131000 -downsamp 1 -o Sband Sband_DM76.90.sub[0-9]*
+/ASC/presto-master/bin/prepsubband -sub -subdm 81.30 -nsub 32 -downsamp 1 -o Sband ../Dec+1554_arcdrift+23.4-M12_0194.fil
+/ASC/presto-master/bin/prepsubband -nsub 32 -lodm 79.200000 -dmstep 0.200000 -numdms 22 -numout 131000 -downsamp 1 -o Sband Sband_DM81.30.sub[0-9]*
+
+
+================fft-search subbands==================
+
+
+/ASC/presto-master/bin/realfft Sband_DM72.00.dat
+/ASC/presto-master/bin/realfft Sband_DM32.40.dat
+/ASC/presto-master/bin/realfft Sband_DM43.20.dat
+/ASC/presto-master/bin/realfft Sband_DM54.00.dat
+/ASC/presto-master/bin/realfft Sband_DM14.40.dat
+/ASC/presto-master/bin/realfft Sband_DM60.60.dat
+/ASC/presto-master/bin/realfft Sband_DM5.20.dat
+/ASC/presto-master/bin/realfft Sband_DM25.20.dat
+/ASC/presto-master/bin/realfft Sband_DM71.40.dat
+/ASC/presto-master/bin/realfft Sband_DM31.80.dat
+/ASC/presto-master/bin/realfft Sband_DM36.00.dat
+/ASC/presto-master/bin/realfft Sband_DM82.20.dat
+/ASC/presto-master/bin/realfft Sband_DM42.60.dat
+/ASC/presto-master/bin/realfft Sband_DM53.40.dat
+/ASC/presto-master/bin/realfft Sband_DM13.80.dat
+/ASC/presto-master/bin/realfft Sband_DM18.00.dat
+/ASC/presto-master/bin/realfft Sband_DM4.60.dat
+/ASC/presto-master/bin/realfft Sband_DM64.20.dat
+/ASC/presto-master/bin/realfft Sband_DM24.60.dat
+/ASC/presto-master/bin/realfft Sband_DM70.80.dat
+/ASC/presto-master/bin/realfft Sband_DM75.00.dat
+/ASC/presto-master/bin/realfft Sband_DM35.40.dat
+/ASC/presto-master/bin/realfft Sband_DM81.60.dat
+/ASC/presto-master/bin/realfft Sband_DM46.20.dat
+/ASC/presto-master/bin/realfft Sband_DM52.80.dat
+/ASC/presto-master/bin/realfft Sband_DM57.00.dat
+/ASC/presto-master/bin/realfft Sband_DM17.40.dat
+/ASC/presto-master/bin/realfft Sband_DM63.60.dat
+/ASC/presto-master/bin/realfft Sband_DM8.20.dat
+/ASC/presto-master/bin/realfft Sband_DM28.20.dat
+/ASC/presto-master/bin/realfft Sband_DM74.40.dat
+/ASC/presto-master/bin/realfft Sband_DM34.80.dat
+/ASC/presto-master/bin/realfft Sband_DM39.00.dat
+/ASC/presto-master/bin/realfft Sband_DM45.60.dat
+/ASC/presto-master/bin/realfft Sband_DM56.40.dat
+/ASC/presto-master/bin/realfft Sband_DM16.80.dat
+/ASC/presto-master/bin/realfft Sband_DM7.60.dat
+/ASC/presto-master/bin/realfft Sband_DM67.20.dat
+/ASC/presto-master/bin/realfft Sband_DM27.60.dat
+/ASC/presto-master/bin/realfft Sband_DM73.80.dat
+/ASC/presto-master/bin/realfft Sband_DM78.00.dat
+/ASC/presto-master/bin/realfft Sband_DM38.40.dat
+/ASC/presto-master/bin/realfft Sband_DM49.20.dat
+/ASC/presto-master/bin/realfft Sband_DM55.80.dat
+/ASC/presto-master/bin/realfft Sband_DM66.60.dat
+/ASC/presto-master/bin/realfft Sband_DM77.40.dat
+/ASC/presto-master/bin/realfft Sband_DM37.80.dat
+/ASC/presto-master/bin/realfft Sband_DM48.60.dat
+/ASC/presto-master/bin/realfft Sband_DM59.40.dat
+/ASC/presto-master/bin/realfft Sband_DM19.80.dat
+/ASC/presto-master/bin/realfft Sband_DM76.80.dat
+/ASC/presto-master/bin/realfft Sband_DM58.80.dat
+/ASC/presto-master/bin/realfft Sband_DM69.60.dat
+/ASC/presto-master/bin/realfft Sband_DM79.80.dat
+/ASC/presto-master/bin/realfft Sband_DM0.00.dat
+/ASC/presto-master/bin/realfft Sband_DM20.00.dat
+/ASC/presto-master/bin/realfft Sband_DM30.20.dat
+/ASC/presto-master/bin/realfft Sband_DM41.00.dat
+/ASC/presto-master/bin/realfft Sband_DM12.20.dat
+/ASC/presto-master/bin/realfft Sband_DM3.00.dat
+/ASC/presto-master/bin/realfft Sband_DM23.00.dat
+/ASC/presto-master/bin/realfft Sband_DM80.00.dat
+/ASC/presto-master/bin/realfft Sband_DM40.40.dat
+/ASC/presto-master/bin/realfft Sband_DM51.20.dat
+/ASC/presto-master/bin/realfft Sband_DM11.60.dat
+/ASC/presto-master/bin/realfft Sband_DM2.40.dat
+/ASC/presto-master/bin/realfft Sband_DM62.00.dat
+/ASC/presto-master/bin/realfft Sband_DM22.40.dat
+/ASC/presto-master/bin/realfft Sband_DM33.20.dat
+/ASC/presto-master/bin/realfft Sband_DM44.00.dat
+/ASC/presto-master/bin/realfft Sband_DM50.60.dat
+/ASC/presto-master/bin/realfft Sband_DM15.20.dat
+/ASC/presto-master/bin/realfft Sband_DM1.80.dat
+/ASC/presto-master/bin/realfft Sband_DM61.40.dat
+/ASC/presto-master/bin/realfft Sband_DM6.00.dat
+/ASC/presto-master/bin/realfft Sband_DM21.80.dat
+/ASC/presto-master/bin/realfft Sband_DM26.00.dat
+/ASC/presto-master/bin/realfft Sband_DM72.20.dat
+/ASC/presto-master/bin/realfft Sband_DM32.60.dat
+/ASC/presto-master/bin/realfft Sband_DM83.00.dat
+/ASC/presto-master/bin/realfft Sband_DM43.40.dat
+/ASC/presto-master/bin/realfft Sband_DM54.20.dat
+/ASC/presto-master/bin/realfft Sband_DM14.60.dat
+/ASC/presto-master/bin/realfft Sband_DM60.80.dat
+/ASC/presto-master/bin/realfft Sband_DM5.40.dat
+/ASC/presto-master/bin/realfft Sband_DM65.00.dat
+/ASC/presto-master/bin/realfft Sband_DM25.40.dat
+/ASC/presto-master/bin/realfft Sband_DM71.60.dat
+/ASC/presto-master/bin/realfft Sband_DM36.20.dat
+/ASC/presto-master/bin/realfft Sband_DM82.40.dat
+/ASC/presto-master/bin/realfft Sband_DM42.80.dat
+/ASC/presto-master/bin/realfft Sband_DM47.00.dat
+/ASC/presto-master/bin/realfft Sband_DM53.60.dat
+/ASC/presto-master/bin/realfft Sband_DM18.20.dat
+/ASC/presto-master/bin/realfft Sband_DM4.80.dat
+/ASC/presto-master/bin/realfft Sband_DM9.00.dat
+/ASC/presto-master/bin/realfft Sband_DM64.40.dat
+/ASC/presto-master/bin/realfft Sband_DM24.80.dat
+/ASC/presto-master/bin/realfft Sband_DM29.00.dat
+/ASC/presto-master/bin/realfft Sband_DM75.20.dat
+/ASC/presto-master/bin/realfft Sband_DM35.60.dat
+/ASC/presto-master/bin/realfft Sband_DM81.80.dat
+/ASC/presto-master/bin/realfft Sband_DM46.40.dat
+/ASC/presto-master/bin/realfft Sband_DM57.20.dat
+/ASC/presto-master/bin/realfft Sband_DM17.60.dat
+/ASC/presto-master/bin/realfft Sband_DM8.40.dat
+/ASC/presto-master/bin/realfft Sband_DM63.80.dat
+/ASC/presto-master/bin/realfft Sband_DM68.00.dat
+/ASC/presto-master/bin/realfft Sband_DM28.40.dat
+/ASC/presto-master/bin/realfft Sband_DM74.60.dat
+/ASC/presto-master/bin/realfft Sband_DM39.20.dat
+/ASC/presto-master/bin/realfft Sband_DM45.80.dat
+/ASC/presto-master/bin/realfft Sband_DM56.60.dat
+/ASC/presto-master/bin/realfft Sband_DM7.80.dat
+/ASC/presto-master/bin/realfft Sband_DM67.40.dat
+/ASC/presto-master/bin/realfft Sband_DM27.80.dat
+/ASC/presto-master/bin/realfft Sband_DM78.20.dat
+/ASC/presto-master/bin/realfft Sband_DM38.60.dat
+/ASC/presto-master/bin/realfft Sband_DM49.40.dat
+/ASC/presto-master/bin/realfft Sband_DM66.80.dat
+/ASC/presto-master/bin/realfft Sband_DM77.60.dat
+/ASC/presto-master/bin/realfft Sband_DM48.80.dat
+/ASC/presto-master/bin/realfft Sband_DM59.60.dat
+/ASC/presto-master/bin/realfft Sband_DM69.80.dat
+/ASC/presto-master/bin/realfft Sband_DM10.00.dat
+/ASC/presto-master/bin/realfft Sband_DM0.20.dat
+/ASC/presto-master/bin/realfft Sband_DM20.20.dat
+/ASC/presto-master/bin/realfft Sband_DM31.00.dat
+/ASC/presto-master/bin/realfft Sband_DM13.00.dat
+/ASC/presto-master/bin/realfft Sband_DM70.00.dat
+/ASC/presto-master/bin/realfft Sband_DM30.40.dat
+/ASC/presto-master/bin/realfft Sband_DM41.20.dat
+/ASC/presto-master/bin/realfft Sband_DM52.00.dat
+/ASC/presto-master/bin/realfft Sband_DM12.40.dat
+/ASC/presto-master/bin/realfft Sband_DM3.20.dat
+/ASC/presto-master/bin/realfft Sband_DM23.20.dat
+/ASC/presto-master/bin/realfft Sband_DM34.00.dat
+/ASC/presto-master/bin/realfft Sband_DM80.20.dat
+/ASC/presto-master/bin/realfft Sband_DM40.60.dat
+/ASC/presto-master/bin/realfft Sband_DM51.40.dat
+/ASC/presto-master/bin/realfft Sband_DM11.80.dat
+/ASC/presto-master/bin/realfft Sband_DM16.00.dat
+/ASC/presto-master/bin/realfft Sband_DM2.60.dat
+/ASC/presto-master/bin/realfft Sband_DM62.20.dat
+/ASC/presto-master/bin/realfft Sband_DM22.60.dat
+/ASC/presto-master/bin/realfft Sband_DM73.00.dat
+/ASC/presto-master/bin/realfft Sband_DM33.40.dat
+/ASC/presto-master/bin/realfft Sband_DM44.20.dat
+/ASC/presto-master/bin/realfft Sband_DM50.80.dat
+/ASC/presto-master/bin/realfft Sband_DM55.00.dat
+/ASC/presto-master/bin/realfft Sband_DM15.40.dat
+/ASC/presto-master/bin/realfft Sband_DM61.60.dat
+/ASC/presto-master/bin/realfft Sband_DM6.20.dat
+/ASC/presto-master/bin/realfft Sband_DM26.20.dat
+/ASC/presto-master/bin/realfft Sband_DM72.40.dat
+/ASC/presto-master/bin/realfft Sband_DM32.80.dat
+/ASC/presto-master/bin/realfft Sband_DM37.00.dat
+/ASC/presto-master/bin/realfft Sband_DM83.20.dat
+/ASC/presto-master/bin/realfft Sband_DM43.60.dat
+/ASC/presto-master/bin/realfft Sband_DM54.40.dat
+/ASC/presto-master/bin/realfft Sband_DM14.80.dat
+/ASC/presto-master/bin/realfft Sband_DM19.00.dat
+/ASC/presto-master/bin/realfft Sband_DM5.60.dat
+/ASC/presto-master/bin/realfft Sband_DM65.20.dat
+/ASC/presto-master/bin/realfft Sband_DM25.60.dat
+/ASC/presto-master/bin/realfft Sband_DM71.80.dat
+/ASC/presto-master/bin/realfft Sband_DM76.00.dat
+/ASC/presto-master/bin/realfft Sband_DM36.40.dat
+/ASC/presto-master/bin/realfft Sband_DM82.60.dat
+/ASC/presto-master/bin/realfft Sband_DM47.20.dat
+/ASC/presto-master/bin/realfft Sband_DM53.80.dat
+/ASC/presto-master/bin/realfft Sband_DM58.00.dat
+/ASC/presto-master/bin/realfft Sband_DM18.40.dat
+/ASC/presto-master/bin/realfft Sband_DM9.20.dat
+/ASC/presto-master/bin/realfft Sband_DM64.60.dat
+/ASC/presto-master/bin/realfft Sband_DM29.20.dat
+/ASC/presto-master/bin/realfft Sband_DM75.40.dat
+/ASC/presto-master/bin/realfft Sband_DM35.80.dat
+/ASC/presto-master/bin/realfft Sband_DM46.60.dat
+/ASC/presto-master/bin/realfft Sband_DM57.40.dat
+/ASC/presto-master/bin/realfft Sband_DM17.80.dat
+/ASC/presto-master/bin/realfft Sband_DM8.60.dat
+/ASC/presto-master/bin/realfft Sband_DM68.20.dat
+/ASC/presto-master/bin/realfft Sband_DM28.60.dat
+/ASC/presto-master/bin/realfft Sband_DM74.80.dat
+/ASC/presto-master/bin/realfft Sband_DM79.00.dat
+/ASC/presto-master/bin/realfft Sband_DM39.40.dat
+/ASC/presto-master/bin/realfft Sband_DM56.80.dat
+/ASC/presto-master/bin/realfft Sband_DM67.60.dat
+/ASC/presto-master/bin/realfft Sband_DM78.40.dat
+/ASC/presto-master/bin/realfft Sband_DM38.80.dat
+/ASC/presto-master/bin/realfft Sband_DM49.60.dat
+/ASC/presto-master/bin/realfft Sband_DM77.80.dat
+/ASC/presto-master/bin/realfft Sband_DM59.80.dat
+/ASC/presto-master/bin/realfft Sband_DM10.20.dat
+/ASC/presto-master/bin/realfft Sband_DM1.00.dat
+/ASC/presto-master/bin/realfft Sband_DM21.00.dat
+/ASC/presto-master/bin/realfft Sband_DM0.40.dat
+/ASC/presto-master/bin/realfft Sband_DM60.00.dat
+/ASC/presto-master/bin/realfft Sband_DM20.40.dat
+/ASC/presto-master/bin/realfft Sband_DM31.20.dat
+/ASC/presto-master/bin/realfft Sband_DM42.00.dat
+/ASC/presto-master/bin/realfft Sband_DM13.20.dat
+/ASC/presto-master/bin/realfft Sband_DM4.00.dat
+/ASC/presto-master/bin/realfft Sband_DM24.00.dat
+/ASC/presto-master/bin/realfft Sband_DM70.20.dat
+/ASC/presto-master/bin/realfft Sband_DM30.60.dat
+/ASC/presto-master/bin/realfft Sband_DM81.00.dat
+/ASC/presto-master/bin/realfft Sband_DM41.40.dat
+/ASC/presto-master/bin/realfft Sband_DM52.20.dat
+/ASC/presto-master/bin/realfft Sband_DM12.60.dat
+/ASC/presto-master/bin/realfft Sband_DM3.40.dat
+/ASC/presto-master/bin/realfft Sband_DM63.00.dat
+/ASC/presto-master/bin/realfft Sband_DM23.40.dat
+/ASC/presto-master/bin/realfft Sband_DM34.20.dat
+/ASC/presto-master/bin/realfft Sband_DM80.40.dat
+/ASC/presto-master/bin/realfft Sband_DM40.80.dat
+/ASC/presto-master/bin/realfft Sband_DM45.00.dat
+/ASC/presto-master/bin/realfft Sband_DM51.60.dat
+/ASC/presto-master/bin/realfft Sband_DM16.20.dat
+/ASC/presto-master/bin/realfft Sband_DM2.80.dat
+/ASC/presto-master/bin/realfft Sband_DM62.40.dat
+/ASC/presto-master/bin/realfft Sband_DM7.00.dat
+/ASC/presto-master/bin/realfft Sband_DM22.80.dat
+/ASC/presto-master/bin/realfft Sband_DM27.00.dat
+/ASC/presto-master/bin/realfft Sband_DM73.20.dat
+/ASC/presto-master/bin/realfft Sband_DM33.60.dat
+/ASC/presto-master/bin/realfft Sband_DM44.40.dat
+/ASC/presto-master/bin/realfft Sband_DM55.20.dat
+/ASC/presto-master/bin/realfft Sband_DM15.60.dat
+/ASC/presto-master/bin/realfft Sband_DM61.80.dat
+/ASC/presto-master/bin/realfft Sband_DM6.40.dat
+/ASC/presto-master/bin/realfft Sband_DM66.00.dat
+/ASC/presto-master/bin/realfft Sband_DM26.40.dat
+/ASC/presto-master/bin/realfft Sband_DM72.60.dat
+/ASC/presto-master/bin/realfft Sband_DM37.20.dat
+/ASC/presto-master/bin/realfft Sband_DM83.40.dat
+/ASC/presto-master/bin/realfft Sband_DM43.80.dat
+/ASC/presto-master/bin/realfft Sband_DM48.00.dat
+/ASC/presto-master/bin/realfft Sband_DM54.60.dat
+/ASC/presto-master/bin/realfft Sband_DM19.20.dat
+/ASC/presto-master/bin/realfft Sband_DM5.80.dat
+/ASC/presto-master/bin/realfft Sband_DM65.40.dat
+/ASC/presto-master/bin/realfft Sband_DM25.80.dat
+/ASC/presto-master/bin/realfft Sband_DM76.20.dat
+/ASC/presto-master/bin/realfft Sband_DM36.60.dat
+/ASC/presto-master/bin/realfft Sband_DM82.80.dat
+/ASC/presto-master/bin/realfft Sband_DM47.40.dat
+/ASC/presto-master/bin/realfft Sband_DM58.20.dat
+/ASC/presto-master/bin/realfft Sband_DM18.60.dat
+/ASC/presto-master/bin/realfft Sband_DM9.40.dat
+/ASC/presto-master/bin/realfft Sband_DM64.80.dat
+/ASC/presto-master/bin/realfft Sband_DM69.00.dat
+/ASC/presto-master/bin/realfft Sband_DM29.40.dat
+/ASC/presto-master/bin/realfft Sband_DM75.60.dat
+/ASC/presto-master/bin/realfft Sband_DM46.80.dat
+/ASC/presto-master/bin/realfft Sband_DM57.60.dat
+/ASC/presto-master/bin/realfft Sband_DM8.80.dat
+/ASC/presto-master/bin/realfft Sband_DM68.40.dat
+/ASC/presto-master/bin/realfft Sband_DM28.80.dat
+/ASC/presto-master/bin/realfft Sband_DM79.20.dat
+/ASC/presto-master/bin/realfft Sband_DM39.60.dat
+/ASC/presto-master/bin/realfft Sband_DM67.80.dat
+/ASC/presto-master/bin/realfft Sband_DM78.60.dat
+/ASC/presto-master/bin/realfft Sband_DM49.80.dat
+/ASC/presto-master/bin/realfft Sband_DM11.00.dat
+/ASC/presto-master/bin/realfft Sband_DM50.00.dat
+/ASC/presto-master/bin/realfft Sband_DM10.40.dat
+/ASC/presto-master/bin/realfft Sband_DM1.20.dat
+/ASC/presto-master/bin/realfft Sband_DM21.20.dat
+/ASC/presto-master/bin/realfft Sband_DM32.00.dat
+/ASC/presto-master/bin/realfft Sband_DM14.00.dat
+/ASC/presto-master/bin/realfft Sband_DM0.60.dat
+/ASC/presto-master/bin/realfft Sband_DM60.20.dat
+/ASC/presto-master/bin/realfft Sband_DM20.60.dat
+/ASC/presto-master/bin/realfft Sband_DM71.00.dat
+/ASC/presto-master/bin/realfft Sband_DM31.40.dat
+/ASC/presto-master/bin/realfft Sband_DM42.20.dat
+/ASC/presto-master/bin/realfft Sband_DM53.00.dat
+/ASC/presto-master/bin/realfft Sband_DM13.40.dat
+/ASC/presto-master/bin/realfft Sband_DM4.20.dat
+/ASC/presto-master/bin/realfft Sband_DM24.20.dat
+/ASC/presto-master/bin/realfft Sband_DM70.40.dat
+/ASC/presto-master/bin/realfft Sband_DM30.80.dat
+/ASC/presto-master/bin/realfft Sband_DM35.00.dat
+/ASC/presto-master/bin/realfft Sband_DM81.20.dat
+/ASC/presto-master/bin/realfft Sband_DM41.60.dat
+/ASC/presto-master/bin/realfft Sband_DM52.40.dat
+/ASC/presto-master/bin/realfft Sband_DM12.80.dat
+/ASC/presto-master/bin/realfft Sband_DM17.00.dat
+/ASC/presto-master/bin/realfft Sband_DM3.60.dat
+/ASC/presto-master/bin/realfft Sband_DM63.20.dat
+/ASC/presto-master/bin/realfft Sband_DM23.60.dat
+/ASC/presto-master/bin/realfft Sband_DM74.00.dat
+/ASC/presto-master/bin/realfft Sband_DM34.40.dat
+/ASC/presto-master/bin/realfft Sband_DM80.60.dat
+/ASC/presto-master/bin/realfft Sband_DM45.20.dat
+/ASC/presto-master/bin/realfft Sband_DM51.80.dat
+/ASC/presto-master/bin/realfft Sband_DM56.00.dat
+/ASC/presto-master/bin/realfft Sband_DM16.40.dat
+/ASC/presto-master/bin/realfft Sband_DM62.60.dat
+/ASC/presto-master/bin/realfft Sband_DM7.20.dat
+/ASC/presto-master/bin/realfft Sband_DM27.20.dat
+/ASC/presto-master/bin/realfft Sband_DM73.40.dat
+/ASC/presto-master/bin/realfft Sband_DM33.80.dat
+/ASC/presto-master/bin/realfft Sband_DM38.00.dat
+/ASC/presto-master/bin/realfft Sband_DM44.60.dat
+/ASC/presto-master/bin/realfft Sband_DM55.40.dat
+/ASC/presto-master/bin/realfft Sband_DM15.80.dat
+/ASC/presto-master/bin/realfft Sband_DM6.60.dat
+/ASC/presto-master/bin/realfft Sband_DM66.20.dat
+/ASC/presto-master/bin/realfft Sband_DM26.60.dat
+/ASC/presto-master/bin/realfft Sband_DM72.80.dat
+/ASC/presto-master/bin/realfft Sband_DM77.00.dat
+/ASC/presto-master/bin/realfft Sband_DM37.40.dat
+/ASC/presto-master/bin/realfft Sband_DM48.20.dat
+/ASC/presto-master/bin/realfft Sband_DM54.80.dat
+/ASC/presto-master/bin/realfft Sband_DM59.00.dat
+/ASC/presto-master/bin/realfft Sband_DM19.40.dat
+/ASC/presto-master/bin/realfft Sband_DM65.60.dat
+/ASC/presto-master/bin/realfft Sband_DM76.40.dat
+/ASC/presto-master/bin/realfft Sband_DM36.80.dat
+/ASC/presto-master/bin/realfft Sband_DM47.60.dat
+/ASC/presto-master/bin/realfft Sband_DM58.40.dat
+/ASC/presto-master/bin/realfft Sband_DM18.80.dat
+/ASC/presto-master/bin/realfft Sband_DM9.60.dat
+/ASC/presto-master/bin/realfft Sband_DM69.20.dat
+/ASC/presto-master/bin/realfft Sband_DM29.60.dat
+/ASC/presto-master/bin/realfft Sband_DM75.80.dat
+/ASC/presto-master/bin/realfft Sband_DM57.80.dat
+/ASC/presto-master/bin/realfft Sband_DM68.60.dat
+/ASC/presto-master/bin/realfft Sband_DM79.40.dat
+/ASC/presto-master/bin/realfft Sband_DM39.80.dat
+/ASC/presto-master/bin/realfft Sband_DM78.80.dat
+/ASC/presto-master/bin/realfft Sband_DM40.00.dat
+/ASC/presto-master/bin/realfft Sband_DM11.20.dat
+/ASC/presto-master/bin/realfft Sband_DM2.00.dat
+/ASC/presto-master/bin/realfft Sband_DM22.00.dat
+/ASC/presto-master/bin/realfft Sband_DM50.20.dat
+/ASC/presto-master/bin/realfft Sband_DM10.60.dat
+/ASC/presto-master/bin/realfft Sband_DM1.40.dat
+/ASC/presto-master/bin/realfft Sband_DM61.00.dat
+/ASC/presto-master/bin/realfft Sband_DM21.40.dat
+/ASC/presto-master/bin/realfft Sband_DM32.20.dat
+/ASC/presto-master/bin/realfft Sband_DM43.00.dat
+/ASC/presto-master/bin/realfft Sband_DM14.20.dat
+/ASC/presto-master/bin/realfft Sband_DM0.80.dat
+/ASC/presto-master/bin/realfft Sband_DM60.40.dat
+/ASC/presto-master/bin/realfft Sband_DM5.00.dat
+/ASC/presto-master/bin/realfft Sband_DM20.80.dat
+/ASC/presto-master/bin/realfft Sband_DM25.00.dat
+/ASC/presto-master/bin/realfft Sband_DM71.20.dat
+/ASC/presto-master/bin/realfft Sband_DM31.60.dat
+/ASC/presto-master/bin/realfft Sband_DM82.00.dat
+/ASC/presto-master/bin/realfft Sband_DM42.40.dat
+/ASC/presto-master/bin/realfft Sband_DM53.20.dat
+/ASC/presto-master/bin/realfft Sband_DM13.60.dat
+/ASC/presto-master/bin/realfft Sband_DM4.40.dat
+/ASC/presto-master/bin/realfft Sband_DM64.00.dat
+/ASC/presto-master/bin/realfft Sband_DM24.40.dat
+/ASC/presto-master/bin/realfft Sband_DM70.60.dat
+/ASC/presto-master/bin/realfft Sband_DM35.20.dat
+/ASC/presto-master/bin/realfft Sband_DM81.40.dat
+/ASC/presto-master/bin/realfft Sband_DM41.80.dat
+/ASC/presto-master/bin/realfft Sband_DM46.00.dat
+/ASC/presto-master/bin/realfft Sband_DM52.60.dat
+/ASC/presto-master/bin/realfft Sband_DM17.20.dat
+/ASC/presto-master/bin/realfft Sband_DM3.80.dat
+/ASC/presto-master/bin/realfft Sband_DM8.00.dat
+/ASC/presto-master/bin/realfft Sband_DM63.40.dat
+/ASC/presto-master/bin/realfft Sband_DM23.80.dat
+/ASC/presto-master/bin/realfft Sband_DM28.00.dat
+/ASC/presto-master/bin/realfft Sband_DM74.20.dat
+/ASC/presto-master/bin/realfft Sband_DM34.60.dat
+/ASC/presto-master/bin/realfft Sband_DM80.80.dat
+/ASC/presto-master/bin/realfft Sband_DM45.40.dat
+/ASC/presto-master/bin/realfft Sband_DM56.20.dat
+/ASC/presto-master/bin/realfft Sband_DM16.60.dat
+/ASC/presto-master/bin/realfft Sband_DM62.80.dat
+/ASC/presto-master/bin/realfft Sband_DM7.40.dat
+/ASC/presto-master/bin/realfft Sband_DM67.00.dat
+/ASC/presto-master/bin/realfft Sband_DM27.40.dat
+/ASC/presto-master/bin/realfft Sband_DM73.60.dat
+/ASC/presto-master/bin/realfft Sband_DM38.20.dat
+/ASC/presto-master/bin/realfft Sband_DM44.80.dat
+/ASC/presto-master/bin/realfft Sband_DM49.00.dat
+/ASC/presto-master/bin/realfft Sband_DM55.60.dat
+/ASC/presto-master/bin/realfft Sband_DM6.80.dat
+/ASC/presto-master/bin/realfft Sband_DM66.40.dat
+/ASC/presto-master/bin/realfft Sband_DM26.80.dat
+/ASC/presto-master/bin/realfft Sband_DM77.20.dat
+/ASC/presto-master/bin/realfft Sband_DM37.60.dat
+/ASC/presto-master/bin/realfft Sband_DM48.40.dat
+/ASC/presto-master/bin/realfft Sband_DM59.20.dat
+/ASC/presto-master/bin/realfft Sband_DM19.60.dat
+/ASC/presto-master/bin/realfft Sband_DM65.80.dat
+/ASC/presto-master/bin/realfft Sband_DM76.60.dat
+/ASC/presto-master/bin/realfft Sband_DM47.80.dat
+/ASC/presto-master/bin/realfft Sband_DM58.60.dat
+/ASC/presto-master/bin/realfft Sband_DM9.80.dat
+/ASC/presto-master/bin/realfft Sband_DM69.40.dat
+/ASC/presto-master/bin/realfft Sband_DM29.80.dat
+/ASC/presto-master/bin/realfft Sband_DM68.80.dat
+/ASC/presto-master/bin/realfft Sband_DM79.60.dat
+/ASC/presto-master/bin/realfft Sband_DM30.00.dat
+/ASC/presto-master/bin/realfft Sband_DM12.00.dat
+/ASC/presto-master/bin/realfft Sband_DM40.20.dat
+/ASC/presto-master/bin/realfft Sband_DM51.00.dat
+/ASC/presto-master/bin/realfft Sband_DM11.40.dat
+/ASC/presto-master/bin/realfft Sband_DM2.20.dat
+/ASC/presto-master/bin/realfft Sband_DM22.20.dat
+/ASC/presto-master/bin/realfft Sband_DM33.00.dat
+/ASC/presto-master/bin/realfft Sband_DM50.40.dat
+/ASC/presto-master/bin/realfft Sband_DM10.80.dat
+/ASC/presto-master/bin/realfft Sband_DM15.00.dat
+/ASC/presto-master/bin/realfft Sband_DM1.60.dat
+/ASC/presto-master/bin/realfft Sband_DM61.20.dat
+/ASC/presto-master/bin/realfft Sband_DM21.60.dat
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM77.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM59.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM10.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM1.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM21.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM0.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM60.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM20.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM31.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM42.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM13.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM4.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM24.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM70.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM30.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM81.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM41.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM52.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM12.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM3.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM63.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM23.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM34.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM80.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM40.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM45.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM51.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM16.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM2.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM7.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM62.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM22.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM27.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM73.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM33.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM44.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM55.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM15.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM6.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM61.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM66.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM26.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM72.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM37.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM83.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM43.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM48.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM54.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM19.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM5.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM65.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM25.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM76.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM36.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM82.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM47.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM58.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM18.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM9.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM64.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM69.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM29.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM75.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM46.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM57.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM8.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM68.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM28.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM79.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM39.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM67.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM78.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM49.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM11.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM50.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM10.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM1.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM21.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM32.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM14.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM0.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM60.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM20.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM71.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM31.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM42.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM53.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM13.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM4.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM24.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM70.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM30.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM35.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM81.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM41.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM52.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM12.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM17.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM3.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM63.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM23.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM74.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM34.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM80.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM45.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM51.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM56.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM16.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM7.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM62.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM27.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM73.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM33.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM38.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM44.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM55.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM15.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM6.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM66.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM26.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM72.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM77.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM37.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM48.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM54.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM59.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM19.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM65.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM76.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM36.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM47.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM58.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM18.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM9.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM69.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM29.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM75.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM57.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM68.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM79.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM39.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM78.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM40.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM11.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM2.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM22.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM50.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM10.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM1.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM61.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM21.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM32.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM43.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM14.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM0.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM5.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM60.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM20.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM25.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM71.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM31.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM82.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM42.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM53.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM13.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM4.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM64.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM24.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM70.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM35.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM81.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM41.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM46.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM52.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM17.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM3.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM63.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM8.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM23.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM28.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM74.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM34.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM80.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM45.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM56.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM16.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM7.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM62.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM67.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM27.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM73.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM38.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM44.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM49.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM55.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM6.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM66.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM26.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM77.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM37.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM48.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM59.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM19.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM65.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM76.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM47.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM58.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM9.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM69.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM29.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM68.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM79.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM30.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM12.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM40.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM51.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM11.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM2.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM22.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM33.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM50.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM10.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM15.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM1.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM61.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM21.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM72.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM32.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM43.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM54.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM14.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM5.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM60.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM25.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM71.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM31.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM36.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM82.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM42.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM53.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM13.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM18.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM4.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM64.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM24.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM70.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM75.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM35.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM81.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM46.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM52.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM57.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM17.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM63.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM8.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM28.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM74.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM34.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM39.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM45.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM56.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM16.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM7.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM67.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM27.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM73.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM78.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM38.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM49.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM55.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM66.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM77.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM37.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM48.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM59.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM19.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM76.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM58.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM69.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM79.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM0.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM20.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM30.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM41.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM12.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM3.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM23.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM80.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM40.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM51.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM11.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM2.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM62.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM22.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM33.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM44.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM50.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM15.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM1.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM6.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM61.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM21.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM26.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM72.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM32.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM83.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM43.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM54.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM14.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM5.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM60.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM65.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM25.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM71.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM36.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM82.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM42.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM47.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM53.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM18.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM4.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM64.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM9.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM24.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM29.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM75.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM35.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM81.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM46.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM57.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM17.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM8.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM63.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM68.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM28.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM74.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM39.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM45.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM56.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM7.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM67.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM27.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM78.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM38.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM49.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM66.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM77.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM48.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM59.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM69.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM10.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM0.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM20.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM31.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM13.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM70.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM30.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM41.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM52.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM12.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM3.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM23.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM34.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM80.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM40.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM51.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM11.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM16.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM2.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM62.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM22.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM73.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM33.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM44.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM50.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM55.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM15.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM61.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM6.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM26.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM72.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM32.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM37.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM83.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM43.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM54.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM14.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM19.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM5.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM65.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM25.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM71.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM76.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM36.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM82.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM47.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM53.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM58.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM18.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM64.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM9.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM29.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM75.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM35.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM46.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM57.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM17.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM8.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM68.20.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM28.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM74.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM79.00.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM39.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM56.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM67.60.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM78.40.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM38.80.fft
+/ASC/presto-master/bin/accelsearch -zmax 0 Sband_DM49.60.fft
+
+
+================sifting candidates==================
+
+
+
+Reading candidates from 418 files....
+ Read 1 of 418 files (23 cands) Read 2 of 418 files (46 cands) Read 3 of 418 files (69 cands) Read 4 of 418 files (92 cands) Read 5 of 418 files (115 cands) Read 6 of 418 files (128 cands) Read 7 of 418 files (141 cands) Read 8 of 418 files (154 cands) Read 9 of 418 files (165 cands) Read 10 of 418 files (177 cands) Read 11 of 418 files (194 cands) Read 12 of 418 files (211 cands) Read 13 of 418 files (228 cands) Read 14 of 418 files (246 cands) Read 15 of 418 files (262 cands) Read 16 of 418 files (277 cands) Read 17 of 418 files (292 cands) Read 18 of 418 files (306 cands) Read 19 of 418 files (320 cands) Read 20 of 418 files (334 cands) Read 21 of 418 files (355 cands) Read 22 of 418 files (376 cands) Read 23 of 418 files (395 cands) Read 24 of 418 files (416 cands) Read 25 of 418 files (436 cands) Read 26 of 418 files (447 cands) Read 27 of 418 files (459 cands) Read 28 of 418 files (470 cands) Read 29 of 418 files (481 cands) Read 30 of 418 files (492 cands) Read 31 of 418 files (502 cands) Read 32 of 418 files (514 cands) Read 33 of 418 files (524 cands) Read 34 of 418 files (536 cands) Read 35 of 418 files (547 cands) Read 36 of 418 files (558 cands) Read 37 of 418 files (571 cands) Read 38 of 418 files (585 cands) Read 39 of 418 files (599 cands) Read 40 of 418 files (613 cands) Read 41 of 418 files (631 cands) Read 42 of 418 files (649 cands) Read 43 of 418 files (667 cands) Read 44 of 418 files (685 cands) Read 45 of 418 files (703 cands) Read 46 of 418 files (719 cands) Read 47 of 418 files (735 cands) Read 48 of 418 files (749 cands) Read 49 of 418 files (763 cands) Read 50 of 418 files (776 cands) Read 51 of 418 files (784 cands) Read 52 of 418 files (792 cands) Read 53 of 418 files (802 cands) Read 54 of 418 files (811 cands) Read 55 of 418 files (819 cands) Read 56 of 418 files (838 cands) Read 57 of 418 files (858 cands) Read 58 of 418 files (881 cands) Read 59 of 418 files (904 cands) Read 60 of 418 files (926 cands) Read 61 of 418 files (936 cands) Read 62 of 418 files (947 cands) Read 63 of 418 files (958 cands) Read 64 of 418 files (968 cands) Read 65 of 418 files (979 cands) Read 66 of 418 files (990 cands) Read 67 of 418 files (999 cands) Read 68 of 418 files (1010 cands) Read 69 of 418 files (1021 cands) Read 70 of 418 files (1033 cands) Read 71 of 418 files (1044 cands) Read 72 of 418 files (1057 cands) Read 73 of 418 files (1070 cands) Read 74 of 418 files (1082 cands) Read 75 of 418 files (1095 cands) Read 76 of 418 files (1114 cands) Read 77 of 418 files (1132 cands) Read 78 of 418 files (1150 cands) Read 79 of 418 files (1168 cands) Read 80 of 418 files (1188 cands) Read 81 of 418 files (1203 cands) Read 82 of 418 files (1218 cands) Read 83 of 418 files (1233 cands) Read 84 of 418 files (1248 cands) Read 85 of 418 files (1263 cands) Read 86 of 418 files (1277 cands) Read 87 of 418 files (1291 cands) Read 88 of 418 files (1305 cands) Read 89 of 418 files (1320 cands) Read 90 of 418 files (1336 cands) Read 91 of 418 files (1344 cands) Read 92 of 418 files (1352 cands) Read 93 of 418 files (1360 cands) Read 94 of 418 files (1369 cands) Read 95 of 418 files (1377 cands) Read 96 of 418 files (1399 cands) Read 97 of 418 files (1423 cands) Read 98 of 418 files (1445 cands) Read 99 of 418 files (1466 cands) Read 100 of 418 files (1488 cands) Read 101 of 418 files (1499 cands) Read 102 of 418 files (1510 cands) Read 103 of 418 files (1520 cands) Read 104 of 418 files (1529 cands) Read 105 of 418 files (1537 cands) Read 106 of 418 files (1555 cands) Read 107 of 418 files (1573 cands) Read 108 of 418 files (1592 cands) Read 109 of 418 files (1605 cands) Read 110 of 418 files (1623 cands) Read 111 of 418 files (1636 cands) Read 112 of 418 files (1654 cands) Read 113 of 418 files (1669 cands) Read 114 of 418 files (1681 cands) Read 115 of 418 files (1693 cands) Read 116 of 418 files (1707 cands) Read 117 of 418 files (1719 cands) Read 118 of 418 files (1731 cands) Read 119 of 418 files (1744 cands) Read 120 of 418 files (1757 cands) Read 121 of 418 files (1777 cands) Read 122 of 418 files (1797 cands) Read 123 of 418 files (1815 cands) Read 124 of 418 files (1832 cands) Read 125 of 418 files (1850 cands) Read 126 of 418 files (1865 cands) Read 127 of 418 files (1878 cands) Read 128 of 418 files (1891 cands) Read 129 of 418 files (1905 cands) Read 130 of 418 files (1918 cands) Read 131 of 418 files (1934 cands) Read 132 of 418 files (1951 cands) Read 133 of 418 files (1969 cands) Read 134 of 418 files (1986 cands) Read 135 of 418 files (2001 cands) Read 136 of 418 files (2009 cands) Read 137 of 418 files (2017 cands) Read 138 of 418 files (2025 cands) Read 139 of 418 files (2033 cands) Read 140 of 418 files (2041 cands) Read 141 of 418 files (2063 cands) Read 142 of 418 files (2084 cands) Read 143 of 418 files (2104 cands) Read 144 of 418 files (2124 cands) Read 145 of 418 files (2144 cands) Read 146 of 418 files (2163 cands) Read 147 of 418 files (2182 cands) Read 148 of 418 files (2200 cands) Read 149 of 418 files (2215 cands) Read 150 of 418 files (2238 cands) Read 151 of 418 files (2251 cands) Read 152 of 418 files (2272 cands) Read 153 of 418 files (2286 cands) Read 154 of 418 files (2300 cands) Read 155 of 418 files (2313 cands) Read 156 of 418 files (2328 cands) Read 157 of 418 files (2343 cands) Read 158 of 418 files (2358 cands) Read 159 of 418 files (2373 cands) Read 160 of 418 files (2387 cands) Read 161 of 418 files (2406 cands) Read 162 of 418 files (2424 cands) Read 163 of 418 files (2442 cands) Read 164 of 418 files (2459 cands) Read 165 of 418 files (2476 cands) Read 166 of 418 files (2488 cands) Read 167 of 418 files (2501 cands) Read 168 of 418 files (2514 cands) Read 169 of 418 files (2527 cands) Read 170 of 418 files (2540 cands) Read 171 of 418 files (2548 cands) Read 172 of 418 files (2557 cands) Read 173 of 418 files (2566 cands) Read 174 of 418 files (2587 cands) Read 175 of 418 files (2605 cands) Read 176 of 418 files (2624 cands) Read 177 of 418 files (2642 cands) Read 178 of 418 files (2663 cands) Read 179 of 418 files (2683 cands) Read 180 of 418 files (2705 cands) Read 181 of 418 files (2719 cands) Read 182 of 418 files (2740 cands) Read 183 of 418 files (2754 cands) Read 184 of 418 files (2774 cands) Read 185 of 418 files (2787 cands) Read 186 of 418 files (2807 cands) Read 187 of 418 files (2823 cands) Read 188 of 418 files (2838 cands) Read 189 of 418 files (2853 cands) Read 190 of 418 files (2867 cands) Read 191 of 418 files (2881 cands) Read 192 of 418 files (2895 cands) Read 193 of 418 files (2908 cands) Read 194 of 418 files (2920 cands) Read 195 of 418 files (2932 cands) Read 196 of 418 files (2943 cands) Read 197 of 418 files (2955 cands) Read 198 of 418 files (2968 cands) Read 199 of 418 files (2988 cands) Read 200 of 418 files (3007 cands) Read 201 of 418 files (3025 cands) Read 202 of 418 files (3044 cands) Read 203 of 418 files (3063 cands) Read 204 of 418 files (3073 cands) Read 205 of 418 files (3082 cands) Read 206 of 418 files (3090 cands) Read 207 of 418 files (3098 cands) Read 208 of 418 files (3108 cands) Read 209 of 418 files (3128 cands) Read 210 of 418 files (3149 cands) Read 211 of 418 files (3169 cands) Read 212 of 418 files (3184 cands) Read 213 of 418 files (3198 cands) Read 214 of 418 files (3219 cands) Read 215 of 418 files (3240 cands) Read 216 of 418 files (3254 cands) Read 217 of 418 files (3268 cands) Read 218 of 418 files (3282 cands) Read 219 of 418 files (3295 cands) Read 220 of 418 files (3309 cands) Read 221 of 418 files (3321 cands) Read 222 of 418 files (3333 cands) Read 223 of 418 files (3345 cands) Read 224 of 418 files (3359 cands) Read 225 of 418 files (3373 cands) Read 226 of 418 files (3386 cands) Read 227 of 418 files (3399 cands) Read 228 of 418 files (3412 cands) Read 229 of 418 files (3428 cands) Read 230 of 418 files (3444 cands) Read 231 of 418 files (3460 cands) Read 232 of 418 files (3477 cands) Read 233 of 418 files (3493 cands) Read 234 of 418 files (3511 cands) Read 235 of 418 files (3528 cands) Read 236 of 418 files (3546 cands) Read 237 of 418 files (3565 cands) Read 238 of 418 files (3583 cands) Read 239 of 418 files (3592 cands) Read 240 of 418 files (3602 cands) Read 241 of 418 files (3611 cands) Read 242 of 418 files (3620 cands) Read 243 of 418 files (3629 cands) Read 244 of 418 files (3650 cands) Read 245 of 418 files (3670 cands) Read 246 of 418 files (3684 cands) Read 247 of 418 files (3704 cands) Read 248 of 418 files (3717 cands) Read 249 of 418 files (3738 cands) Read 250 of 418 files (3752 cands) Read 251 of 418 files (3773 cands) Read 252 of 418 files (3788 cands) Read 253 of 418 files (3801 cands) Read 254 of 418 files (3816 cands) Read 255 of 418 files (3828 cands) Read 256 of 418 files (3840 cands) Read 257 of 418 files (3850 cands) Read 258 of 418 files (3861 cands) Read 259 of 418 files (3877 cands) Read 260 of 418 files (3892 cands) Read 261 of 418 files (3909 cands) Read 262 of 418 files (3924 cands) Read 263 of 418 files (3940 cands) Read 264 of 418 files (3953 cands) Read 265 of 418 files (3965 cands) Read 266 of 418 files (3978 cands) Read 267 of 418 files (3992 cands) Read 268 of 418 files (4006 cands) Read 269 of 418 files (4021 cands) Read 270 of 418 files (4036 cands) Read 271 of 418 files (4051 cands) Read 272 of 418 files (4067 cands) Read 273 of 418 files (4084 cands) Read 274 of 418 files (4102 cands) Read 275 of 418 files (4120 cands) Read 276 of 418 files (4138 cands) Read 277 of 418 files (4154 cands) Read 278 of 418 files (4171 cands) Read 279 of 418 files (4181 cands) Read 280 of 418 files (4192 cands) Read 281 of 418 files (4202 cands) Read 282 of 418 files (4212 cands) Read 283 of 418 files (4224 cands) Read 284 of 418 files (4245 cands) Read 285 of 418 files (4264 cands) Read 286 of 418 files (4283 cands) Read 287 of 418 files (4298 cands) Read 288 of 418 files (4317 cands) Read 289 of 418 files (4332 cands) Read 290 of 418 files (4352 cands) Read 291 of 418 files (4368 cands) Read 292 of 418 files (4383 cands) Read 293 of 418 files (4398 cands) Read 294 of 418 files (4414 cands) Read 295 of 418 files (4429 cands) Read 296 of 418 files (4445 cands) Read 297 of 418 files (4460 cands) Read 298 of 418 files (4474 cands) Read 299 of 418 files (4489 cands) Read 300 of 418 files (4502 cands) Read 301 of 418 files (4513 cands) Read 302 of 418 files (4525 cands) Read 303 of 418 files (4537 cands) Read 304 of 418 files (4553 cands) Read 305 of 418 files (4569 cands) Read 306 of 418 files (4586 cands) Read 307 of 418 files (4602 cands) Read 308 of 418 files (4617 cands) Read 309 of 418 files (4627 cands) Read 310 of 418 files (4638 cands) Read 311 of 418 files (4648 cands) Read 312 of 418 files (4658 cands) Read 313 of 418 files (4668 cands) Read 314 of 418 files (4686 cands) Read 315 of 418 files (4704 cands) Read 316 of 418 files (4719 cands) Read 317 of 418 files (4740 cands) Read 318 of 418 files (4755 cands) Read 319 of 418 files (4776 cands) Read 320 of 418 files (4797 cands) Read 321 of 418 files (4812 cands) Read 322 of 418 files (4826 cands) Read 323 of 418 files (4843 cands) Read 324 of 418 files (4858 cands) Read 325 of 418 files (4874 cands) Read 326 of 418 files (4889 cands) Read 327 of 418 files (4904 cands) Read 328 of 418 files (4920 cands) Read 329 of 418 files (4933 cands) Read 330 of 418 files (4946 cands) Read 331 of 418 files (4958 cands) Read 332 of 418 files (4970 cands) Read 333 of 418 files (4981 cands) Read 334 of 418 files (4998 cands) Read 335 of 418 files (5016 cands) Read 336 of 418 files (5033 cands) Read 337 of 418 files (5050 cands) Read 338 of 418 files (5068 cands) Read 339 of 418 files (5078 cands) Read 340 of 418 files (5087 cands) Read 341 of 418 files (5098 cands) Read 342 of 418 files (5108 cands) Read 343 of 418 files (5119 cands) Read 344 of 418 files (5140 cands) Read 345 of 418 files (5163 cands) Read 346 of 418 files (5185 cands) Read 347 of 418 files (5200 cands) Read 348 of 418 files (5217 cands) Read 349 of 418 files (5240 cands) Read 350 of 418 files (5256 cands) Read 351 of 418 files (5279 cands) Read 352 of 418 files (5295 cands) Read 353 of 418 files (5311 cands) Read 354 of 418 files (5322 cands) Read 355 of 418 files (5333 cands) Read 356 of 418 files (5345 cands) Read 357 of 418 files (5356 cands) Read 358 of 418 files (5368 cands) Read 359 of 418 files (5385 cands) Read 360 of 418 files (5402 cands) Read 361 of 418 files (5418 cands) Read 362 of 418 files (5434 cands) Read 363 of 418 files (5451 cands) Read 364 of 418 files (5462 cands) Read 365 of 418 files (5475 cands) Read 366 of 418 files (5490 cands) Read 367 of 418 files (5503 cands) Read 368 of 418 files (5516 cands) Read 369 of 418 files (5533 cands) Read 370 of 418 files (5551 cands) Read 371 of 418 files (5565 cands) Read 372 of 418 files (5579 cands) Read 373 of 418 files (5593 cands) Read 374 of 418 files (5618 cands) Read 375 of 418 files (5642 cands) Read 376 of 418 files (5666 cands) Read 377 of 418 files (5690 cands) Read 378 of 418 files (5714 cands) Read 379 of 418 files (5723 cands) Read 380 of 418 files (5735 cands) Read 381 of 418 files (5746 cands) Read 382 of 418 files (5757 cands) Read 383 of 418 files (5769 cands) Read 384 of 418 files (5792 cands) Read 385 of 418 files (5816 cands) Read 386 of 418 files (5839 cands) Read 387 of 418 files (5862 cands) Read 388 of 418 files (5885 cands) Read 389 of 418 files (5898 cands) Read 390 of 418 files (5909 cands) Read 391 of 418 files (5921 cands) Read 392 of 418 files (5933 cands) Read 393 of 418 files (5946 cands) Read 394 of 418 files (5963 cands) Read 395 of 418 files (5979 cands) Read 396 of 418 files (5995 cands) Read 397 of 418 files (6011 cands) Read 398 of 418 files (6028 cands) Read 399 of 418 files (6039 cands) Read 400 of 418 files (6051 cands) Read 401 of 418 files (6062 cands) Read 402 of 418 files (6072 cands) Read 403 of 418 files (6083 cands) Read 404 of 418 files (6098 cands) Read 405 of 418 files (6112 cands) Read 406 of 418 files (6127 cands) Read 407 of 418 files (6142 cands) Read 408 of 418 files (6157 cands) Read 409 of 418 files (6182 cands) Read 410 of 418 files (6206 cands) Read 411 of 418 files (6228 cands) Read 412 of 418 files (6250 cands) Read 413 of 418 files (6271 cands) Read 414 of 418 files (6281 cands) Read 415 of 418 files (6292 cands) Read 416 of 418 files (6303 cands) Read 417 of 418 files (6316 cands) Read 418 of 418 files (6327 cands)ln: failed to create symbolic link 'Dec+1554_arcdrift+23.4-M12_0194.fil': File exists
+
+Done
+  Sorting the 6327 candidates by frequency...
+  Searching for dupes...
+Found 164 candidates.
+
+Removed 102 candidates with DM problems.
+
+
+Searching for duplicate harmonics...
+Removed a total of 26 harmonics.
+
+
+
+================folding candidates==================
+
+
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 82.600000 -p 8.241807 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM82.60 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 29.200000 -p 0.374285 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM29.20 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 28.400000 -p 0.106925 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM28.40 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 28.800000 -p 0.083150 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM28.80 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 28.200000 -p 0.068035 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM28.20 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 28.800000 -p 0.057571 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM28.80 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 29.200000 -p 0.022011 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM29.20 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 29.000000 -p 0.140310 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM29.00 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 29.200000 -p 0.018709 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM29.20 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 41.200000 -p 0.016270 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM41.20 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 29.800000 -p 0.019695 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM29.80 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 19.400000 -p 0.044899 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM19.40 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 28.600000 -p 0.012904 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM28.60 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 28.600000 -p 0.012069 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM28.60 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 37.400000 -p 0.040102 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM37.40 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 76.600000 -p 0.004000 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM76.60 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 35.200000 -p 0.010112 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM35.20 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 27.600000 -p 0.009127 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM27.60 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 30.200000 -p 0.008701 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM30.20 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 28.000000 -p 0.007962 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM28.00 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 3.000000 -p 0.026655 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM3.00 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 30.200000 -p 0.025510 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM30.20 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 27.800000 -p 0.007059 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM27.80 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 28.600000 -p 0.007795 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM28.60 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 37.800000 -p 0.009123 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM37.80 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 31.400000 -p 0.006341 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM31.40 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 24.600000 -p 0.022908 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM24.60 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 9.000000 -p 0.001143 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM9.00 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 3.000000 -p 0.000921 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM3.00 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 30.800000 -p 0.006134 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM30.80 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 60.800000 -p 0.000630 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM60.80 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 41.600000 -p 0.005402 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM41.60 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 17.800000 -p 0.007372 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM17.80 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 7.400000 -p 0.004524 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM7.40 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 77.200000 -p 0.002752 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM77.20 -noxwin -nodmsearch
+/ASC/presto-master/bin/prepfold -n 64 -nsub 32 -dm 21.000000 -p 0.003687 Dec+1554_arcdrift+23.4-M12_0194.fil -o Sband_DM21.00 -noxwin -nodmsearch
+
+real	6m40.776s
+user	6m33.995s
+sys	0m35.890s

@@ -1,8 +1,6 @@
 
-
-
 \documentclass[a4paper, 11pt]{article}
-\usepackage[UTF8]{ctex}
+%\usepackage[UTF8]{ctex}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
@@ -71,44 +69,44 @@
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=0.3\textwidth]{Lu.jpg}
-				\caption{Lu Yan} %图片标题
-				\label{photo:1}  %图片交叉引用时的标签
+				\caption{Lu Yan} 
+				\label{photo:1}  
 			\end{figure} 
 			\paragraph{Lu Yan}: intrested in Computational Neuroscience and Neuromorphic Engineering.
 			
 			
 			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.3\textwidth]{Lu.jpg}
-				\caption{Liu Kongyang} %图片标题
-				\label{photo:2}  %图片交叉引用时的标签
+				\includegraphics[width=0.3\textwidth]{Liu.jpg}
+				\caption{Liu Kongyang} 
+				\label{photo:2}  
 			\end{figure} 
 			\paragraph{Liu Kongyang}: interested in Computer Graphics, Computer Vision and Machine Learning.
 			
 			
 			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.3\textwidth]{Lu.jpg}
-				\caption{Qiu Zili} %图片标题
-				\label{photo:3}  %图片交叉引用时的标签
+				\includegraphics[width=0.3\textwidth]{Qiu.jpg}
+				\caption{Qiu Zili} 
+				\label{photo:3}  
 			\end{figure} 
 			\paragraph{Qiu Zili}: interested in Hardware Configuration and Maintainence of HPC.
 			
 			
 			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.3\textwidth]{Lu.jpg}
-				\caption{Jiang Wenyuan} %图片标题
-				\label{photo:4}  %图片交叉引用时的标签
+				\includegraphics[width=0.3\textwidth]{Jiang.png}
+				\caption{Jiang Wenyuan} 
+				\label{photo:4}  
 			\end{figure} 
 			\paragraph{Jiang Wenyuan}: majors in Bioinformatics, and is interested in HPC's application in Biology.
 			
 			
 			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.3\textwidth]{Lu.jpg}
-				\caption{Xia Wenyong} %图片标题
-				\label{photo:5}  %图片交叉引用时的标签
+				\includegraphics[width=0.3\textwidth]{Xia.jpg}
+				\caption{Xia Wenyong} 
+				\label{photo:5}  
 			\end{figure} 
 			\paragraph{Xia Wenyong}: interested in algorithm designation of HPC.
 			
@@ -241,37 +239,29 @@
 				
 				\begin{enumerate}
 					\item In CPU mode, making full use of the new features provided by Intel in their Xeon$^{\tiny{\textregistered}}$ Scalable$^{\tiny{\textregistered}}$ Processors is necessary to improve the performance. For example, \texttt{AVX512} instruction set should be used and the features of Intel MKL together with Intel C++ Compiler should be integrated.
-					\item Using multiple GPU to do the computation is a must in large scale quantum simulations. Tring to bring CUDA and MPI together may be a way to improve the performance and scalability greatly.
+					\item Using multiple GPU to do the computation is a must in large scale quantum simulations. Trying to bring CUDA and MPI together may be a way to improve the performance and scalability greatly.
 				\end{enumerate}
 
-		\subsection{The PRESTO Challenge} [Draft Here.]
+		\subsection{The PRESTO Challenge} 
+		
+			\subsubsection{Hardware and Software Requirement}
+			
+				The hardware and software configuration we employed to test our PRESTO Challenge is the same as shown in Table \ref{tab2}. FFTW and OpenMPI are build from source. 
 
+			\subsubsection{Details}
+			
+				We cloned the PRESTO repository directly and follow the INSTALL instructions As we only have single computer, and GPU Acceleration is not implemented in PRESTO, we directly run given command with built-in timer ’time’. 
+				
+				Time logged is ‘real 1m10.546s user 1m12.584s sys 0m27.183s’ in task 1 and ‘real 6m40.776s user	6m33.995s sys 0m35.890s’ in task 2. CPU Usage is merely 141\% in task1 and 107\% in task2. More than 1 core is used. However, multi-thread performance is still not optimized enough, since there are 56 threads available. 
+			
+			\subsubsection{Fine Tuning Plan}
+				
+				Since PRESTO officially only has CPU support, main attention should be paid to internal multi-thread support and AVX-family instruction sets. If time is efficient, porting to GPU is possible, but not a must. 
+				
+			
 	\section*{Acknowledgement} We thank our teachers, parents, room-mates and girlfriends for their support our taking of the ASC Challenge and tolerance of the noise of our testing platform.
 
 \bibliographystyle{acm}
 \bibliography{ref}
 
 \end{document}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
